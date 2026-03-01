@@ -1,0 +1,9 @@
+# bundle.yaml - Panel fixe Session - AUTO-GENERE
+# Largeur recalculee a chaque build selon ecran + nb panels
+#
+title: "Session"
+tooltip: "Panel Session"
+width: 115
+
+author: "AutoRevit"
+version: "1.0"

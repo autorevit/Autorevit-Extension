@@ -1,0 +1,45 @@
+[2026-02-12 13:49:33.643] [INFO    ] [Startup             ] === Demarrage AutoRevit Extension ===
+[2026-02-12 13:49:33.686] [INFO    ] [Startup             ] Date : 2026-02-12 13:49:33
+[2026-02-12 13:49:33.688] [INFO    ] [Startup             ] Chemin extension : C:\Users\DELL\AppData\Roaming\pyRevit-Master\extensions\AutoRevit.extension
+[2026-02-12 13:49:33.800] [INFO    ] [Settings            ] Configuration chargee depuis : C:\Users\DELL\AppData\Roaming\pyRevit-Master\extensions\AutoRevit.extension\config.json
+[2026-02-12 13:49:33.841] [INFO    ] [Startup             ] API URL          : http://localhost:8000/api/v1
+[2026-02-12 13:49:33.844] [INFO    ] [Startup             ] Mode debug       : True
+[2026-02-12 13:49:33.847] [INFO    ] [Startup             ] Mode offline     : False
+[2026-02-12 13:49:33.851] [INFO    ] [Startup             ] Cache dir        : C:/Users/ben-y/AppData/Roaming/pyRevit/AutoRevit/cache
+[2026-02-12 13:49:33.853] [INFO    ] [Startup             ] Langue           : fr
+[2026-02-12 13:49:38.666] [WARN    ] [APIClient           ] Echec test connexion : Impossible de se connecter a l'API AutoRevit (http://localhost:8000/api/v1/health/) - <urlopen error [Errno 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée 127.0.0.1:8000>
+[2026-02-12 13:49:38.697] [WARN    ] [Startup             ] API inaccessible - mode offline active
+[2026-02-12 13:49:38.702] [INFO    ] [Settings            ] Mode offline modifie : True
+[2026-02-12 13:49:38.712] [INFO    ] [Startup             ] Generation ribbon (en cours de dev)...
+[2026-02-12 13:49:38.715] [INFO    ] [Startup             ] Demarrage termine
+[2026-02-12 13:49:38.718] [INFO    ] [Startup             ] ============================================================
+[2026-02-12 13:51:31.467] [INFO    ] [Startup             ] === Demarrage AutoRevit Extension ===
+[2026-02-12 13:51:31.533] [INFO    ] [Startup             ] Date : 2026-02-12 13:51:31
+[2026-02-12 13:51:31.535] [INFO    ] [Startup             ] Chemin extension : C:\Users\DELL\AppData\Roaming\pyRevit-Master\extensions\AutoRevit.extension
+[2026-02-12 13:51:31.627] [INFO    ] [Settings            ] Configuration chargee depuis : C:\Users\DELL\AppData\Roaming\pyRevit-Master\extensions\AutoRevit.extension\config.json
+[2026-02-12 13:51:31.697] [INFO    ] [Startup             ] API URL          : http://localhost:8000/api/v1
+[2026-02-12 13:51:31.699] [INFO    ] [Startup             ] Mode debug       : True
+[2026-02-12 13:51:31.701] [INFO    ] [Startup             ] Mode offline     : False
+[2026-02-12 13:51:31.702] [INFO    ] [Startup             ] Cache dir        : C:/Users/ben-y/AppData/Roaming/pyRevit/AutoRevit/cache
+[2026-02-12 13:51:31.704] [INFO    ] [Startup             ] Langue           : fr
+[2026-02-12 13:51:48.846] [WARN    ] [APIClient           ] Echec test connexion : HTTP Error 500: Internal Server Error (HTTP 500)
+[2026-02-12 13:51:48.890] [WARN    ] [Startup             ] API inaccessible - mode offline active
+[2026-02-12 13:51:48.896] [INFO    ] [Settings            ] Mode offline modifie : True
+[2026-02-12 13:51:48.900] [INFO    ] [Startup             ] Generation ribbon (en cours de dev)...
+[2026-02-12 13:51:48.903] [INFO    ] [Startup             ] Demarrage termine
+[2026-02-12 13:51:48.905] [INFO    ] [Startup             ] ============================================================
+[2026-02-12 13:56:15.525] [INFO    ] [Startup             ] === Demarrage AutoRevit Extension ===
+[2026-02-12 13:56:15.599] [INFO    ] [Startup             ] Date : 2026-02-12 13:56:15
+[2026-02-12 13:56:15.611] [INFO    ] [Startup             ] Chemin extension : C:\Users\DELL\AppData\Roaming\pyRevit-Master\extensions\AutoRevit.extension
+[2026-02-12 13:56:15.767] [INFO    ] [Settings            ] Configuration chargee depuis : C:\Users\DELL\AppData\Roaming\pyRevit-Master\extensions\AutoRevit.extension\config.json
+[2026-02-12 13:56:15.846] [INFO    ] [Startup             ] API URL          : http://localhost:8000/api/v1
+[2026-02-12 13:56:15.925] [INFO    ] [Startup             ] Mode debug       : True
+[2026-02-12 13:56:15.929] [INFO    ] [Startup             ] Mode offline     : False
+[2026-02-12 13:56:15.930] [INFO    ] [Startup             ] Cache dir        : C:/Users/ben-y/AppData/Roaming/pyRevit/AutoRevit/cache
+[2026-02-12 13:56:15.932] [INFO    ] [Startup             ] Langue           : fr
+[2026-02-12 13:56:18.852] [INFO    ] [APIClient           ] Connexion API testee avec succes
+[2026-02-12 13:56:18.897] [INFO    ] [Startup             ] Connexion API OK
+[2026-02-12 13:56:18.904] [WARN    ] [Startup             ] Aucun token valide - authentification requise
+[2026-02-12 13:56:18.907] [INFO    ] [Startup             ] Generation ribbon (en cours de dev)...
+[2026-02-12 13:56:18.909] [INFO    ] [Startup             ] Demarrage termine
+[2026-02-12 13:56:18.913] [INFO    ] [Startup             ] ============================================================

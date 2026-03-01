@@ -1,0 +1,1345 @@
+[2026-02-20 00:01:55.073] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 00:01:55.219] [INFO    ] [Startup             ] 🚀 DÉMARRAGE AUTOREVIT EXTENSION v4.2
+[2026-02-20 00:01:55.240] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 00:01:55.336] [INFO    ] [Startup             ] [1/4] Configuration chargée
+[2026-02-20 00:01:55.340] [INFO    ] [Startup             ]   • Revit version: 2024
+[2026-02-20 00:01:55.343] [INFO    ] [Startup             ]   • API URL: https://autorevit-production.up.railway.app/api/v1
+[2026-02-20 00:01:55.346] [INFO    ] [Startup             ]   • Cache dir: C:/Users/ben-y/AppData/Roaming/pyRevit/AutoRevit/cache
+[2026-02-20 00:01:55.349] [INFO    ] [Startup             ] [2/4] Vérification session...
+[2026-02-20 00:01:55.481] [INFO    ] [Startup             ]   • Session trouvée: Non
+[2026-02-20 00:01:55.484] [INFO    ] [Startup             ]   • Config UI en cache: Oui
+[2026-02-20 00:01:55.487] [INFO    ] [Startup             ] [3/4] Aucune session active
+[2026-02-20 00:01:55.489] [INFO    ] [Startup             ]   → Suppression des panels dynamiques...
+[2026-02-20 00:01:55.652] [INFO    ] [Startup             ] Panels dynamiques nettoyés
+[2026-02-20 00:01:55.659] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 00:01:55.662] [INFO    ] [Startup             ] ✅ AUTOREVIT INITIALISÉ (mode déconnecté)
+[2026-02-20 00:01:55.667] [INFO    ] [Startup             ]   → Cliquez sur 'Se connecter' pour charger vos panels
+[2026-02-20 00:01:55.671] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 00:03:22.099] [INFO    ] [Login               ] 📥 Téléchargement configuration UI...
+[2026-02-20 00:03:29.698] [INFO    ] [Login               ] ✅ Config UI récupérée (10 panels)
+[2026-02-20 00:03:29.939] [INFO    ] [ui.ribbon_builder   ] RibbonBuilder v4.8 initialise - user: admin role: admin
+[2026-02-20 00:03:29.944] [INFO    ] [Login               ] 🔨 Construction des scripts...
+[2026-02-20 00:03:29.950] [INFO    ] [ui.ribbon_builder   ] Construction ruban : 10 panels pour roles ['admin']
+[2026-02-20 00:03:29.956] [INFO    ] [ui.ribbon_builder   ]   -> 10 panels accessibles
+[2026-02-20 00:03:29.968] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 01_Projet & Initialisation.panel
+[2026-02-20 00:03:30.792] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : initialisation.png (2030 bytes)
+[2026-02-20 00:03:30.899] [INFO    ] [ui.ribbon_builder   ]       Charger Configurer Projet : script ecrit (v69)
+[2026-02-20 00:03:32.174] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : projet.png (1222 bytes)
+[2026-02-20 00:03:32.266] [INFO    ] [ui.ribbon_builder   ]       Creer Niveaux Grilles : script ecrit (v5)
+[2026-02-20 00:03:33.091] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : niveaux.png (883 bytes)
+[2026-02-20 00:03:33.172] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Importer DWG IFC Nettoyer
+[2026-02-20 00:03:34.167] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : import.png (787 bytes)
+[2026-02-20 00:03:34.260] [INFO    ] [ui.ribbon_builder   ]       Importer DWG : script ecrit (v3)
+[2026-02-20 00:03:35.071] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : dwg.png (787 bytes)
+[2026-02-20 00:03:35.148] [INFO    ] [ui.ribbon_builder   ]       Importer IFC : script ecrit (v3)
+[2026-02-20 00:03:35.822] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ifc.png (1100 bytes)
+[2026-02-20 00:03:35.902] [INFO    ] [ui.ribbon_builder   ]       Nettoyer Imports : script ecrit (v2)
+[2026-02-20 00:03:36.567] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : clean.png (2133 bytes)
+[2026-02-20 00:03:36.641] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 02_Analyse & Diagnostic.panel
+[2026-02-20 00:03:37.290] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : analyse.png (1200 bytes)
+[2026-02-20 00:03:37.317] [INFO    ] [ui.ribbon_builder   ]       Analyser Architecture : script ecrit (v13)
+[2026-02-20 00:03:37.972] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : architecture.png (1065 bytes)
+[2026-02-20 00:03:38.000] [INFO    ] [ui.ribbon_builder   ]       Detecter Murs Porteurs : script ecrit (v10)
+[2026-02-20 00:03:38.812] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : murs.png (919 bytes)
+[2026-02-20 00:03:38.915] [INFO    ] [ui.ribbon_builder   ]       Verifier Clash Detection : script ecrit (v3)
+[2026-02-20 00:03:39.575] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : clash.png (1059 bytes)
+[2026-02-20 00:03:39.581] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Verifier Maquette Liee
+[2026-02-20 00:03:40.220] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : maquette.png (973 bytes)
+[2026-02-20 00:03:40.305] [INFO    ] [ui.ribbon_builder   ]       Verifier Niveaux et Alignement : script ecrit (v2)
+[2026-02-20 00:03:40.992] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : niveaux_check.png (928 bytes)
+[2026-02-20 00:03:41.093] [INFO    ] [ui.ribbon_builder   ]       Verifier Grilles et Axes : script ecrit (v37)
+[2026-02-20 00:03:41.690] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : grilles_check.png (1137 bytes)
+[2026-02-20 00:03:41.779] [INFO    ] [ui.ribbon_builder   ]       Verifier Elements Cles : script ecrit (v1)
+[2026-02-20 00:03:42.552] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : elements_check.png (1201 bytes)
+[2026-02-20 00:03:42.642] [INFO    ] [ui.ribbon_builder   ]       Rapport Incoherences Complet : script ecrit (v1)
+[2026-02-20 00:03:43.247] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : rapport.png (697 bytes)
+[2026-02-20 00:03:43.331] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 03_Charges & Combinaisons.panel
+[2026-02-20 00:03:43.932] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : charges.png (1341 bytes)
+[2026-02-20 00:03:44.006] [INFO    ] [ui.ribbon_builder   ]       Creer Combinaisons ELU ELS : script ecrit (v1)
+[2026-02-20 00:03:44.628] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : combinaisons.png (1325 bytes)
+[2026-02-20 00:03:44.722] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Definir Charges
+[2026-02-20 00:03:45.331] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : charges_def.png (834 bytes)
+[2026-02-20 00:03:45.418] [INFO    ] [ui.ribbon_builder   ]       Charges Permanentes : script ecrit (v1)
+[2026-02-20 00:03:46.064] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : charges_g.png (1079 bytes)
+[2026-02-20 00:03:46.144] [INFO    ] [ui.ribbon_builder   ]       Charges Exploitation : script ecrit (v1)
+[2026-02-20 00:03:46.753] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : charges_q.png (1084 bytes)
+[2026-02-20 00:03:46.827] [INFO    ] [ui.ribbon_builder   ]       Charges Climatiques : script ecrit (v1)
+[2026-02-20 00:03:47.487] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : charges_climat.png (1127 bytes)
+[2026-02-20 00:03:47.564] [INFO    ] [ui.ribbon_builder   ]       Visualiser Charges : script ecrit (v1)
+[2026-02-20 00:03:48.216] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : visualize.png (1733 bytes)
+[2026-02-20 00:03:48.312] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 04_Structure Principale.panel
+[2026-02-20 00:03:49.020] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : structure.png (1980 bytes)
+[2026-02-20 00:03:49.116] [INFO    ] [ui.ribbon_builder   ]       Creer Escaliers Rampes : script ecrit (v6)
+[2026-02-20 00:03:49.993] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : escaliers.png (841 bytes)
+[2026-02-20 00:03:50.067] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Fondations
+[2026-02-20 00:03:50.661] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : fondations.png (1351 bytes)
+[2026-02-20 00:03:50.757] [INFO    ] [ui.ribbon_builder   ]       Semelles Isolees : script ecrit (v2)
+[2026-02-20 00:03:51.409] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : semelles_iso.png (801 bytes)
+[2026-02-20 00:03:51.522] [INFO    ] [ui.ribbon_builder   ]       Semelles Filantes : script ecrit (v4)
+[2026-02-20 00:03:52.246] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : semelles_fil.png (775 bytes)
+[2026-02-20 00:03:52.331] [INFO    ] [ui.ribbon_builder   ]       Radier : script ecrit (v1)
+[2026-02-20 00:03:52.966] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : radier.png (600 bytes)
+[2026-02-20 00:03:53.060] [INFO    ] [ui.ribbon_builder   ]       Longrines : script ecrit (v1)
+[2026-02-20 00:03:53.713] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : longrines.png (979 bytes)
+[2026-02-20 00:03:53.719] [WARN    ] [ui.ribbon_builder   ]     Stack 'Poteaux Poutres Voiles Dalles' a 4 items -> division automatique en stacks de 3
+[2026-02-20 00:03:53.733] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 1 (3/4 items)
+[2026-02-20 00:03:54.566] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : structure.png (1409 bytes)
+[2026-02-20 00:03:54.577] [INFO    ] [ui.ribbon_builder   ]     SPLITBUTTON cree : Creer Poteaux
+[2026-02-20 00:03:55.202] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : poteaux.png (1209 bytes)
+[2026-02-20 00:03:55.318] [INFO    ] [ui.ribbon_builder   ]       Creer Poteaux Standards : script ecrit (v33)
+[2026-02-20 00:03:56.015] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : poteaux_std.png (1148 bytes)
+[2026-02-20 00:03:56.095] [INFO    ] [ui.ribbon_builder   ]       Creer Poteaux Variables : script ecrit (v1)
+[2026-02-20 00:03:56.703] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : poteaux_var.png (894 bytes)
+[2026-02-20 00:03:56.817] [INFO    ] [ui.ribbon_builder   ]       Creer Poutres : script ecrit (v8)
+[2026-02-20 00:03:57.403] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : poutres.png (675 bytes)
+[2026-02-20 00:03:57.537] [INFO    ] [ui.ribbon_builder   ]       Creer Voiles : script ecrit (v17)
+[2026-02-20 00:03:58.210] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : voiles.png (616 bytes)
+[2026-02-20 00:03:58.220] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 2 (1/4 items)
+[2026-02-20 00:03:58.828] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : structure.png (1409 bytes)
+[2026-02-20 00:03:58.930] [INFO    ] [ui.ribbon_builder   ]       Creer Dalles : script ecrit (v3)
+[2026-02-20 00:03:59.744] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : dalles.png (778 bytes)
+[2026-02-20 00:03:59.815] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 05_Elements Secondaires & Details.panel
+[2026-02-20 00:04:00.620] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : modelisation.png (1592 bytes)
+[2026-02-20 00:04:00.692] [INFO    ] [ui.ribbon_builder   ]       Rampes Garde-corps : script ecrit (v1)
+[2026-02-20 00:04:01.293] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : rampes.png (1531 bytes)
+[2026-02-20 00:04:01.379] [INFO    ] [ui.ribbon_builder   ]       Elements Prefabriques : script ecrit (v1)
+[2026-02-20 00:04:02.056] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : prefab.png (990 bytes)
+[2026-02-20 00:04:02.125] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Acroteres Joints Tremies
+[2026-02-20 00:04:02.720] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : details.png (668 bytes)
+[2026-02-20 00:04:02.731] [INFO    ] [ui.ribbon_builder   ]       Creer Acroteres : script ecrit (v1)
+[2026-02-20 00:04:03.333] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : acroteres.png (607 bytes)
+[2026-02-20 00:04:03.408] [INFO    ] [ui.ribbon_builder   ]       Joints Dilatation : script ecrit (v1)
+[2026-02-20 00:04:03.997] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : joints.png (1009 bytes)
+[2026-02-20 00:04:04.091] [INFO    ] [ui.ribbon_builder   ]       Creer Tremies : script ecrit (v1)
+[2026-02-20 00:04:04.678] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : tremies.png (796 bytes)
+[2026-02-20 00:04:04.685] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 06_Verification & Qualite.panel
+[2026-02-20 00:04:05.368] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : verification.png (1990 bytes)
+[2026-02-20 00:04:05.465] [INFO    ] [ui.ribbon_builder   ]       Verifier Regles Conformite : script ecrit (v1)
+[2026-02-20 00:04:06.083] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : regles.png (1142 bytes)
+[2026-02-20 00:04:06.198] [INFO    ] [ui.ribbon_builder   ]       Rapport Qualite Descente Charges : script ecrit (v1)
+[2026-02-20 00:04:07.031] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : descente.png (989 bytes)
+[2026-02-20 00:04:07.113] [INFO    ] [ui.ribbon_builder   ]       Export BCF Sync Centrale : script ecrit (v1)
+[2026-02-20 00:04:07.716] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : bcf.png (1200 bytes)
+[2026-02-20 00:04:07.751] [INFO    ] [ui.ribbon_builder   ]       Correction Auto Post-Import : script ecrit (v1)
+[2026-02-20 00:04:08.375] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : correction.png (1815 bytes)
+[2026-02-20 00:04:08.467] [INFO    ] [ui.ribbon_builder   ]       Visualiser Efforts Redimensionner : script ecrit (v1)
+[2026-02-20 00:04:09.145] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : efforts.png (1172 bytes)
+[2026-02-20 00:04:09.218] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Calcul Externe
+[2026-02-20 00:04:09.793] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : calcul.png (1262 bytes)
+[2026-02-20 00:04:09.882] [INFO    ] [ui.ribbon_builder   ]       Export Robot : script ecrit (v1)
+[2026-02-20 00:04:10.544] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : robot.png (1332 bytes)
+[2026-02-20 00:04:10.626] [INFO    ] [ui.ribbon_builder   ]       Import Resultats Efforts : script ecrit (v1)
+[2026-02-20 00:04:11.231] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : import_results.png (1184 bytes)
+[2026-02-20 00:04:11.311] [INFO    ] [ui.ribbon_builder   ]     SPLITBUTTON cree : Export Arche
+[2026-02-20 00:04:11.919] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : arche.png (1046 bytes)
+[2026-02-20 00:04:12.027] [INFO    ] [ui.ribbon_builder   ]       Export Arche Standard : script ecrit (v1)
+[2026-02-20 00:04:12.617] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : arche_std.png (1306 bytes)
+[2026-02-20 00:04:12.628] [INFO    ] [ui.ribbon_builder   ]       Export Arche Avance : script ecrit (v1)
+[2026-02-20 00:04:13.235] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : arche_adv.png (1328 bytes)
+[2026-02-20 00:04:13.313] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 07_Ferraillage & Coffrage.panel
+[2026-02-20 00:04:13.938] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferraillage.png (2248 bytes)
+[2026-02-20 00:04:14.016] [INFO    ] [ui.ribbon_builder   ]       Generer Notes Calcul : script ecrit (v1)
+[2026-02-20 00:04:14.622] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : notes.png (965 bytes)
+[2026-02-20 00:04:14.702] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Ferraillage
+[2026-02-20 00:04:15.278] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferraillage_menu.png (1180 bytes)
+[2026-02-20 00:04:15.359] [INFO    ] [ui.ribbon_builder   ]       Ferraillage Fondations : script ecrit (v1)
+[2026-02-20 00:04:15.982] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferr_fond.png (1179 bytes)
+[2026-02-20 00:04:16.064] [INFO    ] [ui.ribbon_builder   ]       Ferraillage Poteaux : script ecrit (v1)
+[2026-02-20 00:04:16.657] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferr_pot.png (1180 bytes)
+[2026-02-20 00:04:16.746] [INFO    ] [ui.ribbon_builder   ]       Ferraillage Poutres : script ecrit (v1)
+[2026-02-20 00:04:17.339] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferr_pout.png (1322 bytes)
+[2026-02-20 00:04:17.347] [INFO    ] [ui.ribbon_builder   ]       Ferraillage Dalles : script ecrit (v1)
+[2026-02-20 00:04:18.155] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferr_dall.png (1079 bytes)
+[2026-02-20 00:04:18.235] [INFO    ] [ui.ribbon_builder   ]       Ferraillage Voiles : script ecrit (v1)
+[2026-02-20 00:04:18.833] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferr_voil.png (1173 bytes)
+[2026-02-20 00:04:18.907] [INFO    ] [ui.ribbon_builder   ]       Ferraillage Escaliers : script ecrit (v1)
+[2026-02-20 00:04:19.553] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferr_esc.png (797 bytes)
+[2026-02-20 00:04:19.624] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Coffrage Details
+[2026-02-20 00:04:20.234] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : coffrage_det.png (994 bytes)
+[2026-02-20 00:04:20.244] [INFO    ] [ui.ribbon_builder   ]       Plans Coffrage : script ecrit (v1)
+[2026-02-20 00:04:20.849] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : plans_coff.png (1372 bytes)
+[2026-02-20 00:04:20.926] [INFO    ] [ui.ribbon_builder   ]       Cotations Auto : script ecrit (v1)
+[2026-02-20 00:04:21.527] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : cotations.png (852 bytes)
+[2026-02-20 00:04:21.609] [INFO    ] [ui.ribbon_builder   ]       Reperage Auto : script ecrit (v1)
+[2026-02-20 00:04:22.243] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : reperage.png (992 bytes)
+[2026-02-20 00:04:22.317] [INFO    ] [ui.ribbon_builder   ]       Details Coffrage : script ecrit (v1)
+[2026-02-20 00:04:22.893] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : details_coff.png (1318 bytes)
+[2026-02-20 00:04:22.968] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 08_Documentation & Export.panel
+[2026-02-20 00:04:23.529] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : coordination.png (1713 bytes)
+[2026-02-20 00:04:23.616] [INFO    ] [ui.ribbon_builder   ]       Nomenclatures Metres : script ecrit (v1)
+[2026-02-20 00:04:24.196] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : nomenclatures.png (1051 bytes)
+[2026-02-20 00:04:24.208] [INFO    ] [ui.ribbon_builder   ]       Annotations Cotations Auto : script ecrit (v1)
+[2026-02-20 00:04:24.833] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : annotations.png (883 bytes)
+[2026-02-20 00:04:24.908] [INFO    ] [ui.ribbon_builder   ]       Mise en Page Cartouche : script ecrit (v1)
+[2026-02-20 00:04:25.483] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : cartouche.png (774 bytes)
+[2026-02-20 00:04:25.561] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Vues Templates
+[2026-02-20 00:04:26.176] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : vues.png (1058 bytes)
+[2026-02-20 00:04:26.186] [INFO    ] [ui.ribbon_builder   ]       Creer Plans Etage : script ecrit (v1)
+[2026-02-20 00:04:26.771] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : plans_etage.png (787 bytes)
+[2026-02-20 00:04:26.848] [INFO    ] [ui.ribbon_builder   ]       Creer Coupes Structure : script ecrit (v1)
+[2026-02-20 00:04:27.465] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : coupes.png (1134 bytes)
+[2026-02-20 00:04:27.476] [INFO    ] [ui.ribbon_builder   ]       Creer 3D Armatures : script ecrit (v1)
+[2026-02-20 00:04:28.135] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : 3d_armatures.png (926 bytes)
+[2026-02-20 00:04:28.229] [INFO    ] [ui.ribbon_builder   ]       Autres Vues : script ecrit (v1)
+[2026-02-20 00:04:28.831] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : autres_vues.png (1506 bytes)
+[2026-02-20 00:04:28.841] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Impression Export
+[2026-02-20 00:04:29.425] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : impression.png (980 bytes)
+[2026-02-20 00:04:29.502] [INFO    ] [ui.ribbon_builder   ]       Impression PDF DWG : script ecrit (v1)
+[2026-02-20 00:04:30.096] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : pdf_dwg.png (764 bytes)
+[2026-02-20 00:04:30.111] [INFO    ] [ui.ribbon_builder   ]       Export Autres : script ecrit (v1)
+[2026-02-20 00:04:30.697] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : export_autres.png (701 bytes)
+[2026-02-20 00:04:30.767] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 09_Outils Avances & Admin.panel
+[2026-02-20 00:04:31.373] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : calcul.png (2251 bytes)
+[2026-02-20 00:04:31.391] [INFO    ] [ui.ribbon_builder   ]       Bibliotheque Outils Divers : script ecrit (v1)
+[2026-02-20 00:04:31.975] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : bibliotheque.png (845 bytes)
+[2026-02-20 00:04:32.050] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Console Logs Parametres
+[2026-02-20 00:04:32.643] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : console.png (705 bytes)
+[2026-02-20 00:04:32.663] [INFO    ] [ui.ribbon_builder   ]       Console : script ecrit (v9)
+[2026-02-20 00:04:33.318] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : console_ico.png (1069 bytes)
+[2026-02-20 00:04:33.329] [INFO    ] [ui.ribbon_builder   ]       Logs : script ecrit (v1)
+[2026-02-20 00:04:33.995] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : logs.png (1207 bytes)
+[2026-02-20 00:04:34.086] [INFO    ] [ui.ribbon_builder   ]       Parametres : script ecrit (v1)
+[2026-02-20 00:04:34.661] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : parametres.png (1649 bytes)
+[2026-02-20 00:04:34.741] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 10_Aide & Feedback.panel
+[2026-02-20 00:04:35.554] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : aide.png (3042 bytes)
+[2026-02-20 00:04:35.633] [INFO    ] [ui.ribbon_builder   ]       Aide : script ecrit (v1)
+[2026-02-20 00:04:36.510] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : aide.png (1571 bytes)
+[2026-02-20 00:04:36.595] [INFO    ] [ui.ribbon_builder   ]       Feedback : script ecrit (v1)
+[2026-02-20 00:04:37.228] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : feedback.png (1607 bytes)
+[2026-02-20 00:04:37.252] [INFO    ] [ui.ribbon_builder   ] Ruban construit : 10 panels, 67 scripts ecrits, 0 en cache, 92 icones reelles, 0 placeholders, 92 YAML
+[2026-02-20 00:04:37.334] [INFO    ] [Login               ] ✅ Scripts: 67 écrits, 0 en cache | Icônes: 92
+[2026-02-20 00:04:37.430] [INFO    ] [Login               ] 💾 Config sauvegardée en cache
+[2026-02-20 00:04:54.950] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 00:04:55.075] [INFO    ] [Startup             ] 🚀 DÉMARRAGE AUTOREVIT EXTENSION v4.2
+[2026-02-20 00:04:55.077] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 00:04:55.092] [INFO    ] [Startup             ] [1/4] Configuration chargée
+[2026-02-20 00:04:55.094] [INFO    ] [Startup             ]   • Revit version: 2024
+[2026-02-20 00:04:55.101] [INFO    ] [Startup             ]   • API URL: https://autorevit-production.up.railway.app/api/v1
+[2026-02-20 00:04:55.103] [INFO    ] [Startup             ]   • Cache dir: C:/Users/ben-y/AppData/Roaming/pyRevit/AutoRevit/cache
+[2026-02-20 00:04:55.106] [INFO    ] [Startup             ] [2/4] Vérification session...
+[2026-02-20 00:04:55.264] [INFO    ] [Startup             ]   • Session trouvée: Oui
+[2026-02-20 00:04:55.267] [INFO    ] [Startup             ]   • Config UI en cache: Oui
+[2026-02-20 00:04:55.270] [INFO    ] [Startup             ] [3/4] Session active détectée
+[2026-02-20 00:04:55.272] [INFO    ] [Startup             ]   → Tentative de téléchargement config UI...
+[2026-02-20 00:05:01.351] [INFO    ] [Startup             ]   ✅ Config UI téléchargée (10 panels)
+[2026-02-20 00:05:01.763] [INFO    ] [Startup             ] [4/4] Construction panels...
+[2026-02-20 00:05:01.916] [INFO    ] [ui.ribbon_builder   ] RibbonBuilder v4.8 initialise - user: admin role: admin
+[2026-02-20 00:05:02.015] [INFO    ] [ui.ribbon_builder   ] Construction ruban : 10 panels pour roles ['admin']
+[2026-02-20 00:05:02.021] [INFO    ] [ui.ribbon_builder   ]   -> 10 panels accessibles
+[2026-02-20 00:05:02.059] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 01_Projet & Initialisation.panel
+[2026-02-20 00:05:20.748] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 02_Analyse & Diagnostic.panel
+[2026-02-20 00:05:21.535] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 03_Charges & Combinaisons.panel
+[2026-02-20 00:05:21.695] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 04_Structure Principale.panel
+[2026-02-20 00:05:22.065] [WARN    ] [ui.ribbon_builder   ]     Stack 'Poteaux Poutres Voiles Dalles' a 4 items -> division automatique en stacks de 3
+[2026-02-20 00:05:22.285] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 1 (3/4 items)
+[2026-02-20 00:05:22.811] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 2 (1/4 items)
+[2026-02-20 00:05:23.005] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 05_Elements Secondaires & Details.panel
+[2026-02-20 00:05:23.120] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 06_Verification & Qualite.panel
+[2026-02-20 00:05:23.149] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 07_Ferraillage & Coffrage.panel
+[2026-02-20 00:05:23.268] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 08_Documentation & Export.panel
+[2026-02-20 00:05:23.289] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 09_Outils Avances & Admin.panel
+[2026-02-20 00:05:23.403] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 10_Aide & Feedback.panel
+[2026-02-20 00:05:23.552] [INFO    ] [ui.ribbon_builder   ] Ruban construit : 0 panels, 0 scripts ecrits, 67 en cache, 0 icones reelles, 0 placeholders, 10 YAML
+[2026-02-20 00:05:23.655] [INFO    ] [Startup             ]   ✅ Panels construits :
+[2026-02-20 00:05:23.661] [INFO    ] [Startup             ]     • 0 panels créés
+[2026-02-20 00:05:23.667] [INFO    ] [Startup             ]     • 0 scripts écrits
+[2026-02-20 00:05:23.674] [INFO    ] [Startup             ]     • 67 scripts en cache
+[2026-02-20 00:05:23.682] [INFO    ] [Startup             ]     • 0 icônes copiées
+[2026-02-20 00:05:23.688] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 00:05:23.695] [INFO    ] [Startup             ] ✅ AUTOREVIT INITIALISÉ
+[2026-02-20 00:05:23.707] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 00:06:25.430] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-20 00:06:25.596] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-20 00:06:25.627] [INFO    ] [services.logging_service] LoggingService initialise - Session: 6c310bd3
+[2026-02-20 00:06:25.671] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=187mm pour 400x400
+[2026-02-20 00:06:25.758] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau nivel -15
+[2026-02-20 08:42:28.405] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:42:28.446] [INFO    ] [Startup             ] 🚀 DÉMARRAGE AUTOREVIT EXTENSION v4.2
+[2026-02-20 08:42:28.462] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:42:28.473] [INFO    ] [Startup             ] [1/4] Configuration chargée
+[2026-02-20 08:42:28.475] [INFO    ] [Startup             ]   • Revit version: 2024
+[2026-02-20 08:42:28.476] [INFO    ] [Startup             ]   • API URL: https://autorevit-production.up.railway.app/api/v1
+[2026-02-20 08:42:28.478] [INFO    ] [Startup             ]   • Cache dir: C:/Users/ben-y/AppData/Roaming/pyRevit/AutoRevit/cache
+[2026-02-20 08:42:28.479] [INFO    ] [Startup             ] [2/4] Vérification session...
+[2026-02-20 08:42:28.519] [INFO    ] [Startup             ]   • Session trouvée: Oui
+[2026-02-20 08:42:28.520] [INFO    ] [Startup             ]   • Config UI en cache: Oui
+[2026-02-20 08:42:28.522] [INFO    ] [Startup             ] [3/4] Session active détectée
+[2026-02-20 08:42:28.523] [INFO    ] [Startup             ]   → Tentative de téléchargement config UI...
+[2026-02-20 08:42:39.005] [WARN    ] [Startup             ]   ⚠️  Téléchargement échoué: JWT token expire et refresh impossible - reconnexion requise
+[2026-02-20 08:42:39.010] [INFO    ] [Startup             ]   → Utilisation du cache...
+[2026-02-20 08:42:39.016] [INFO    ] [Startup             ]   → Chargement depuis cache...
+[2026-02-20 08:42:39.395] [INFO    ] [Startup             ] Config UI chargée depuis cache
+[2026-02-20 08:42:39.415] [INFO    ] [Startup             ]   ✅ Config UI chargée depuis cache (10 panels)
+[2026-02-20 08:42:39.420] [INFO    ] [Startup             ] [4/4] Construction panels...
+[2026-02-20 08:42:39.493] [INFO    ] [ui.ribbon_builder   ] RibbonBuilder v4.8 initialise - user: admin role: admin
+[2026-02-20 08:42:39.541] [INFO    ] [ui.ribbon_builder   ] Construction ruban : 10 panels pour roles ['admin']
+[2026-02-20 08:42:39.547] [INFO    ] [ui.ribbon_builder   ]   -> 10 panels accessibles
+[2026-02-20 08:42:39.580] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 01_Projet & Initialisation.panel
+[2026-02-20 08:42:39.850] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 02_Analyse & Diagnostic.panel
+[2026-02-20 08:42:40.164] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 03_Charges & Combinaisons.panel
+[2026-02-20 08:42:40.183] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 04_Structure Principale.panel
+[2026-02-20 08:42:40.359] [WARN    ] [ui.ribbon_builder   ]     Stack 'Poteaux Poutres Voiles Dalles' a 4 items -> division automatique en stacks de 3
+[2026-02-20 08:42:40.434] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 1 (3/4 items)
+[2026-02-20 08:42:40.619] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 2 (1/4 items)
+[2026-02-20 08:42:40.685] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 05_Elements Secondaires & Details.panel
+[2026-02-20 08:42:40.708] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 06_Verification & Qualite.panel
+[2026-02-20 08:42:40.724] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 07_Ferraillage & Coffrage.panel
+[2026-02-20 08:42:40.753] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 08_Documentation & Export.panel
+[2026-02-20 08:42:40.774] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 09_Outils Avances & Admin.panel
+[2026-02-20 08:42:40.806] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 10_Aide & Feedback.panel
+[2026-02-20 08:42:40.846] [INFO    ] [ui.ribbon_builder   ] Ruban construit : 0 panels, 0 scripts ecrits, 67 en cache, 0 icones reelles, 0 placeholders, 10 YAML
+[2026-02-20 08:42:40.861] [INFO    ] [Startup             ]   ✅ Panels construits :
+[2026-02-20 08:42:40.865] [INFO    ] [Startup             ]     • 0 panels créés
+[2026-02-20 08:42:40.869] [INFO    ] [Startup             ]     • 0 scripts écrits
+[2026-02-20 08:42:40.875] [INFO    ] [Startup             ]     • 67 scripts en cache
+[2026-02-20 08:42:40.880] [INFO    ] [Startup             ]     • 0 icônes copiées
+[2026-02-20 08:42:40.885] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:42:40.888] [INFO    ] [Startup             ] ✅ AUTOREVIT INITIALISÉ
+[2026-02-20 08:42:40.902] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:46:15.757] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:46:15.787] [INFO    ] [Startup             ] 🚀 DÉMARRAGE AUTOREVIT EXTENSION v4.2
+[2026-02-20 08:46:15.792] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:46:15.808] [INFO    ] [Startup             ] [1/4] Configuration chargée
+[2026-02-20 08:46:15.810] [INFO    ] [Startup             ]   • Revit version: 2024
+[2026-02-20 08:46:15.812] [INFO    ] [Startup             ]   • API URL: https://autorevit-production.up.railway.app/api/v1
+[2026-02-20 08:46:15.816] [INFO    ] [Startup             ]   • Cache dir: C:/Users/ben-y/AppData/Roaming/pyRevit/AutoRevit/cache
+[2026-02-20 08:46:15.817] [INFO    ] [Startup             ] [2/4] Vérification session...
+[2026-02-20 08:46:15.879] [INFO    ] [Startup             ]   • Session trouvée: Non
+[2026-02-20 08:46:15.880] [INFO    ] [Startup             ]   • Config UI en cache: Oui
+[2026-02-20 08:46:15.882] [INFO    ] [Startup             ] [3/4] Aucune session active
+[2026-02-20 08:46:15.888] [INFO    ] [Startup             ]   → Suppression des panels dynamiques...
+[2026-02-20 08:46:16.051] [INFO    ] [Startup             ] Panel dynamique supprimé: 01_Projet & Initialisation.panel
+[2026-02-20 08:46:16.079] [INFO    ] [Startup             ] Panel dynamique supprimé: 02_Analyse & Diagnostic.panel
+[2026-02-20 08:46:16.092] [INFO    ] [Startup             ] Panel dynamique supprimé: 03_Charges & Combinaisons.panel
+[2026-02-20 08:46:16.110] [INFO    ] [Startup             ] Panel dynamique supprimé: 04_Structure Principale.panel
+[2026-02-20 08:46:16.127] [INFO    ] [Startup             ] Panel dynamique supprimé: 05_Elements Secondaires & Details.panel
+[2026-02-20 08:46:16.156] [INFO    ] [Startup             ] Panel dynamique supprimé: 06_Verification & Qualite.panel
+[2026-02-20 08:46:16.171] [INFO    ] [Startup             ] Panel dynamique supprimé: 07_Ferraillage & Coffrage.panel
+[2026-02-20 08:46:16.192] [INFO    ] [Startup             ] Panel dynamique supprimé: 08_Documentation & Export.panel
+[2026-02-20 08:46:16.204] [INFO    ] [Startup             ] Panel dynamique supprimé: 09_Outils Avances & Admin.panel
+[2026-02-20 08:46:16.211] [INFO    ] [Startup             ] Panel dynamique supprimé: 10_Aide & Feedback.panel
+[2026-02-20 08:46:16.215] [INFO    ] [Startup             ] Panels dynamiques nettoyés
+[2026-02-20 08:46:16.220] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:46:16.224] [INFO    ] [Startup             ] ✅ AUTOREVIT INITIALISÉ (mode déconnecté)
+[2026-02-20 08:46:16.229] [INFO    ] [Startup             ]   → Cliquez sur 'Se connecter' pour charger vos panels
+[2026-02-20 08:46:16.233] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:46:51.340] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:46:51.386] [INFO    ] [Startup             ] 🚀 DÉMARRAGE AUTOREVIT EXTENSION v4.2
+[2026-02-20 08:46:51.397] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:46:51.430] [INFO    ] [Startup             ] [1/4] Configuration chargée
+[2026-02-20 08:46:51.431] [INFO    ] [Startup             ]   • Revit version: 2024
+[2026-02-20 08:46:51.433] [INFO    ] [Startup             ]   • API URL: https://autorevit-production.up.railway.app/api/v1
+[2026-02-20 08:46:51.435] [INFO    ] [Startup             ]   • Cache dir: C:/Users/ben-y/AppData/Roaming/pyRevit/AutoRevit/cache
+[2026-02-20 08:46:51.437] [INFO    ] [Startup             ] [2/4] Vérification session...
+[2026-02-20 08:46:51.468] [INFO    ] [Startup             ]   • Session trouvée: Non
+[2026-02-20 08:46:51.469] [INFO    ] [Startup             ]   • Config UI en cache: Oui
+[2026-02-20 08:46:51.471] [INFO    ] [Startup             ] [3/4] Aucune session active
+[2026-02-20 08:46:51.472] [INFO    ] [Startup             ]   → Suppression des panels dynamiques...
+[2026-02-20 08:46:51.541] [INFO    ] [Startup             ] Panels dynamiques nettoyés
+[2026-02-20 08:46:51.544] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:46:51.548] [INFO    ] [Startup             ] ✅ AUTOREVIT INITIALISÉ (mode déconnecté)
+[2026-02-20 08:46:51.553] [INFO    ] [Startup             ]   → Cliquez sur 'Se connecter' pour charger vos panels
+[2026-02-20 08:46:51.555] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:47:48.791] [INFO    ] [Login               ] 📥 Téléchargement configuration UI...
+[2026-02-20 08:47:50.959] [INFO    ] [Login               ] ✅ Config UI récupérée (10 panels)
+[2026-02-20 08:47:51.034] [INFO    ] [ui.ribbon_builder   ] RibbonBuilder v4.8 initialise - user: admin role: admin
+[2026-02-20 08:47:51.056] [INFO    ] [Login               ] 🔨 Construction des scripts...
+[2026-02-20 08:47:51.065] [INFO    ] [ui.ribbon_builder   ] Construction ruban : 10 panels pour roles ['admin']
+[2026-02-20 08:47:51.070] [INFO    ] [ui.ribbon_builder   ]   -> 10 panels accessibles
+[2026-02-20 08:47:51.078] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 01_Projet & Initialisation.panel
+[2026-02-20 08:47:51.849] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : initialisation.png (2030 bytes)
+[2026-02-20 08:47:51.887] [INFO    ] [ui.ribbon_builder   ]       Charger Configurer Projet : script ecrit (v69)
+[2026-02-20 08:47:52.836] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : projet.png (1222 bytes)
+[2026-02-20 08:47:52.885] [INFO    ] [ui.ribbon_builder   ]       Creer Niveaux Grilles : script ecrit (v5)
+[2026-02-20 08:47:53.521] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : niveaux.png (883 bytes)
+[2026-02-20 08:47:53.547] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Importer DWG IFC Nettoyer
+[2026-02-20 08:47:54.318] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : import.png (787 bytes)
+[2026-02-20 08:47:54.341] [INFO    ] [ui.ribbon_builder   ]       Importer DWG : script ecrit (v3)
+[2026-02-20 08:47:54.982] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : dwg.png (787 bytes)
+[2026-02-20 08:47:55.016] [INFO    ] [ui.ribbon_builder   ]       Importer IFC : script ecrit (v3)
+[2026-02-20 08:47:55.621] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ifc.png (1100 bytes)
+[2026-02-20 08:47:55.666] [INFO    ] [ui.ribbon_builder   ]       Nettoyer Imports : script ecrit (v2)
+[2026-02-20 08:47:56.319] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : clean.png (2133 bytes)
+[2026-02-20 08:47:56.327] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 02_Analyse & Diagnostic.panel
+[2026-02-20 08:47:57.003] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : analyse.png (1200 bytes)
+[2026-02-20 08:47:57.051] [INFO    ] [ui.ribbon_builder   ]       Analyser Architecture : script ecrit (v13)
+[2026-02-20 08:47:58.157] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : architecture.png (1065 bytes)
+[2026-02-20 08:47:58.190] [INFO    ] [ui.ribbon_builder   ]       Detecter Murs Porteurs : script ecrit (v10)
+[2026-02-20 08:47:59.037] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : murs.png (919 bytes)
+[2026-02-20 08:47:59.071] [INFO    ] [ui.ribbon_builder   ]       Verifier Clash Detection : script ecrit (v3)
+[2026-02-20 08:47:59.701] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : clash.png (1059 bytes)
+[2026-02-20 08:47:59.709] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Verifier Maquette Liee
+[2026-02-20 08:48:00.358] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : maquette.png (973 bytes)
+[2026-02-20 08:48:00.402] [INFO    ] [ui.ribbon_builder   ]       Verifier Niveaux et Alignement : script ecrit (v2)
+[2026-02-20 08:48:01.193] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : niveaux_check.png (928 bytes)
+[2026-02-20 08:48:01.237] [INFO    ] [ui.ribbon_builder   ]       Verifier Grilles et Axes : script ecrit (v37)
+[2026-02-20 08:48:01.877] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : grilles_check.png (1137 bytes)
+[2026-02-20 08:48:01.900] [INFO    ] [ui.ribbon_builder   ]       Verifier Elements Cles : script ecrit (v1)
+[2026-02-20 08:48:02.500] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : elements_check.png (1201 bytes)
+[2026-02-20 08:48:02.512] [INFO    ] [ui.ribbon_builder   ]       Rapport Incoherences Complet : script ecrit (v1)
+[2026-02-20 08:48:03.579] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : rapport.png (697 bytes)
+[2026-02-20 08:48:03.608] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 03_Charges & Combinaisons.panel
+[2026-02-20 08:48:04.200] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : charges.png (1341 bytes)
+[2026-02-20 08:48:04.237] [INFO    ] [ui.ribbon_builder   ]       Creer Combinaisons ELU ELS : script ecrit (v1)
+[2026-02-20 08:48:04.881] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : combinaisons.png (1325 bytes)
+[2026-02-20 08:48:04.902] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Definir Charges
+[2026-02-20 08:48:05.537] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : charges_def.png (834 bytes)
+[2026-02-20 08:48:05.575] [INFO    ] [ui.ribbon_builder   ]       Charges Permanentes : script ecrit (v1)
+[2026-02-20 08:48:06.219] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : charges_g.png (1079 bytes)
+[2026-02-20 08:48:06.228] [INFO    ] [ui.ribbon_builder   ]       Charges Exploitation : script ecrit (v1)
+[2026-02-20 08:48:06.858] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : charges_q.png (1084 bytes)
+[2026-02-20 08:48:06.888] [INFO    ] [ui.ribbon_builder   ]       Charges Climatiques : script ecrit (v1)
+[2026-02-20 08:48:07.578] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : charges_climat.png (1127 bytes)
+[2026-02-20 08:48:07.603] [INFO    ] [ui.ribbon_builder   ]       Visualiser Charges : script ecrit (v1)
+[2026-02-20 08:48:08.536] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : visualize.png (1733 bytes)
+[2026-02-20 08:48:08.565] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 04_Structure Principale.panel
+[2026-02-20 08:48:09.202] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : structure.png (1980 bytes)
+[2026-02-20 08:48:09.256] [INFO    ] [ui.ribbon_builder   ]       Creer Escaliers Rampes : script ecrit (v6)
+[2026-02-20 08:48:09.874] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : escaliers.png (841 bytes)
+[2026-02-20 08:48:09.946] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Fondations
+[2026-02-20 08:48:10.554] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : fondations.png (1351 bytes)
+[2026-02-20 08:48:10.591] [INFO    ] [ui.ribbon_builder   ]       Semelles Isolees : script ecrit (v2)
+[2026-02-20 08:48:11.241] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : semelles_iso.png (801 bytes)
+[2026-02-20 08:48:11.289] [INFO    ] [ui.ribbon_builder   ]       Semelles Filantes : script ecrit (v4)
+[2026-02-20 08:48:11.918] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : semelles_fil.png (775 bytes)
+[2026-02-20 08:48:11.928] [INFO    ] [ui.ribbon_builder   ]       Radier : script ecrit (v1)
+[2026-02-20 08:48:12.530] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : radier.png (600 bytes)
+[2026-02-20 08:48:12.538] [INFO    ] [ui.ribbon_builder   ]       Longrines : script ecrit (v1)
+[2026-02-20 08:48:13.489] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : longrines.png (979 bytes)
+[2026-02-20 08:48:13.516] [WARN    ] [ui.ribbon_builder   ]     Stack 'Poteaux Poutres Voiles Dalles' a 4 items -> division automatique en stacks de 3
+[2026-02-20 08:48:13.528] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 1 (3/4 items)
+[2026-02-20 08:48:14.204] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : structure.png (1409 bytes)
+[2026-02-20 08:48:14.250] [INFO    ] [ui.ribbon_builder   ]     SPLITBUTTON cree : Creer Poteaux
+[2026-02-20 08:48:14.815] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : poteaux.png (1209 bytes)
+[2026-02-20 08:48:14.924] [INFO    ] [ui.ribbon_builder   ]       Creer Poteaux Standards : script ecrit (v33)
+[2026-02-20 08:48:15.561] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : poteaux_std.png (1148 bytes)
+[2026-02-20 08:48:15.600] [INFO    ] [ui.ribbon_builder   ]       Creer Poteaux Variables : script ecrit (v1)
+[2026-02-20 08:48:16.195] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : poteaux_var.png (894 bytes)
+[2026-02-20 08:48:16.223] [INFO    ] [ui.ribbon_builder   ]       Creer Poutres : script ecrit (v8)
+[2026-02-20 08:48:16.880] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : poutres.png (675 bytes)
+[2026-02-20 08:48:16.920] [INFO    ] [ui.ribbon_builder   ]       Creer Voiles : script ecrit (v17)
+[2026-02-20 08:48:17.598] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : voiles.png (616 bytes)
+[2026-02-20 08:48:17.619] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 2 (1/4 items)
+[2026-02-20 08:48:18.555] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : structure.png (1409 bytes)
+[2026-02-20 08:48:18.609] [INFO    ] [ui.ribbon_builder   ]       Creer Dalles : script ecrit (v3)
+[2026-02-20 08:48:19.278] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : dalles.png (778 bytes)
+[2026-02-20 08:48:19.288] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 05_Elements Secondaires & Details.panel
+[2026-02-20 08:48:20.077] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : modelisation.png (1592 bytes)
+[2026-02-20 08:48:20.114] [INFO    ] [ui.ribbon_builder   ]       Rampes Garde-corps : script ecrit (v1)
+[2026-02-20 08:48:20.731] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : rampes.png (1531 bytes)
+[2026-02-20 08:48:20.764] [INFO    ] [ui.ribbon_builder   ]       Elements Prefabriques : script ecrit (v1)
+[2026-02-20 08:48:21.397] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : prefab.png (990 bytes)
+[2026-02-20 08:48:21.417] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Acroteres Joints Tremies
+[2026-02-20 08:48:22.035] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : details.png (668 bytes)
+[2026-02-20 08:48:22.048] [INFO    ] [ui.ribbon_builder   ]       Creer Acroteres : script ecrit (v1)
+[2026-02-20 08:48:22.644] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : acroteres.png (607 bytes)
+[2026-02-20 08:48:22.667] [INFO    ] [ui.ribbon_builder   ]       Joints Dilatation : script ecrit (v1)
+[2026-02-20 08:48:23.679] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : joints.png (1009 bytes)
+[2026-02-20 08:48:23.703] [INFO    ] [ui.ribbon_builder   ]       Creer Tremies : script ecrit (v1)
+[2026-02-20 08:48:24.297] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : tremies.png (796 bytes)
+[2026-02-20 08:48:24.320] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 06_Verification & Qualite.panel
+[2026-02-20 08:48:24.964] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : verification.png (1990 bytes)
+[2026-02-20 08:48:24.982] [INFO    ] [ui.ribbon_builder   ]       Verifier Regles Conformite : script ecrit (v1)
+[2026-02-20 08:48:25.602] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : regles.png (1142 bytes)
+[2026-02-20 08:48:25.625] [INFO    ] [ui.ribbon_builder   ]       Rapport Qualite Descente Charges : script ecrit (v1)
+[2026-02-20 08:48:26.361] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : descente.png (989 bytes)
+[2026-02-20 08:48:26.384] [INFO    ] [ui.ribbon_builder   ]       Export BCF Sync Centrale : script ecrit (v1)
+[2026-02-20 08:48:27.020] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : bcf.png (1200 bytes)
+[2026-02-20 08:48:27.041] [INFO    ] [ui.ribbon_builder   ]       Correction Auto Post-Import : script ecrit (v1)
+[2026-02-20 08:48:27.679] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : correction.png (1815 bytes)
+[2026-02-20 08:48:27.704] [INFO    ] [ui.ribbon_builder   ]       Visualiser Efforts Redimensionner : script ecrit (v1)
+[2026-02-20 08:48:28.634] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : efforts.png (1172 bytes)
+[2026-02-20 08:48:28.640] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Calcul Externe
+[2026-02-20 08:48:29.254] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : calcul.png (1262 bytes)
+[2026-02-20 08:48:29.278] [INFO    ] [ui.ribbon_builder   ]       Export Robot : script ecrit (v1)
+[2026-02-20 08:48:29.909] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : robot.png (1332 bytes)
+[2026-02-20 08:48:29.930] [INFO    ] [ui.ribbon_builder   ]       Import Resultats Efforts : script ecrit (v1)
+[2026-02-20 08:48:30.572] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : import_results.png (1184 bytes)
+[2026-02-20 08:48:30.581] [INFO    ] [ui.ribbon_builder   ]     SPLITBUTTON cree : Export Arche
+[2026-02-20 08:48:31.211] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : arche.png (1046 bytes)
+[2026-02-20 08:48:31.243] [INFO    ] [ui.ribbon_builder   ]       Export Arche Standard : script ecrit (v1)
+[2026-02-20 08:48:31.889] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : arche_std.png (1306 bytes)
+[2026-02-20 08:48:31.920] [INFO    ] [ui.ribbon_builder   ]       Export Arche Avance : script ecrit (v1)
+[2026-02-20 08:48:32.598] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : arche_adv.png (1328 bytes)
+[2026-02-20 08:48:32.606] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 07_Ferraillage & Coffrage.panel
+[2026-02-20 08:48:33.490] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferraillage.png (2248 bytes)
+[2026-02-20 08:48:33.523] [INFO    ] [ui.ribbon_builder   ]       Generer Notes Calcul : script ecrit (v1)
+[2026-02-20 08:48:34.131] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : notes.png (965 bytes)
+[2026-02-20 08:48:34.151] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Ferraillage
+[2026-02-20 08:48:34.801] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferraillage_menu.png (1180 bytes)
+[2026-02-20 08:48:34.832] [INFO    ] [ui.ribbon_builder   ]       Ferraillage Fondations : script ecrit (v1)
+[2026-02-20 08:48:35.451] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferr_fond.png (1179 bytes)
+[2026-02-20 08:48:35.458] [INFO    ] [ui.ribbon_builder   ]       Ferraillage Poteaux : script ecrit (v1)
+[2026-02-20 08:48:36.196] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferr_pot.png (1180 bytes)
+[2026-02-20 08:48:36.214] [INFO    ] [ui.ribbon_builder   ]       Ferraillage Poutres : script ecrit (v1)
+[2026-02-20 08:48:36.868] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferr_pout.png (1322 bytes)
+[2026-02-20 08:48:36.892] [INFO    ] [ui.ribbon_builder   ]       Ferraillage Dalles : script ecrit (v1)
+[2026-02-20 08:48:37.500] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferr_dall.png (1079 bytes)
+[2026-02-20 08:48:37.506] [INFO    ] [ui.ribbon_builder   ]       Ferraillage Voiles : script ecrit (v1)
+[2026-02-20 08:48:38.442] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferr_voil.png (1173 bytes)
+[2026-02-20 08:48:38.468] [INFO    ] [ui.ribbon_builder   ]       Ferraillage Escaliers : script ecrit (v1)
+[2026-02-20 08:48:39.118] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferr_esc.png (797 bytes)
+[2026-02-20 08:48:39.141] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Coffrage Details
+[2026-02-20 08:48:39.744] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : coffrage_det.png (994 bytes)
+[2026-02-20 08:48:39.756] [INFO    ] [ui.ribbon_builder   ]       Plans Coffrage : script ecrit (v1)
+[2026-02-20 08:48:40.362] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : plans_coff.png (1372 bytes)
+[2026-02-20 08:48:40.401] [INFO    ] [ui.ribbon_builder   ]       Cotations Auto : script ecrit (v1)
+[2026-02-20 08:48:41.095] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : cotations.png (852 bytes)
+[2026-02-20 08:48:41.120] [INFO    ] [ui.ribbon_builder   ]       Reperage Auto : script ecrit (v1)
+[2026-02-20 08:48:41.779] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : reperage.png (992 bytes)
+[2026-02-20 08:48:41.809] [INFO    ] [ui.ribbon_builder   ]       Details Coffrage : script ecrit (v1)
+[2026-02-20 08:48:42.438] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : details_coff.png (1318 bytes)
+[2026-02-20 08:48:42.452] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 08_Documentation & Export.panel
+[2026-02-20 08:48:43.449] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : coordination.png (1713 bytes)
+[2026-02-20 08:48:43.482] [INFO    ] [ui.ribbon_builder   ]       Nomenclatures Metres : script ecrit (v1)
+[2026-02-20 08:48:44.118] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : nomenclatures.png (1051 bytes)
+[2026-02-20 08:48:44.137] [INFO    ] [ui.ribbon_builder   ]       Annotations Cotations Auto : script ecrit (v1)
+[2026-02-20 08:48:44.801] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : annotations.png (883 bytes)
+[2026-02-20 08:48:44.832] [INFO    ] [ui.ribbon_builder   ]       Mise en Page Cartouche : script ecrit (v1)
+[2026-02-20 08:48:45.436] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : cartouche.png (774 bytes)
+[2026-02-20 08:48:45.445] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Vues Templates
+[2026-02-20 08:48:45.996] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : vues.png (1058 bytes)
+[2026-02-20 08:48:46.035] [INFO    ] [ui.ribbon_builder   ]       Creer Plans Etage : script ecrit (v1)
+[2026-02-20 08:48:46.683] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : plans_etage.png (787 bytes)
+[2026-02-20 08:48:46.715] [INFO    ] [ui.ribbon_builder   ]       Creer Coupes Structure : script ecrit (v1)
+[2026-02-20 08:48:47.328] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : coupes.png (1134 bytes)
+[2026-02-20 08:48:47.359] [INFO    ] [ui.ribbon_builder   ]       Creer 3D Armatures : script ecrit (v1)
+[2026-02-20 08:48:48.279] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : 3d_armatures.png (926 bytes)
+[2026-02-20 08:48:48.289] [INFO    ] [ui.ribbon_builder   ]       Autres Vues : script ecrit (v1)
+[2026-02-20 08:48:48.899] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : autres_vues.png (1506 bytes)
+[2026-02-20 08:48:48.906] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Impression Export
+[2026-02-20 08:48:49.535] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : impression.png (980 bytes)
+[2026-02-20 08:48:49.571] [INFO    ] [ui.ribbon_builder   ]       Impression PDF DWG : script ecrit (v1)
+[2026-02-20 08:48:50.197] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : pdf_dwg.png (764 bytes)
+[2026-02-20 08:48:50.218] [INFO    ] [ui.ribbon_builder   ]       Export Autres : script ecrit (v1)
+[2026-02-20 08:48:50.836] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : export_autres.png (701 bytes)
+[2026-02-20 08:48:50.845] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 09_Outils Avances & Admin.panel
+[2026-02-20 08:48:51.440] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : calcul.png (2251 bytes)
+[2026-02-20 08:48:51.467] [INFO    ] [ui.ribbon_builder   ]       Bibliotheque Outils Divers : script ecrit (v1)
+[2026-02-20 08:48:52.078] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : bibliotheque.png (845 bytes)
+[2026-02-20 08:48:52.086] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Console Logs Parametres
+[2026-02-20 08:48:52.716] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : console.png (705 bytes)
+[2026-02-20 08:48:52.745] [INFO    ] [ui.ribbon_builder   ]       Console : script ecrit (v9)
+[2026-02-20 08:48:53.676] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : console_ico.png (1069 bytes)
+[2026-02-20 08:48:53.705] [INFO    ] [ui.ribbon_builder   ]       Logs : script ecrit (v1)
+[2026-02-20 08:48:54.316] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : logs.png (1207 bytes)
+[2026-02-20 08:48:54.342] [INFO    ] [ui.ribbon_builder   ]       Parametres : script ecrit (v1)
+[2026-02-20 08:48:54.957] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : parametres.png (1649 bytes)
+[2026-02-20 08:48:54.981] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 10_Aide & Feedback.panel
+[2026-02-20 08:48:55.668] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : aide.png (3042 bytes)
+[2026-02-20 08:48:55.697] [INFO    ] [ui.ribbon_builder   ]       Aide : script ecrit (v1)
+[2026-02-20 08:48:56.357] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : aide.png (1571 bytes)
+[2026-02-20 08:48:56.366] [INFO    ] [ui.ribbon_builder   ]       Feedback : script ecrit (v1)
+[2026-02-20 08:48:57.040] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : feedback.png (1607 bytes)
+[2026-02-20 08:48:57.062] [INFO    ] [ui.ribbon_builder   ] Ruban construit : 10 panels, 67 scripts ecrits, 0 en cache, 92 icones reelles, 0 placeholders, 92 YAML
+[2026-02-20 08:48:57.099] [INFO    ] [Login               ] ✅ Scripts: 67 écrits, 0 en cache | Icônes: 92
+[2026-02-20 08:48:57.207] [INFO    ] [Login               ] 💾 Config sauvegardée en cache
+[2026-02-20 08:49:07.043] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:49:07.070] [INFO    ] [Startup             ] 🚀 DÉMARRAGE AUTOREVIT EXTENSION v4.2
+[2026-02-20 08:49:07.081] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:49:07.100] [INFO    ] [Startup             ] [1/4] Configuration chargée
+[2026-02-20 08:49:07.102] [INFO    ] [Startup             ]   • Revit version: 2024
+[2026-02-20 08:49:07.103] [INFO    ] [Startup             ]   • API URL: https://autorevit-production.up.railway.app/api/v1
+[2026-02-20 08:49:07.105] [INFO    ] [Startup             ]   • Cache dir: C:/Users/ben-y/AppData/Roaming/pyRevit/AutoRevit/cache
+[2026-02-20 08:49:07.106] [INFO    ] [Startup             ] [2/4] Vérification session...
+[2026-02-20 08:49:07.173] [INFO    ] [Startup             ]   • Session trouvée: Oui
+[2026-02-20 08:49:07.174] [INFO    ] [Startup             ]   • Config UI en cache: Oui
+[2026-02-20 08:49:07.176] [INFO    ] [Startup             ] [3/4] Session active détectée
+[2026-02-20 08:49:07.185] [INFO    ] [Startup             ]   → Tentative de téléchargement config UI...
+[2026-02-20 08:49:10.934] [INFO    ] [Startup             ]   ✅ Config UI téléchargée (10 panels)
+[2026-02-20 08:49:11.206] [INFO    ] [Startup             ] [4/4] Construction panels...
+[2026-02-20 08:49:11.279] [INFO    ] [ui.ribbon_builder   ] RibbonBuilder v4.8 initialise - user: admin role: admin
+[2026-02-20 08:49:11.340] [INFO    ] [ui.ribbon_builder   ] Construction ruban : 10 panels pour roles ['admin']
+[2026-02-20 08:49:11.347] [INFO    ] [ui.ribbon_builder   ]   -> 10 panels accessibles
+[2026-02-20 08:49:11.382] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 01_Projet & Initialisation.panel
+[2026-02-20 08:49:11.645] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 02_Analyse & Diagnostic.panel
+[2026-02-20 08:49:11.851] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 03_Charges & Combinaisons.panel
+[2026-02-20 08:49:11.877] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 04_Structure Principale.panel
+[2026-02-20 08:49:12.074] [WARN    ] [ui.ribbon_builder   ]     Stack 'Poteaux Poutres Voiles Dalles' a 4 items -> division automatique en stacks de 3
+[2026-02-20 08:49:12.153] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 1 (3/4 items)
+[2026-02-20 08:49:12.356] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 2 (1/4 items)
+[2026-02-20 08:49:12.442] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 05_Elements Secondaires & Details.panel
+[2026-02-20 08:49:12.464] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 06_Verification & Qualite.panel
+[2026-02-20 08:49:12.493] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 07_Ferraillage & Coffrage.panel
+[2026-02-20 08:49:12.520] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 08_Documentation & Export.panel
+[2026-02-20 08:49:12.541] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 09_Outils Avances & Admin.panel
+[2026-02-20 08:49:12.569] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 10_Aide & Feedback.panel
+[2026-02-20 08:49:12.600] [INFO    ] [ui.ribbon_builder   ] Ruban construit : 0 panels, 0 scripts ecrits, 67 en cache, 0 icones reelles, 0 placeholders, 10 YAML
+[2026-02-20 08:49:12.616] [INFO    ] [Startup             ]   ✅ Panels construits :
+[2026-02-20 08:49:12.621] [INFO    ] [Startup             ]     • 0 panels créés
+[2026-02-20 08:49:12.627] [INFO    ] [Startup             ]     • 0 scripts écrits
+[2026-02-20 08:49:12.633] [INFO    ] [Startup             ]     • 67 scripts en cache
+[2026-02-20 08:49:12.641] [INFO    ] [Startup             ]     • 0 icônes copiées
+[2026-02-20 08:49:12.646] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:49:12.651] [INFO    ] [Startup             ] ✅ AUTOREVIT INITIALISÉ
+[2026-02-20 08:49:12.655] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:50:19.744] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-20 08:50:19.797] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-20 08:50:19.828] [INFO    ] [services.logging_service] LoggingService initialise - Session: c78e981b
+[2026-02-20 08:50:19.859] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=187mm pour 400x400
+[2026-02-20 08:50:19.874] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau nivel -15
+[2026-02-20 08:51:48.133] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:51:48.160] [INFO    ] [Startup             ] 🚀 DÉMARRAGE AUTOREVIT EXTENSION v4.2
+[2026-02-20 08:51:48.166] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:51:48.181] [INFO    ] [Startup             ] [1/4] Configuration chargée
+[2026-02-20 08:51:48.183] [INFO    ] [Startup             ]   • Revit version: 2024
+[2026-02-20 08:51:48.203] [INFO    ] [Startup             ]   • API URL: https://autorevit-production.up.railway.app/api/v1
+[2026-02-20 08:51:48.205] [INFO    ] [Startup             ]   • Cache dir: C:/Users/ben-y/AppData/Roaming/pyRevit/AutoRevit/cache
+[2026-02-20 08:51:48.207] [INFO    ] [Startup             ] [2/4] Vérification session...
+[2026-02-20 08:51:48.304] [INFO    ] [Startup             ]   • Session trouvée: Oui
+[2026-02-20 08:51:48.305] [INFO    ] [Startup             ]   • Config UI en cache: Oui
+[2026-02-20 08:51:48.307] [INFO    ] [Startup             ] [3/4] Session active détectée
+[2026-02-20 08:51:48.317] [INFO    ] [Startup             ]   → Tentative de téléchargement config UI...
+[2026-02-20 08:51:52.556] [INFO    ] [Startup             ]   ✅ Config UI téléchargée (10 panels)
+[2026-02-20 08:51:52.911] [INFO    ] [Startup             ] [4/4] Construction panels...
+[2026-02-20 08:51:53.009] [INFO    ] [ui.ribbon_builder   ] RibbonBuilder v4.8 initialise - user: admin role: admin
+[2026-02-20 08:51:53.065] [INFO    ] [ui.ribbon_builder   ] Construction ruban : 10 panels pour roles ['admin']
+[2026-02-20 08:51:53.071] [INFO    ] [ui.ribbon_builder   ]   -> 10 panels accessibles
+[2026-02-20 08:51:53.105] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 01_Projet & Initialisation.panel
+[2026-02-20 08:51:53.378] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 02_Analyse & Diagnostic.panel
+[2026-02-20 08:51:53.591] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 03_Charges & Combinaisons.panel
+[2026-02-20 08:51:53.625] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 04_Structure Principale.panel
+[2026-02-20 08:51:53.798] [WARN    ] [ui.ribbon_builder   ]     Stack 'Poteaux Poutres Voiles Dalles' a 4 items -> division automatique en stacks de 3
+[2026-02-20 08:51:53.862] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 1 (3/4 items)
+[2026-02-20 08:51:54.104] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 2 (1/4 items)
+[2026-02-20 08:51:54.180] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 05_Elements Secondaires & Details.panel
+[2026-02-20 08:51:54.203] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 06_Verification & Qualite.panel
+[2026-02-20 08:51:54.219] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 07_Ferraillage & Coffrage.panel
+[2026-02-20 08:51:54.258] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 08_Documentation & Export.panel
+[2026-02-20 08:51:54.284] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 09_Outils Avances & Admin.panel
+[2026-02-20 08:51:54.312] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 10_Aide & Feedback.panel
+[2026-02-20 08:51:54.352] [INFO    ] [ui.ribbon_builder   ] Ruban construit : 0 panels, 0 scripts ecrits, 67 en cache, 0 icones reelles, 0 placeholders, 10 YAML
+[2026-02-20 08:51:54.370] [INFO    ] [Startup             ]   ✅ Panels construits :
+[2026-02-20 08:51:54.374] [INFO    ] [Startup             ]     • 0 panels créés
+[2026-02-20 08:51:54.379] [INFO    ] [Startup             ]     • 0 scripts écrits
+[2026-02-20 08:51:54.385] [INFO    ] [Startup             ]     • 67 scripts en cache
+[2026-02-20 08:51:54.390] [INFO    ] [Startup             ]     • 0 icônes copiées
+[2026-02-20 08:51:54.394] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:51:54.416] [INFO    ] [Startup             ] ✅ AUTOREVIT INITIALISÉ
+[2026-02-20 08:51:54.421] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:52:38.566] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-20 08:52:38.597] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-20 08:52:38.607] [INFO    ] [services.logging_service] LoggingService initialise - Session: 5a7e72a1
+[2026-02-20 08:55:35.623] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:55:35.660] [INFO    ] [Startup             ] 🚀 DÉMARRAGE AUTOREVIT EXTENSION v4.2
+[2026-02-20 08:55:35.669] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:55:35.679] [INFO    ] [Startup             ] [1/4] Configuration chargée
+[2026-02-20 08:55:35.680] [INFO    ] [Startup             ]   • Revit version: 2024
+[2026-02-20 08:55:35.681] [INFO    ] [Startup             ]   • API URL: https://autorevit-production.up.railway.app/api/v1
+[2026-02-20 08:55:35.684] [INFO    ] [Startup             ]   • Cache dir: C:/Users/ben-y/AppData/Roaming/pyRevit/AutoRevit/cache
+[2026-02-20 08:55:35.686] [INFO    ] [Startup             ] [2/4] Vérification session...
+[2026-02-20 08:55:35.756] [INFO    ] [Startup             ]   • Session trouvée: Oui
+[2026-02-20 08:55:35.758] [INFO    ] [Startup             ]   • Config UI en cache: Oui
+[2026-02-20 08:55:35.760] [INFO    ] [Startup             ] [3/4] Session active détectée
+[2026-02-20 08:55:35.763] [INFO    ] [Startup             ]   → Tentative de téléchargement config UI...
+[2026-02-20 08:55:39.817] [INFO    ] [Startup             ]   ✅ Config UI téléchargée (10 panels)
+[2026-02-20 08:55:40.129] [INFO    ] [Startup             ] [4/4] Construction panels...
+[2026-02-20 08:55:40.212] [INFO    ] [ui.ribbon_builder   ] RibbonBuilder v4.8 initialise - user: admin role: admin
+[2026-02-20 08:55:40.266] [INFO    ] [ui.ribbon_builder   ] Construction ruban : 10 panels pour roles ['admin']
+[2026-02-20 08:55:40.271] [INFO    ] [ui.ribbon_builder   ]   -> 10 panels accessibles
+[2026-02-20 08:55:40.304] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 01_Projet & Initialisation.panel
+[2026-02-20 08:55:40.580] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 02_Analyse & Diagnostic.panel
+[2026-02-20 08:55:40.789] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 03_Charges & Combinaisons.panel
+[2026-02-20 08:55:40.817] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 04_Structure Principale.panel
+[2026-02-20 08:55:40.991] [WARN    ] [ui.ribbon_builder   ]     Stack 'Poteaux Poutres Voiles Dalles' a 4 items -> division automatique en stacks de 3
+[2026-02-20 08:55:41.063] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 1 (3/4 items)
+[2026-02-20 08:55:41.293] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 2 (1/4 items)
+[2026-02-20 08:55:41.397] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 05_Elements Secondaires & Details.panel
+[2026-02-20 08:55:41.425] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 06_Verification & Qualite.panel
+[2026-02-20 08:55:41.443] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 07_Ferraillage & Coffrage.panel
+[2026-02-20 08:55:41.483] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 08_Documentation & Export.panel
+[2026-02-20 08:55:41.506] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 09_Outils Avances & Admin.panel
+[2026-02-20 08:55:41.533] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 10_Aide & Feedback.panel
+[2026-02-20 08:55:41.578] [INFO    ] [ui.ribbon_builder   ] Ruban construit : 0 panels, 0 scripts ecrits, 67 en cache, 0 icones reelles, 0 placeholders, 10 YAML
+[2026-02-20 08:55:41.610] [INFO    ] [Startup             ]   ✅ Panels construits :
+[2026-02-20 08:55:41.614] [INFO    ] [Startup             ]     • 0 panels créés
+[2026-02-20 08:55:41.618] [INFO    ] [Startup             ]     • 0 scripts écrits
+[2026-02-20 08:55:41.624] [INFO    ] [Startup             ]     • 67 scripts en cache
+[2026-02-20 08:55:41.628] [INFO    ] [Startup             ]     • 0 icônes copiées
+[2026-02-20 08:55:41.633] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:55:41.638] [INFO    ] [Startup             ] ✅ AUTOREVIT INITIALISÉ
+[2026-02-20 08:55:41.642] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 08:56:18.840] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-20 08:56:18.875] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-20 08:56:18.886] [INFO    ] [services.logging_service] LoggingService initialise - Session: c2947237
+[2026-02-20 08:56:18.909] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=187mm pour 400x400
+[2026-02-20 08:56:18.945] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau nivel -15
+[2026-02-20 08:56:18.977] [INFO    ] [services.logging_service] [INFO] 111 points intermediaires ajoutes (espacement max 4000mm)
+[2026-02-20 08:56:19.009] [INFO    ] [services.logging_service] [INFO] 142 points de placement trouves
+[2026-02-20 08:56:19.029] [INFO    ] [services.logging_service] [INFO] check_existing 'nivel -15' : 1 existants, 1 doublons, 141 nouveaux
+[2026-02-20 08:57:02.920] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=97mm pour 300x400
+[2026-02-20 08:57:03.027] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau primer nivel
+[2026-02-20 08:57:03.038] [INFO    ] [services.logging_service] [INFO] 111 points intermediaires ajoutes (espacement max 4000mm)
+[2026-02-20 08:57:03.044] [INFO    ] [services.logging_service] [INFO] 142 points de placement trouves
+[2026-02-20 08:57:03.056] [INFO    ] [services.logging_service] [INFO] check_existing 'primer nivel' : 0 existants, 0 doublons, 142 nouveaux
+[2026-02-20 08:57:16.670] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=97mm pour 250x350
+[2026-02-20 08:57:16.772] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau PLANT 1
+[2026-02-20 08:57:16.777] [INFO    ] [services.logging_service] [INFO] 111 points intermediaires ajoutes (espacement max 4000mm)
+[2026-02-20 08:57:16.787] [INFO    ] [services.logging_service] [INFO] 142 points de placement trouves
+[2026-02-20 08:57:16.796] [INFO    ] [services.logging_service] [INFO] check_existing 'PLANT 1' : 0 existants, 0 doublons, 142 nouveaux
+[2026-02-20 08:57:19.140] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau PLANT 2
+[2026-02-20 08:57:19.222] [INFO    ] [services.logging_service] [INFO] 111 points intermediaires ajoutes (espacement max 4000mm)
+[2026-02-20 08:57:19.224] [INFO    ] [services.logging_service] [INFO] 142 points de placement trouves
+[2026-02-20 08:57:19.231] [INFO    ] [services.logging_service] [INFO] check_existing 'PLANT 2' : 0 existants, 0 doublons, 142 nouveaux
+[2026-02-20 08:57:21.257] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=113mm pour 250x250
+[2026-02-20 08:57:21.337] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau nivel -17
+[2026-02-20 08:57:21.343] [INFO    ] [services.logging_service] [INFO] 111 points intermediaires ajoutes (espacement max 4000mm)
+[2026-02-20 08:57:21.352] [INFO    ] [services.logging_service] [INFO] 142 points de placement trouves
+[2026-02-20 08:57:21.364] [INFO    ] [services.logging_service] [INFO] check_existing 'nivel -17' : 0 existants, 0 doublons, 142 nouveaux
+[2026-02-20 08:57:22.555] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau PLANT 3
+[2026-02-20 08:57:22.639] [INFO    ] [services.logging_service] [INFO] 111 points intermediaires ajoutes (espacement max 4000mm)
+[2026-02-20 08:57:22.646] [INFO    ] [services.logging_service] [INFO] 142 points de placement trouves
+[2026-02-20 08:57:22.662] [INFO    ] [services.logging_service] [INFO] check_existing 'PLANT 3' : 0 existants, 0 doublons, 142 nouveaux
+[2026-02-20 09:16:29.987] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 09:16:30.021] [INFO    ] [Startup             ] 🚀 DÉMARRAGE AUTOREVIT EXTENSION v4.2
+[2026-02-20 09:16:30.025] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 09:16:30.036] [INFO    ] [Startup             ] [1/4] Configuration chargée
+[2026-02-20 09:16:30.037] [INFO    ] [Startup             ]   • Revit version: 2024
+[2026-02-20 09:16:30.039] [INFO    ] [Startup             ]   • API URL: https://autorevit-production.up.railway.app/api/v1
+[2026-02-20 09:16:30.041] [INFO    ] [Startup             ]   • Cache dir: C:/Users/ben-y/AppData/Roaming/pyRevit/AutoRevit/cache
+[2026-02-20 09:16:30.042] [INFO    ] [Startup             ] [2/4] Vérification session...
+[2026-02-20 09:16:30.108] [INFO    ] [Startup             ]   • Session trouvée: Oui
+[2026-02-20 09:16:30.109] [INFO    ] [Startup             ]   • Config UI en cache: Oui
+[2026-02-20 09:16:30.113] [INFO    ] [Startup             ] [3/4] Session active détectée
+[2026-02-20 09:16:30.115] [INFO    ] [Startup             ]   → Tentative de téléchargement config UI...
+[2026-02-20 09:16:40.610] [INFO    ] [Startup             ]   ✅ Config UI téléchargée (10 panels)
+[2026-02-20 09:16:40.940] [INFO    ] [Startup             ] [4/4] Construction panels...
+[2026-02-20 09:16:41.043] [INFO    ] [ui.ribbon_builder   ] RibbonBuilder v4.8 initialise - user: admin role: admin
+[2026-02-20 09:16:41.118] [INFO    ] [ui.ribbon_builder   ] Construction ruban : 10 panels pour roles ['admin']
+[2026-02-20 09:16:41.125] [INFO    ] [ui.ribbon_builder   ]   -> 10 panels accessibles
+[2026-02-20 09:16:41.160] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 01_Projet & Initialisation.panel
+[2026-02-20 09:16:41.431] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 02_Analyse & Diagnostic.panel
+[2026-02-20 09:16:41.632] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 03_Charges & Combinaisons.panel
+[2026-02-20 09:16:41.667] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 04_Structure Principale.panel
+[2026-02-20 09:16:41.859] [WARN    ] [ui.ribbon_builder   ]     Stack 'Poteaux Poutres Voiles Dalles' a 4 items -> division automatique en stacks de 3
+[2026-02-20 09:16:41.936] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 1 (3/4 items)
+[2026-02-20 09:16:42.056] [INFO    ] [ui.ribbon_builder   ]       Creer Poteaux Standards : script ecrit (v34)
+[2026-02-20 09:16:42.201] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 2 (1/4 items)
+[2026-02-20 09:16:42.304] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 05_Elements Secondaires & Details.panel
+[2026-02-20 09:16:42.334] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 06_Verification & Qualite.panel
+[2026-02-20 09:16:42.351] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 07_Ferraillage & Coffrage.panel
+[2026-02-20 09:16:42.391] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 08_Documentation & Export.panel
+[2026-02-20 09:16:42.407] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 09_Outils Avances & Admin.panel
+[2026-02-20 09:16:42.459] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 10_Aide & Feedback.panel
+[2026-02-20 09:16:42.503] [INFO    ] [ui.ribbon_builder   ] Ruban construit : 0 panels, 1 scripts ecrits, 66 en cache, 0 icones reelles, 0 placeholders, 10 YAML
+[2026-02-20 09:16:42.543] [INFO    ] [Startup             ]   ✅ Panels construits :
+[2026-02-20 09:16:42.549] [INFO    ] [Startup             ]     • 0 panels créés
+[2026-02-20 09:16:42.554] [INFO    ] [Startup             ]     • 1 scripts écrits
+[2026-02-20 09:16:42.577] [INFO    ] [Startup             ]     • 66 scripts en cache
+[2026-02-20 09:16:42.581] [INFO    ] [Startup             ]     • 0 icônes copiées
+[2026-02-20 09:16:42.586] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 09:16:42.591] [INFO    ] [Startup             ] ✅ AUTOREVIT INITIALISÉ
+[2026-02-20 09:16:42.596] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 09:17:28.073] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-20 09:17:28.117] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-20 09:17:28.128] [INFO    ] [services.logging_service] LoggingService initialise - Session: d57598a2
+[2026-02-20 09:17:28.149] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=187mm pour 400x400
+[2026-02-20 09:17:28.165] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau nivel -15
+[2026-02-20 09:17:28.211] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 09:17:28.228] [INFO    ] [services.logging_service] [INFO] 111 points intermediaires ajoutes (meme grille > 4000mm)
+[2026-02-20 09:17:28.278] [INFO    ] [services.logging_service] [INFO] 141 points de placement trouves
+[2026-02-20 09:17:28.282] [INFO    ] [services.logging_service] [INFO] check_existing 'nivel -15' : 0 existants, 0 doublons, 141 nouveaux
+[2026-02-20 09:17:58.700] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=97mm pour 300x400
+[2026-02-20 09:17:58.795] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau primer nivel
+[2026-02-20 09:17:58.799] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 09:17:58.807] [INFO    ] [services.logging_service] [INFO] 111 points intermediaires ajoutes (meme grille > 4000mm)
+[2026-02-20 09:17:58.814] [INFO    ] [services.logging_service] [INFO] 141 points de placement trouves
+[2026-02-20 09:17:58.824] [INFO    ] [services.logging_service] [INFO] check_existing 'primer nivel' : 0 existants, 0 doublons, 141 nouveaux
+[2026-02-20 09:18:00.786] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=97mm pour 250x350
+[2026-02-20 09:18:00.877] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau PLANT 1
+[2026-02-20 09:18:00.881] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 09:18:00.885] [INFO    ] [services.logging_service] [INFO] 111 points intermediaires ajoutes (meme grille > 4000mm)
+[2026-02-20 09:18:00.893] [INFO    ] [services.logging_service] [INFO] 141 points de placement trouves
+[2026-02-20 09:18:00.898] [INFO    ] [services.logging_service] [INFO] check_existing 'PLANT 1' : 0 existants, 0 doublons, 141 nouveaux
+[2026-02-20 09:18:02.034] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau PLANT 2
+[2026-02-20 09:18:02.122] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 09:18:02.128] [INFO    ] [services.logging_service] [INFO] 111 points intermediaires ajoutes (meme grille > 4000mm)
+[2026-02-20 09:18:02.133] [INFO    ] [services.logging_service] [INFO] 141 points de placement trouves
+[2026-02-20 09:18:02.153] [INFO    ] [services.logging_service] [INFO] check_existing 'PLANT 2' : 0 existants, 0 doublons, 141 nouveaux
+[2026-02-20 09:18:03.243] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=113mm pour 250x250
+[2026-02-20 09:18:03.329] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau nivel -17
+[2026-02-20 09:18:03.334] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 09:18:03.343] [INFO    ] [services.logging_service] [INFO] 111 points intermediaires ajoutes (meme grille > 4000mm)
+[2026-02-20 09:18:03.347] [INFO    ] [services.logging_service] [INFO] 141 points de placement trouves
+[2026-02-20 09:18:03.361] [INFO    ] [services.logging_service] [INFO] check_existing 'nivel -17' : 0 existants, 0 doublons, 141 nouveaux
+[2026-02-20 09:18:04.273] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau PLANT 3
+[2026-02-20 09:18:04.371] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 09:18:04.377] [INFO    ] [services.logging_service] [INFO] 111 points intermediaires ajoutes (meme grille > 4000mm)
+[2026-02-20 09:18:04.381] [INFO    ] [services.logging_service] [INFO] 141 points de placement trouves
+[2026-02-20 09:18:04.395] [INFO    ] [services.logging_service] [INFO] check_existing 'PLANT 3' : 0 existants, 0 doublons, 141 nouveaux
+[2026-02-20 09:30:20.714] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 09:30:20.775] [INFO    ] [Startup             ] 🚀 DÉMARRAGE AUTOREVIT EXTENSION v4.2
+[2026-02-20 09:30:20.786] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 09:30:20.802] [INFO    ] [Startup             ] [1/4] Configuration chargée
+[2026-02-20 09:30:20.803] [INFO    ] [Startup             ]   • Revit version: 2024
+[2026-02-20 09:30:20.804] [INFO    ] [Startup             ]   • API URL: https://autorevit-production.up.railway.app/api/v1
+[2026-02-20 09:30:20.807] [INFO    ] [Startup             ]   • Cache dir: C:/Users/ben-y/AppData/Roaming/pyRevit/AutoRevit/cache
+[2026-02-20 09:30:20.824] [INFO    ] [Startup             ] [2/4] Vérification session...
+[2026-02-20 09:30:20.901] [INFO    ] [Startup             ]   • Session trouvée: Oui
+[2026-02-20 09:30:20.902] [INFO    ] [Startup             ]   • Config UI en cache: Oui
+[2026-02-20 09:30:20.904] [INFO    ] [Startup             ] [3/4] Session active détectée
+[2026-02-20 09:30:20.906] [INFO    ] [Startup             ]   → Tentative de téléchargement config UI...
+[2026-02-20 09:30:24.451] [INFO    ] [Startup             ]   ✅ Config UI téléchargée (10 panels)
+[2026-02-20 09:30:24.775] [INFO    ] [Startup             ] [4/4] Construction panels...
+[2026-02-20 09:30:24.874] [INFO    ] [ui.ribbon_builder   ] RibbonBuilder v4.8 initialise - user: admin role: admin
+[2026-02-20 09:30:24.947] [INFO    ] [ui.ribbon_builder   ] Construction ruban : 10 panels pour roles ['admin']
+[2026-02-20 09:30:24.954] [INFO    ] [ui.ribbon_builder   ]   -> 10 panels accessibles
+[2026-02-20 09:30:24.986] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 01_Projet & Initialisation.panel
+[2026-02-20 09:30:25.263] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 02_Analyse & Diagnostic.panel
+[2026-02-20 09:30:25.485] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 03_Charges & Combinaisons.panel
+[2026-02-20 09:30:25.528] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 04_Structure Principale.panel
+[2026-02-20 09:30:25.708] [WARN    ] [ui.ribbon_builder   ]     Stack 'Poteaux Poutres Voiles Dalles' a 4 items -> division automatique en stacks de 3
+[2026-02-20 09:30:25.785] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 1 (3/4 items)
+[2026-02-20 09:30:25.880] [INFO    ] [ui.ribbon_builder   ]       Creer Poteaux Standards : script ecrit (v35)
+[2026-02-20 09:30:27.156] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 2 (1/4 items)
+[2026-02-20 09:30:27.251] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 05_Elements Secondaires & Details.panel
+[2026-02-20 09:30:27.292] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 06_Verification & Qualite.panel
+[2026-02-20 09:30:27.318] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 07_Ferraillage & Coffrage.panel
+[2026-02-20 09:30:27.369] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 08_Documentation & Export.panel
+[2026-02-20 09:30:27.404] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 09_Outils Avances & Admin.panel
+[2026-02-20 09:30:27.428] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 10_Aide & Feedback.panel
+[2026-02-20 09:30:27.474] [INFO    ] [ui.ribbon_builder   ] Ruban construit : 0 panels, 1 scripts ecrits, 66 en cache, 0 icones reelles, 0 placeholders, 10 YAML
+[2026-02-20 09:30:27.478] [INFO    ] [Startup             ]   ✅ Panels construits :
+[2026-02-20 09:30:27.483] [INFO    ] [Startup             ]     • 0 panels créés
+[2026-02-20 09:30:27.528] [INFO    ] [Startup             ]     • 1 scripts écrits
+[2026-02-20 09:30:27.533] [INFO    ] [Startup             ]     • 66 scripts en cache
+[2026-02-20 09:30:27.538] [INFO    ] [Startup             ]     • 0 icônes copiées
+[2026-02-20 09:30:27.543] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 09:30:27.548] [INFO    ] [Startup             ] ✅ AUTOREVIT INITIALISÉ
+[2026-02-20 09:30:27.552] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 09:31:06.075] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-20 09:31:06.123] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-20 09:31:06.135] [INFO    ] [services.logging_service] LoggingService initialise - Session: b14d5929
+[2026-02-20 09:31:06.163] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=187mm pour 400x400
+[2026-02-20 09:31:06.206] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau primer nivel
+[2026-02-20 09:31:06.225] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 09:31:06.253] [INFO    ] [services.logging_service] [INFO] 111 points intermediaires ajoutes (meme grille > 4000mm)
+[2026-02-20 09:31:06.302] [INFO    ] [services.logging_service] [INFO] 141 points de placement trouves
+[2026-02-20 09:31:06.309] [INFO    ] [services.logging_service] [INFO] check_existing 'primer nivel' : 0 existants, 0 doublons, 141 nouveaux
+[2026-02-20 09:31:14.087] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=97mm pour 300x400
+[2026-02-20 09:31:14.193] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau PLANT 1
+[2026-02-20 09:31:14.200] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 09:31:14.211] [INFO    ] [services.logging_service] [INFO] 111 points intermediaires ajoutes (meme grille > 4000mm)
+[2026-02-20 09:31:14.218] [INFO    ] [services.logging_service] [INFO] 141 points de placement trouves
+[2026-02-20 09:31:14.231] [INFO    ] [services.logging_service] [INFO] check_existing 'PLANT 1' : 0 existants, 0 doublons, 141 nouveaux
+[2026-02-20 09:31:15.704] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=97mm pour 250x350
+[2026-02-20 09:31:15.800] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau PLANT 2
+[2026-02-20 09:31:15.804] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 09:31:15.809] [INFO    ] [services.logging_service] [INFO] 111 points intermediaires ajoutes (meme grille > 4000mm)
+[2026-02-20 09:31:15.812] [INFO    ] [services.logging_service] [INFO] 141 points de placement trouves
+[2026-02-20 09:31:15.822] [INFO    ] [services.logging_service] [INFO] check_existing 'PLANT 2' : 0 existants, 0 doublons, 141 nouveaux
+[2026-02-20 09:31:16.842] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=113mm pour 250x250
+[2026-02-20 09:31:16.948] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau nivel -17
+[2026-02-20 09:31:16.956] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 09:31:16.962] [INFO    ] [services.logging_service] [INFO] 111 points intermediaires ajoutes (meme grille > 4000mm)
+[2026-02-20 09:31:16.966] [INFO    ] [services.logging_service] [INFO] 141 points de placement trouves
+[2026-02-20 09:31:16.975] [INFO    ] [services.logging_service] [INFO] check_existing 'nivel -17' : 0 existants, 0 doublons, 141 nouveaux
+[2026-02-20 09:31:17.854] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau PLANT 3
+[2026-02-20 09:31:17.949] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 09:31:17.960] [INFO    ] [services.logging_service] [INFO] 111 points intermediaires ajoutes (meme grille > 4000mm)
+[2026-02-20 09:31:17.964] [INFO    ] [services.logging_service] [INFO] 141 points de placement trouves
+[2026-02-20 09:31:17.976] [INFO    ] [services.logging_service] [INFO] check_existing 'PLANT 3' : 0 existants, 0 doublons, 141 nouveaux
+[2026-02-20 09:33:56.004] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-20 09:33:56.011] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-20 09:33:56.027] [INFO    ] [services.logging_service] LoggingService initialise - Session: 7610539d
+[2026-02-20 09:33:56.060] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 09:33:56.060] [INFO    ] [services.logging_service] [INFO] 111 points intermediaires ajoutes (meme grille > 4000mm)
+[2026-02-20 09:33:56.060] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau primer nivel
+[2026-02-20 09:33:56.075] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 09:33:56.084] [INFO    ] [services.logging_service] [INFO] 111 points intermediaires ajoutes (meme grille > 4000mm)
+[2026-02-20 09:33:56.084] [INFO    ] [services.logging_service] [INFO] 141 points de placement trouves
+[2026-02-20 09:33:56.084] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau primer nivel
+[2026-02-20 09:33:56.084] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 09:33:56.099] [INFO    ] [services.logging_service] [INFO] 111 points intermediaires ajoutes (meme grille > 4000mm)
+[2026-02-20 09:33:56.099] [INFO    ] [services.logging_service] [INFO] 141 points de placement trouves
+[2026-02-20 09:33:56.197] [INFO    ] [services.logging_service] [INFO] check_existing 'primer nivel' : 141 existants, 141 doublons, 0 nouveaux
+[2026-02-20 09:35:18.855] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-20 09:35:18.872] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-20 09:35:18.872] [INFO    ] [services.logging_service] LoggingService initialise - Session: df1dddaf
+[2026-02-20 09:35:18.898] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 09:41:25.451] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 09:41:25.501] [INFO    ] [Startup             ] 🚀 DÉMARRAGE AUTOREVIT EXTENSION v4.2
+[2026-02-20 09:41:25.504] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 09:41:25.513] [INFO    ] [Startup             ] [1/4] Configuration chargée
+[2026-02-20 09:41:25.515] [INFO    ] [Startup             ]   • Revit version: 2024
+[2026-02-20 09:41:25.517] [INFO    ] [Startup             ]   • API URL: https://autorevit-production.up.railway.app/api/v1
+[2026-02-20 09:41:25.519] [INFO    ] [Startup             ]   • Cache dir: C:/Users/ben-y/AppData/Roaming/pyRevit/AutoRevit/cache
+[2026-02-20 09:41:25.520] [INFO    ] [Startup             ] [2/4] Vérification session...
+[2026-02-20 09:41:25.593] [INFO    ] [Startup             ]   • Session trouvée: Oui
+[2026-02-20 09:41:25.594] [INFO    ] [Startup             ]   • Config UI en cache: Oui
+[2026-02-20 09:41:25.596] [INFO    ] [Startup             ] [3/4] Session active détectée
+[2026-02-20 09:41:25.598] [INFO    ] [Startup             ]   → Tentative de téléchargement config UI...
+[2026-02-20 09:41:35.273] [INFO    ] [Startup             ]   ✅ Config UI téléchargée (10 panels)
+[2026-02-20 09:41:35.631] [INFO    ] [Startup             ] [4/4] Construction panels...
+[2026-02-20 09:41:35.736] [INFO    ] [ui.ribbon_builder   ] RibbonBuilder v4.8 initialise - user: admin role: admin
+[2026-02-20 09:41:35.812] [INFO    ] [ui.ribbon_builder   ] Construction ruban : 10 panels pour roles ['admin']
+[2026-02-20 09:41:35.819] [INFO    ] [ui.ribbon_builder   ]   -> 10 panels accessibles
+[2026-02-20 09:41:35.856] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 01_Projet & Initialisation.panel
+[2026-02-20 09:41:36.139] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 02_Analyse & Diagnostic.panel
+[2026-02-20 09:41:36.365] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 03_Charges & Combinaisons.panel
+[2026-02-20 09:41:36.408] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 04_Structure Principale.panel
+[2026-02-20 09:41:36.591] [WARN    ] [ui.ribbon_builder   ]     Stack 'Poteaux Poutres Voiles Dalles' a 4 items -> division automatique en stacks de 3
+[2026-02-20 09:41:36.674] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 1 (3/4 items)
+[2026-02-20 09:41:36.878] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 2 (1/4 items)
+[2026-02-20 09:41:36.982] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 05_Elements Secondaires & Details.panel
+[2026-02-20 09:41:37.040] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 06_Verification & Qualite.panel
+[2026-02-20 09:41:37.058] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 07_Ferraillage & Coffrage.panel
+[2026-02-20 09:41:37.105] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 08_Documentation & Export.panel
+[2026-02-20 09:41:37.116] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 09_Outils Avances & Admin.panel
+[2026-02-20 09:41:37.146] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 10_Aide & Feedback.panel
+[2026-02-20 09:41:37.199] [INFO    ] [ui.ribbon_builder   ] Ruban construit : 0 panels, 0 scripts ecrits, 67 en cache, 0 icones reelles, 0 placeholders, 10 YAML
+[2026-02-20 09:41:37.248] [INFO    ] [Startup             ]   ✅ Panels construits :
+[2026-02-20 09:41:37.252] [INFO    ] [Startup             ]     • 0 panels créés
+[2026-02-20 09:41:37.257] [INFO    ] [Startup             ]     • 0 scripts écrits
+[2026-02-20 09:41:37.262] [INFO    ] [Startup             ]     • 67 scripts en cache
+[2026-02-20 09:41:37.267] [INFO    ] [Startup             ]     • 0 icônes copiées
+[2026-02-20 09:41:37.272] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 09:41:37.276] [INFO    ] [Startup             ] ✅ AUTOREVIT INITIALISÉ
+[2026-02-20 09:41:37.280] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 09:42:31.708] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-20 09:42:31.762] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-20 09:42:31.774] [INFO    ] [services.logging_service] LoggingService initialise - Session: 4ba753b5
+[2026-02-20 09:42:31.796] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=187mm pour 400x400
+[2026-02-20 09:42:31.857] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau primer nivel
+[2026-02-20 09:42:31.872] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 09:42:31.884] [INFO    ] [services.logging_service] [INFO] 30 points de placement trouves
+[2026-02-20 09:42:31.900] [INFO    ] [services.logging_service] [INFO] check_existing 'primer nivel' : 0 existants, 0 doublons, 30 nouveaux
+[2026-02-20 09:42:32.040] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=97mm pour 300x400
+[2026-02-20 09:42:32.060] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau PLANT 1
+[2026-02-20 09:42:32.067] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 09:42:32.070] [INFO    ] [services.logging_service] [INFO] 30 points de placement trouves
+[2026-02-20 09:42:32.077] [INFO    ] [services.logging_service] [INFO] check_existing 'PLANT 1' : 0 existants, 0 doublons, 30 nouveaux
+[2026-02-20 09:42:32.209] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=97mm pour 250x350
+[2026-02-20 09:42:32.233] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau PLANT 2
+[2026-02-20 09:42:32.237] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 09:42:32.253] [INFO    ] [services.logging_service] [INFO] 30 points de placement trouves
+[2026-02-20 09:42:32.303] [INFO    ] [services.logging_service] [INFO] check_existing 'PLANT 2' : 0 existants, 0 doublons, 30 nouveaux
+[2026-02-20 09:42:32.428] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=113mm pour 250x250
+[2026-02-20 09:42:32.449] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau nivel -17
+[2026-02-20 09:42:32.456] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 09:42:32.459] [INFO    ] [services.logging_service] [INFO] 30 points de placement trouves
+[2026-02-20 09:42:32.478] [INFO    ] [services.logging_service] [INFO] check_existing 'nivel -17' : 0 existants, 0 doublons, 30 nouveaux
+[2026-02-20 09:42:32.578] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau PLANT 3
+[2026-02-20 09:42:32.601] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 09:42:32.605] [INFO    ] [services.logging_service] [INFO] 30 points de placement trouves
+[2026-02-20 09:42:32.612] [INFO    ] [services.logging_service] [INFO] check_existing 'PLANT 3' : 0 existants, 0 doublons, 30 nouveaux
+[2026-02-20 09:45:04.800] [INFO    ] [services.revit_service] RevitService initialise - Doc: PIC_FINAL
+[2026-02-20 09:45:04.875] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-20 09:45:04.889] [INFO    ] [services.logging_service] LoggingService initialise - Session: ce8d6dff
+[2026-02-20 09:45:04.915] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=187mm pour 400x400
+[2026-02-20 09:45:04.927] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau Level 1
+[2026-02-20 09:45:04.953] [INFO    ] [services.logging_service] [INFO] 4 points de placement trouves
+[2026-02-20 09:45:05.020] [INFO    ] [services.logging_service] [INFO] check_existing 'Level 1' : 4 existants, 4 doublons, 0 nouveaux
+[2026-02-20 09:45:21.748] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=97mm pour 300x400
+[2026-02-20 09:45:21.884] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau Level 2
+[2026-02-20 09:45:21.888] [INFO    ] [services.logging_service] [INFO] 4 points de placement trouves
+[2026-02-20 09:45:21.896] [INFO    ] [services.logging_service] [INFO] check_existing 'Level 2' : 0 existants, 0 doublons, 4 nouveaux
+[2026-02-20 09:45:22.018] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=97mm pour 250x350
+[2026-02-20 09:45:22.052] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau Level 3
+[2026-02-20 09:45:22.057] [INFO    ] [services.logging_service] [INFO] 4 points de placement trouves
+[2026-02-20 09:45:22.062] [INFO    ] [services.logging_service] [INFO] check_existing 'Level 3' : 0 existants, 0 doublons, 4 nouveaux
+[2026-02-20 09:45:22.276] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=113mm pour 250x250
+[2026-02-20 09:45:22.300] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau Level 4
+[2026-02-20 09:45:22.307] [INFO    ] [services.logging_service] [INFO] 4 points de placement trouves
+[2026-02-20 09:45:22.312] [INFO    ] [services.logging_service] [INFO] check_existing 'Level 4' : 0 existants, 0 doublons, 4 nouveaux
+[2026-02-20 09:45:22.412] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau Level 5
+[2026-02-20 09:45:22.431] [INFO    ] [services.logging_service] [INFO] 4 points de placement trouves
+[2026-02-20 09:45:22.436] [INFO    ] [services.logging_service] [INFO] check_existing 'Level 5' : 0 existants, 0 doublons, 4 nouveaux
+[2026-02-20 19:29:05.384] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:29:05.412] [INFO    ] [Startup             ] 🚀 DÉMARRAGE AUTOREVIT EXTENSION v4.2
+[2026-02-20 19:29:05.431] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:29:05.472] [INFO    ] [Startup             ] [1/4] Configuration chargée
+[2026-02-20 19:29:05.475] [INFO    ] [Startup             ]   • Revit version: 2024
+[2026-02-20 19:29:05.476] [INFO    ] [Startup             ]   • API URL: https://autorevit-production.up.railway.app/api/v1
+[2026-02-20 19:29:05.478] [INFO    ] [Startup             ]   • Cache dir: C:/Users/ben-y/AppData/Roaming/pyRevit/AutoRevit/cache
+[2026-02-20 19:29:05.479] [INFO    ] [Startup             ] [2/4] Vérification session...
+[2026-02-20 19:29:05.511] [INFO    ] [Startup             ]   • Session trouvée: Oui
+[2026-02-20 19:29:05.514] [INFO    ] [Startup             ]   • Config UI en cache: Oui
+[2026-02-20 19:29:05.540] [INFO    ] [Startup             ] [3/4] Session active détectée
+[2026-02-20 19:29:05.543] [INFO    ] [Startup             ]   → Tentative de téléchargement config UI...
+[2026-02-20 19:29:15.324] [WARN    ] [Startup             ]   ⚠️  Téléchargement échoué: JWT token expire et refresh impossible - reconnexion requise
+[2026-02-20 19:29:15.332] [INFO    ] [Startup             ]   → Utilisation du cache...
+[2026-02-20 19:29:15.336] [INFO    ] [Startup             ]   → Chargement depuis cache...
+[2026-02-20 19:29:15.882] [INFO    ] [Startup             ] Config UI chargée depuis cache
+[2026-02-20 19:29:15.899] [INFO    ] [Startup             ]   ✅ Config UI chargée depuis cache (10 panels)
+[2026-02-20 19:29:15.910] [INFO    ] [Startup             ] [4/4] Construction panels...
+[2026-02-20 19:29:15.979] [INFO    ] [ui.ribbon_builder   ] RibbonBuilder v4.8 initialise - user: admin role: admin
+[2026-02-20 19:29:16.032] [INFO    ] [ui.ribbon_builder   ] Construction ruban : 10 panels pour roles ['admin']
+[2026-02-20 19:29:16.055] [INFO    ] [ui.ribbon_builder   ]   -> 10 panels accessibles
+[2026-02-20 19:29:16.090] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 01_Projet & Initialisation.panel
+[2026-02-20 19:29:16.379] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 02_Analyse & Diagnostic.panel
+[2026-02-20 19:29:16.552] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 03_Charges & Combinaisons.panel
+[2026-02-20 19:29:16.583] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 04_Structure Principale.panel
+[2026-02-20 19:29:16.824] [WARN    ] [ui.ribbon_builder   ]     Stack 'Poteaux Poutres Voiles Dalles' a 4 items -> division automatique en stacks de 3
+[2026-02-20 19:29:16.951] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 1 (3/4 items)
+[2026-02-20 19:29:17.295] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 2 (1/4 items)
+[2026-02-20 19:29:17.388] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 05_Elements Secondaires & Details.panel
+[2026-02-20 19:29:17.419] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 06_Verification & Qualite.panel
+[2026-02-20 19:29:17.464] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 07_Ferraillage & Coffrage.panel
+[2026-02-20 19:29:17.481] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 08_Documentation & Export.panel
+[2026-02-20 19:29:17.522] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 09_Outils Avances & Admin.panel
+[2026-02-20 19:29:17.553] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 10_Aide & Feedback.panel
+[2026-02-20 19:29:17.620] [INFO    ] [ui.ribbon_builder   ] Ruban construit : 0 panels, 0 scripts ecrits, 67 en cache, 0 icones reelles, 0 placeholders, 10 YAML
+[2026-02-20 19:29:17.657] [INFO    ] [Startup             ]   ✅ Panels construits :
+[2026-02-20 19:29:17.662] [INFO    ] [Startup             ]     • 0 panels créés
+[2026-02-20 19:29:17.666] [INFO    ] [Startup             ]     • 0 scripts écrits
+[2026-02-20 19:29:17.670] [INFO    ] [Startup             ]     • 67 scripts en cache
+[2026-02-20 19:29:17.675] [INFO    ] [Startup             ]     • 0 icônes copiées
+[2026-02-20 19:29:17.680] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:29:17.684] [INFO    ] [Startup             ] ✅ AUTOREVIT INITIALISÉ
+[2026-02-20 19:29:17.688] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:37:24.376] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:37:24.401] [INFO    ] [Startup             ] DEMARRAGE AUTOREVIT EXTENSION v5.0
+[2026-02-20 19:37:24.402] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:37:24.418] [INFO    ] [Startup             ] [1/3] Configuration chargee
+[2026-02-20 19:37:24.420] [INFO    ] [Startup             ]   Revit version : 2024
+[2026-02-20 19:37:24.422] [INFO    ] [Startup             ]   API URL       : https://autorevit-production.up.railway.app/api/v1
+[2026-02-20 19:37:24.423] [INFO    ] [Startup             ]   Cache dir     : C:/Users/ben-y/AppData/Roaming/pyRevit/AutoRevit/cache
+[2026-02-20 19:37:24.425] [INFO    ] [Startup             ] [2/3] Verification session...
+[2026-02-20 19:37:24.431] [INFO    ] [Startup             ]   Session trouvee : Non
+[2026-02-20 19:37:24.433] [INFO    ] [Startup             ]   Aucune session active
+[2026-02-20 19:37:24.458] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:37:24.461] [INFO    ] [Startup             ] AUTOREVIT PRET (non connecte)
+[2026-02-20 19:37:24.462] [INFO    ] [Startup             ]   Cliquez sur 'Se connecter' pour demarrer
+[2026-02-20 19:37:24.464] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:38:11.307] [INFO    ] [Login               ] 📥 Téléchargement configuration UI...
+[2026-02-20 19:38:13.289] [INFO    ] [Login               ] ✅ Config UI récupérée (10 panels)
+[2026-02-20 19:38:13.335] [INFO    ] [ui.ribbon_builder   ] RibbonBuilder v4.8 initialise - user: admin role: admin
+[2026-02-20 19:38:13.373] [INFO    ] [Login               ] 🔨 Construction des scripts...
+[2026-02-20 19:38:13.380] [INFO    ] [ui.ribbon_builder   ] Construction ruban : 10 panels pour roles ['admin']
+[2026-02-20 19:38:13.385] [INFO    ] [ui.ribbon_builder   ]   -> 10 panels accessibles
+[2026-02-20 19:38:13.392] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 01_Projet & Initialisation.panel
+[2026-02-20 19:38:13.461] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 02_Analyse & Diagnostic.panel
+[2026-02-20 19:38:13.535] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 03_Charges & Combinaisons.panel
+[2026-02-20 19:38:13.581] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 04_Structure Principale.panel
+[2026-02-20 19:38:13.663] [WARN    ] [ui.ribbon_builder   ]     Stack 'Poteaux Poutres Voiles Dalles' a 4 items -> division automatique en stacks de 3
+[2026-02-20 19:38:13.683] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 1 (3/4 items)
+[2026-02-20 19:38:13.827] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 2 (1/4 items)
+[2026-02-20 19:38:13.952] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 05_Elements Secondaires & Details.panel
+[2026-02-20 19:38:13.981] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 06_Verification & Qualite.panel
+[2026-02-20 19:38:14.005] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 07_Ferraillage & Coffrage.panel
+[2026-02-20 19:38:14.037] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 08_Documentation & Export.panel
+[2026-02-20 19:38:14.046] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 09_Outils Avances & Admin.panel
+[2026-02-20 19:38:14.062] [INFO    ] [ui.ribbon_builder   ]   Panel existant : 10_Aide & Feedback.panel
+[2026-02-20 19:38:14.095] [INFO    ] [ui.ribbon_builder   ] Ruban construit : 0 panels, 0 scripts ecrits, 67 en cache, 0 icones reelles, 0 placeholders, 10 YAML
+[2026-02-20 19:38:14.124] [INFO    ] [Login               ] ✅ Scripts: 0 écrits, 67 en cache | Icônes: 0
+[2026-02-20 19:38:14.585] [INFO    ] [Login               ] 💾 Config sauvegardée en cache
+[2026-02-20 19:38:25.409] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:38:25.432] [INFO    ] [Startup             ] DEMARRAGE AUTOREVIT EXTENSION v5.0
+[2026-02-20 19:38:25.443] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:38:25.473] [INFO    ] [Startup             ] [1/3] Configuration chargee
+[2026-02-20 19:38:25.475] [INFO    ] [Startup             ]   Revit version : 2024
+[2026-02-20 19:38:25.477] [INFO    ] [Startup             ]   API URL       : https://autorevit-production.up.railway.app/api/v1
+[2026-02-20 19:38:25.478] [INFO    ] [Startup             ]   Cache dir     : C:/Users/ben-y/AppData/Roaming/pyRevit/AutoRevit/cache
+[2026-02-20 19:38:25.480] [INFO    ] [Startup             ] [2/3] Verification session...
+[2026-02-20 19:38:25.485] [INFO    ] [Startup             ]   Session trouvee : Oui
+[2026-02-20 19:38:25.490] [INFO    ] [Startup             ] [3/3] Validation token API...
+[2026-02-20 19:38:25.513] [WARN    ] [Startup             ]   Token manquant dans session_token.json
+[2026-02-20 19:38:25.584] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:38:25.588] [INFO    ] [Startup             ] AUTOREVIT PRET (token invalide - reconnexion requise)
+[2026-02-20 19:38:25.590] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:40:09.425] [INFO    ] [Logout              ] Deconnexion de : Utilisateur
+[2026-02-20 19:40:09.498] [INFO    ] [Logout              ] Session effacee
+[2026-02-20 19:40:09.515] [INFO    ] [Logout              ] Panel supprime : 01_Projet & Initialisation.panel
+[2026-02-20 19:40:09.533] [INFO    ] [Logout              ] Panel supprime : 02_Analyse & Diagnostic.panel
+[2026-02-20 19:40:09.553] [INFO    ] [Logout              ] Panel supprime : 03_Charges & Combinaisons.panel
+[2026-02-20 19:40:09.573] [INFO    ] [Logout              ] Panel supprime : 04_Structure Principale.panel
+[2026-02-20 19:40:09.607] [INFO    ] [Logout              ] Panel supprime : 05_Elements Secondaires & Details.panel
+[2026-02-20 19:40:09.629] [INFO    ] [Logout              ] Panel supprime : 06_Verification & Qualite.panel
+[2026-02-20 19:40:09.647] [INFO    ] [Logout              ] Panel supprime : 07_Ferraillage & Coffrage.panel
+[2026-02-20 19:40:09.677] [INFO    ] [Logout              ] Panel supprime : 08_Documentation & Export.panel
+[2026-02-20 19:40:09.719] [INFO    ] [Logout              ] Panel supprime : 09_Outils Avances & Admin.panel
+[2026-02-20 19:40:09.724] [INFO    ] [Logout              ] Panel supprime : 10_Aide & Feedback.panel
+[2026-02-20 19:40:09.726] [INFO    ] [Logout              ] 10 panels dynamiques supprimes
+[2026-02-20 19:40:09.728] [INFO    ] [Logout              ] Cache UI supprime
+[2026-02-20 19:40:17.404] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:40:17.453] [INFO    ] [Startup             ] DEMARRAGE AUTOREVIT EXTENSION v5.0
+[2026-02-20 19:40:17.466] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:40:17.497] [INFO    ] [Startup             ] [1/3] Configuration chargee
+[2026-02-20 19:40:17.500] [INFO    ] [Startup             ]   Revit version : 2024
+[2026-02-20 19:40:17.577] [INFO    ] [Startup             ]   API URL       : https://autorevit-production.up.railway.app/api/v1
+[2026-02-20 19:40:17.580] [INFO    ] [Startup             ]   Cache dir     : C:/Users/ben-y/AppData/Roaming/pyRevit/AutoRevit/cache
+[2026-02-20 19:40:17.587] [INFO    ] [Startup             ] [2/3] Verification session...
+[2026-02-20 19:40:17.600] [INFO    ] [Startup             ]   Session trouvee : Non
+[2026-02-20 19:40:17.603] [INFO    ] [Startup             ]   Aucune session active
+[2026-02-20 19:40:17.608] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:40:17.610] [INFO    ] [Startup             ] AUTOREVIT PRET (non connecte)
+[2026-02-20 19:40:17.613] [INFO    ] [Startup             ]   Cliquez sur 'Se connecter' pour demarrer
+[2026-02-20 19:40:17.617] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:40:54.689] [INFO    ] [Login               ] 📥 Téléchargement configuration UI...
+[2026-02-20 19:40:56.917] [INFO    ] [Login               ] ✅ Config UI récupérée (10 panels)
+[2026-02-20 19:40:57.005] [INFO    ] [ui.ribbon_builder   ] RibbonBuilder v4.8 initialise - user: admin role: admin
+[2026-02-20 19:40:57.013] [INFO    ] [Login               ] 🔨 Construction des scripts...
+[2026-02-20 19:40:57.018] [INFO    ] [ui.ribbon_builder   ] Construction ruban : 10 panels pour roles ['admin']
+[2026-02-20 19:40:57.024] [INFO    ] [ui.ribbon_builder   ]   -> 10 panels accessibles
+[2026-02-20 19:40:57.033] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 01_Projet & Initialisation.panel
+[2026-02-20 19:40:57.742] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : initialisation.png (2030 bytes)
+[2026-02-20 19:40:57.789] [INFO    ] [ui.ribbon_builder   ]       Charger Configurer Projet : script ecrit (v69)
+[2026-02-20 19:40:58.347] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : projet.png (1222 bytes)
+[2026-02-20 19:40:58.386] [INFO    ] [ui.ribbon_builder   ]       Creer Niveaux Grilles : script ecrit (v5)
+[2026-02-20 19:40:58.969] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : niveaux.png (883 bytes)
+[2026-02-20 19:40:58.999] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Importer DWG IFC Nettoyer
+[2026-02-20 19:40:59.716] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : import.png (787 bytes)
+[2026-02-20 19:40:59.743] [INFO    ] [ui.ribbon_builder   ]       Importer DWG : script ecrit (v3)
+[2026-02-20 19:41:00.327] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : dwg.png (787 bytes)
+[2026-02-20 19:41:00.364] [INFO    ] [ui.ribbon_builder   ]       Importer IFC : script ecrit (v3)
+[2026-02-20 19:41:01.065] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ifc.png (1100 bytes)
+[2026-02-20 19:41:01.100] [INFO    ] [ui.ribbon_builder   ]       Nettoyer Imports : script ecrit (v2)
+[2026-02-20 19:41:01.674] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : clean.png (2133 bytes)
+[2026-02-20 19:41:01.698] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 02_Analyse & Diagnostic.panel
+[2026-02-20 19:41:02.231] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : analyse.png (1200 bytes)
+[2026-02-20 19:41:02.259] [INFO    ] [ui.ribbon_builder   ]       Analyser Architecture : script ecrit (v13)
+[2026-02-20 19:41:02.838] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : architecture.png (1065 bytes)
+[2026-02-20 19:41:02.865] [INFO    ] [ui.ribbon_builder   ]       Detecter Murs Porteurs : script ecrit (v10)
+[2026-02-20 19:41:03.598] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : murs.png (919 bytes)
+[2026-02-20 19:41:03.634] [INFO    ] [ui.ribbon_builder   ]       Verifier Clash Detection : script ecrit (v3)
+[2026-02-20 19:41:04.178] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : clash.png (1059 bytes)
+[2026-02-20 19:41:04.188] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Verifier Maquette Liee
+[2026-02-20 19:41:04.855] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : maquette.png (973 bytes)
+[2026-02-20 19:41:04.895] [INFO    ] [ui.ribbon_builder   ]       Verifier Niveaux et Alignement : script ecrit (v2)
+[2026-02-20 19:41:05.459] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : niveaux_check.png (928 bytes)
+[2026-02-20 19:41:05.503] [INFO    ] [ui.ribbon_builder   ]       Verifier Grilles et Axes : script ecrit (v37)
+[2026-02-20 19:41:06.103] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : grilles_check.png (1137 bytes)
+[2026-02-20 19:41:06.122] [INFO    ] [ui.ribbon_builder   ]       Verifier Elements Cles : script ecrit (v1)
+[2026-02-20 19:41:06.680] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : elements_check.png (1201 bytes)
+[2026-02-20 19:41:06.703] [INFO    ] [ui.ribbon_builder   ]       Rapport Incoherences Complet : script ecrit (v1)
+[2026-02-20 19:41:07.236] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : rapport.png (697 bytes)
+[2026-02-20 19:41:07.241] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 03_Charges & Combinaisons.panel
+[2026-02-20 19:41:07.774] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : charges.png (1341 bytes)
+[2026-02-20 19:41:07.812] [INFO    ] [ui.ribbon_builder   ]       Creer Combinaisons ELU ELS : script ecrit (v1)
+[2026-02-20 19:41:08.358] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : combinaisons.png (1325 bytes)
+[2026-02-20 19:41:08.387] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Definir Charges
+[2026-02-20 19:41:08.906] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : charges_def.png (834 bytes)
+[2026-02-20 19:41:08.944] [INFO    ] [ui.ribbon_builder   ]       Charges Permanentes : script ecrit (v1)
+[2026-02-20 19:41:09.486] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : charges_g.png (1079 bytes)
+[2026-02-20 19:41:09.521] [INFO    ] [ui.ribbon_builder   ]       Charges Exploitation : script ecrit (v1)
+[2026-02-20 19:41:10.023] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : charges_q.png (1084 bytes)
+[2026-02-20 19:41:10.046] [INFO    ] [ui.ribbon_builder   ]       Charges Climatiques : script ecrit (v1)
+[2026-02-20 19:41:10.557] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : charges_climat.png (1127 bytes)
+[2026-02-20 19:41:10.565] [INFO    ] [ui.ribbon_builder   ]       Visualiser Charges : script ecrit (v1)
+[2026-02-20 19:41:11.102] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : visualize.png (1733 bytes)
+[2026-02-20 19:41:11.123] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 04_Structure Principale.panel
+[2026-02-20 19:41:11.630] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : structure.png (1980 bytes)
+[2026-02-20 19:41:11.675] [INFO    ] [ui.ribbon_builder   ]       Creer Escaliers Rampes : script ecrit (v6)
+[2026-02-20 19:41:12.230] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : escaliers.png (841 bytes)
+[2026-02-20 19:41:12.265] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Fondations
+[2026-02-20 19:41:12.793] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : fondations.png (1351 bytes)
+[2026-02-20 19:41:12.855] [INFO    ] [ui.ribbon_builder   ]       Semelles Isolees : script ecrit (v2)
+[2026-02-20 19:41:13.415] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : semelles_iso.png (801 bytes)
+[2026-02-20 19:41:13.454] [INFO    ] [ui.ribbon_builder   ]       Semelles Filantes : script ecrit (v4)
+[2026-02-20 19:41:13.968] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : semelles_fil.png (775 bytes)
+[2026-02-20 19:41:13.996] [INFO    ] [ui.ribbon_builder   ]       Radier : script ecrit (v1)
+[2026-02-20 19:41:14.534] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : radier.png (600 bytes)
+[2026-02-20 19:41:14.560] [INFO    ] [ui.ribbon_builder   ]       Longrines : script ecrit (v1)
+[2026-02-20 19:41:15.107] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : longrines.png (979 bytes)
+[2026-02-20 19:41:15.141] [WARN    ] [ui.ribbon_builder   ]     Stack 'Poteaux Poutres Voiles Dalles' a 4 items -> division automatique en stacks de 3
+[2026-02-20 19:41:15.149] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 1 (3/4 items)
+[2026-02-20 19:41:15.721] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : structure.png (1409 bytes)
+[2026-02-20 19:41:15.755] [INFO    ] [ui.ribbon_builder   ]     SPLITBUTTON cree : Creer Poteaux
+[2026-02-20 19:41:16.276] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : poteaux.png (1209 bytes)
+[2026-02-20 19:41:16.329] [INFO    ] [ui.ribbon_builder   ]       Creer Poteaux Standards : script ecrit (v35)
+[2026-02-20 19:41:16.927] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : poteaux_std.png (1148 bytes)
+[2026-02-20 19:41:16.949] [INFO    ] [ui.ribbon_builder   ]       Creer Poteaux Variables : script ecrit (v1)
+[2026-02-20 19:41:17.466] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : poteaux_var.png (894 bytes)
+[2026-02-20 19:41:17.513] [INFO    ] [ui.ribbon_builder   ]       Creer Poutres : script ecrit (v8)
+[2026-02-20 19:41:18.066] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : poutres.png (675 bytes)
+[2026-02-20 19:41:18.115] [INFO    ] [ui.ribbon_builder   ]       Creer Voiles : script ecrit (v17)
+[2026-02-20 19:41:18.665] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : voiles.png (616 bytes)
+[2026-02-20 19:41:18.683] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Poteaux Poutres Voiles Dalles 2 (1/4 items)
+[2026-02-20 19:41:19.242] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : structure.png (1409 bytes)
+[2026-02-20 19:41:19.267] [INFO    ] [ui.ribbon_builder   ]       Creer Dalles : script ecrit (v3)
+[2026-02-20 19:41:19.837] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : dalles.png (778 bytes)
+[2026-02-20 19:41:19.857] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 05_Elements Secondaires & Details.panel
+[2026-02-20 19:41:20.397] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : modelisation.png (1592 bytes)
+[2026-02-20 19:41:20.428] [INFO    ] [ui.ribbon_builder   ]       Rampes Garde-corps : script ecrit (v1)
+[2026-02-20 19:41:20.961] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : rampes.png (1531 bytes)
+[2026-02-20 19:41:20.983] [INFO    ] [ui.ribbon_builder   ]       Elements Prefabriques : script ecrit (v1)
+[2026-02-20 19:41:21.543] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : prefab.png (990 bytes)
+[2026-02-20 19:41:21.549] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Acroteres Joints Tremies
+[2026-02-20 19:41:22.071] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : details.png (668 bytes)
+[2026-02-20 19:41:22.100] [INFO    ] [ui.ribbon_builder   ]       Creer Acroteres : script ecrit (v1)
+[2026-02-20 19:41:22.618] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : acroteres.png (607 bytes)
+[2026-02-20 19:41:22.639] [INFO    ] [ui.ribbon_builder   ]       Joints Dilatation : script ecrit (v1)
+[2026-02-20 19:41:23.162] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : joints.png (1009 bytes)
+[2026-02-20 19:41:23.183] [INFO    ] [ui.ribbon_builder   ]       Creer Tremies : script ecrit (v1)
+[2026-02-20 19:41:23.722] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : tremies.png (796 bytes)
+[2026-02-20 19:41:23.731] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 06_Verification & Qualite.panel
+[2026-02-20 19:41:24.273] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : verification.png (1990 bytes)
+[2026-02-20 19:41:24.307] [INFO    ] [ui.ribbon_builder   ]       Verifier Regles Conformite : script ecrit (v1)
+[2026-02-20 19:41:24.844] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : regles.png (1142 bytes)
+[2026-02-20 19:41:24.855] [INFO    ] [ui.ribbon_builder   ]       Rapport Qualite Descente Charges : script ecrit (v1)
+[2026-02-20 19:41:25.388] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : descente.png (989 bytes)
+[2026-02-20 19:41:25.417] [INFO    ] [ui.ribbon_builder   ]       Export BCF Sync Centrale : script ecrit (v1)
+[2026-02-20 19:41:25.956] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : bcf.png (1200 bytes)
+[2026-02-20 19:41:25.979] [INFO    ] [ui.ribbon_builder   ]       Correction Auto Post-Import : script ecrit (v1)
+[2026-02-20 19:41:26.504] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : correction.png (1815 bytes)
+[2026-02-20 19:41:26.512] [INFO    ] [ui.ribbon_builder   ]       Visualiser Efforts Redimensionner : script ecrit (v1)
+[2026-02-20 19:41:27.042] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : efforts.png (1172 bytes)
+[2026-02-20 19:41:27.072] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Calcul Externe
+[2026-02-20 19:41:27.617] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : calcul.png (1262 bytes)
+[2026-02-20 19:41:27.647] [INFO    ] [ui.ribbon_builder   ]       Export Robot : script ecrit (v1)
+[2026-02-20 19:41:28.167] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : robot.png (1332 bytes)
+[2026-02-20 19:41:28.200] [INFO    ] [ui.ribbon_builder   ]       Import Resultats Efforts : script ecrit (v1)
+[2026-02-20 19:41:28.737] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : import_results.png (1184 bytes)
+[2026-02-20 19:41:28.745] [INFO    ] [ui.ribbon_builder   ]     SPLITBUTTON cree : Export Arche
+[2026-02-20 19:41:29.286] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : arche.png (1046 bytes)
+[2026-02-20 19:41:29.309] [INFO    ] [ui.ribbon_builder   ]       Export Arche Standard : script ecrit (v1)
+[2026-02-20 19:41:29.829] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : arche_std.png (1306 bytes)
+[2026-02-20 19:41:29.856] [INFO    ] [ui.ribbon_builder   ]       Export Arche Avance : script ecrit (v1)
+[2026-02-20 19:41:30.369] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : arche_adv.png (1328 bytes)
+[2026-02-20 19:41:30.377] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 07_Ferraillage & Coffrage.panel
+[2026-02-20 19:41:30.899] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferraillage.png (2248 bytes)
+[2026-02-20 19:41:30.931] [INFO    ] [ui.ribbon_builder   ]       Generer Notes Calcul : script ecrit (v1)
+[2026-02-20 19:41:31.468] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : notes.png (965 bytes)
+[2026-02-20 19:41:31.496] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Ferraillage
+[2026-02-20 19:41:32.012] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferraillage_menu.png (1180 bytes)
+[2026-02-20 19:41:32.031] [INFO    ] [ui.ribbon_builder   ]       Ferraillage Fondations : script ecrit (v1)
+[2026-02-20 19:41:32.581] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferr_fond.png (1179 bytes)
+[2026-02-20 19:41:32.605] [INFO    ] [ui.ribbon_builder   ]       Ferraillage Poteaux : script ecrit (v1)
+[2026-02-20 19:41:33.162] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferr_pot.png (1180 bytes)
+[2026-02-20 19:41:33.185] [INFO    ] [ui.ribbon_builder   ]       Ferraillage Poutres : script ecrit (v1)
+[2026-02-20 19:41:33.724] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferr_pout.png (1322 bytes)
+[2026-02-20 19:41:33.734] [INFO    ] [ui.ribbon_builder   ]       Ferraillage Dalles : script ecrit (v1)
+[2026-02-20 19:41:34.249] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferr_dall.png (1079 bytes)
+[2026-02-20 19:41:34.282] [INFO    ] [ui.ribbon_builder   ]       Ferraillage Voiles : script ecrit (v1)
+[2026-02-20 19:41:34.816] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferr_voil.png (1173 bytes)
+[2026-02-20 19:41:34.841] [INFO    ] [ui.ribbon_builder   ]       Ferraillage Escaliers : script ecrit (v1)
+[2026-02-20 19:41:35.366] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : ferr_esc.png (797 bytes)
+[2026-02-20 19:41:35.372] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Coffrage Details
+[2026-02-20 19:41:35.892] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : coffrage_det.png (994 bytes)
+[2026-02-20 19:41:35.927] [INFO    ] [ui.ribbon_builder   ]       Plans Coffrage : script ecrit (v1)
+[2026-02-20 19:41:36.462] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : plans_coff.png (1372 bytes)
+[2026-02-20 19:41:36.481] [INFO    ] [ui.ribbon_builder   ]       Cotations Auto : script ecrit (v1)
+[2026-02-20 19:41:37.021] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : cotations.png (852 bytes)
+[2026-02-20 19:41:37.031] [INFO    ] [ui.ribbon_builder   ]       Reperage Auto : script ecrit (v1)
+[2026-02-20 19:41:37.562] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : reperage.png (992 bytes)
+[2026-02-20 19:41:37.590] [INFO    ] [ui.ribbon_builder   ]       Details Coffrage : script ecrit (v1)
+[2026-02-20 19:41:38.113] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : details_coff.png (1318 bytes)
+[2026-02-20 19:41:38.137] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 08_Documentation & Export.panel
+[2026-02-20 19:41:38.668] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : coordination.png (1713 bytes)
+[2026-02-20 19:41:38.701] [INFO    ] [ui.ribbon_builder   ]       Nomenclatures Metres : script ecrit (v1)
+[2026-02-20 19:41:39.238] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : nomenclatures.png (1051 bytes)
+[2026-02-20 19:41:39.262] [INFO    ] [ui.ribbon_builder   ]       Annotations Cotations Auto : script ecrit (v1)
+[2026-02-20 19:41:39.825] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : annotations.png (883 bytes)
+[2026-02-20 19:41:39.865] [INFO    ] [ui.ribbon_builder   ]       Mise en Page Cartouche : script ecrit (v1)
+[2026-02-20 19:41:40.391] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : cartouche.png (774 bytes)
+[2026-02-20 19:41:40.398] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Vues Templates
+[2026-02-20 19:41:40.945] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : vues.png (1058 bytes)
+[2026-02-20 19:41:40.978] [INFO    ] [ui.ribbon_builder   ]       Creer Plans Etage : script ecrit (v1)
+[2026-02-20 19:41:41.499] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : plans_etage.png (787 bytes)
+[2026-02-20 19:41:41.528] [INFO    ] [ui.ribbon_builder   ]       Creer Coupes Structure : script ecrit (v1)
+[2026-02-20 19:41:42.115] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : coupes.png (1134 bytes)
+[2026-02-20 19:41:42.136] [INFO    ] [ui.ribbon_builder   ]       Creer 3D Armatures : script ecrit (v1)
+[2026-02-20 19:41:42.656] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : 3d_armatures.png (926 bytes)
+[2026-02-20 19:41:42.664] [INFO    ] [ui.ribbon_builder   ]       Autres Vues : script ecrit (v1)
+[2026-02-20 19:41:43.181] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : autres_vues.png (1506 bytes)
+[2026-02-20 19:41:43.202] [INFO    ] [ui.ribbon_builder   ]     PULLDOWN cree : Impression Export
+[2026-02-20 19:41:43.787] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : impression.png (980 bytes)
+[2026-02-20 19:41:43.810] [INFO    ] [ui.ribbon_builder   ]       Impression PDF DWG : script ecrit (v1)
+[2026-02-20 19:41:44.351] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : pdf_dwg.png (764 bytes)
+[2026-02-20 19:41:44.383] [INFO    ] [ui.ribbon_builder   ]       Export Autres : script ecrit (v1)
+[2026-02-20 19:41:44.918] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : export_autres.png (701 bytes)
+[2026-02-20 19:41:44.927] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 09_Outils Avances & Admin.panel
+[2026-02-20 19:41:45.461] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : calcul.png (2251 bytes)
+[2026-02-20 19:41:45.495] [INFO    ] [ui.ribbon_builder   ]       Bibliotheque Outils Divers : script ecrit (v1)
+[2026-02-20 19:41:46.027] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : bibliotheque.png (845 bytes)
+[2026-02-20 19:41:46.058] [INFO    ] [ui.ribbon_builder   ]     STACK cree : Console Logs Parametres
+[2026-02-20 19:41:46.588] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : console.png (705 bytes)
+[2026-02-20 19:41:46.620] [INFO    ] [ui.ribbon_builder   ]       Console : script ecrit (v9)
+[2026-02-20 19:41:47.192] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : console_ico.png (1069 bytes)
+[2026-02-20 19:41:47.201] [INFO    ] [ui.ribbon_builder   ]       Logs : script ecrit (v1)
+[2026-02-20 19:41:47.766] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : logs.png (1207 bytes)
+[2026-02-20 19:41:47.793] [INFO    ] [ui.ribbon_builder   ]       Parametres : script ecrit (v1)
+[2026-02-20 19:41:48.313] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : parametres.png (1649 bytes)
+[2026-02-20 19:41:48.340] [INFO    ] [ui.ribbon_builder   ]   Panel cree : 10_Aide & Feedback.panel
+[2026-02-20 19:41:48.886] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : aide.png (3042 bytes)
+[2026-02-20 19:41:48.928] [INFO    ] [ui.ribbon_builder   ]       Aide : script ecrit (v1)
+[2026-02-20 19:41:49.474] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : aide.png (1571 bytes)
+[2026-02-20 19:41:49.482] [INFO    ] [ui.ribbon_builder   ]       Feedback : script ecrit (v1)
+[2026-02-20 19:41:50.001] [INFO    ] [ui.ribbon_builder   ]       Icone telechargee : feedback.png (1607 bytes)
+[2026-02-20 19:41:50.032] [INFO    ] [ui.ribbon_builder   ] Ruban construit : 10 panels, 67 scripts ecrits, 0 en cache, 92 icones reelles, 0 placeholders, 92 YAML
+[2026-02-20 19:41:50.057] [INFO    ] [Login               ] ✅ Scripts: 67 écrits, 0 en cache | Icônes: 92
+[2026-02-20 19:41:50.143] [INFO    ] [Login               ] 💾 Config sauvegardée en cache
+[2026-02-20 19:41:58.303] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:41:58.338] [INFO    ] [Startup             ] DEMARRAGE AUTOREVIT EXTENSION v5.0
+[2026-02-20 19:41:58.339] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:41:58.363] [INFO    ] [Startup             ] [1/3] Configuration chargee
+[2026-02-20 19:41:58.365] [INFO    ] [Startup             ]   Revit version : 2024
+[2026-02-20 19:41:58.366] [INFO    ] [Startup             ]   API URL       : https://autorevit-production.up.railway.app/api/v1
+[2026-02-20 19:41:58.368] [INFO    ] [Startup             ]   Cache dir     : C:/Users/ben-y/AppData/Roaming/pyRevit/AutoRevit/cache
+[2026-02-20 19:41:58.369] [INFO    ] [Startup             ] [2/3] Verification session...
+[2026-02-20 19:41:58.373] [INFO    ] [Startup             ]   Session trouvee : Oui
+[2026-02-20 19:41:58.375] [INFO    ] [Startup             ] [3/3] Validation token API...
+[2026-02-20 19:42:00.257] [INFO    ] [Startup             ]   Connecte : admin [{'id': 1, 'code': 'ADMIN', 'name': u'Administrateur syst\xe8me', 'role_type': 'ADMIN'}]
+[2026-02-20 19:42:00.274] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:42:00.285] [INFO    ] [Startup             ] AUTOREVIT PRET
+[2026-02-20 19:42:00.288] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:44:23.992] [INFO    ] [Logout              ] Deconnexion de : Utilisateur
+[2026-02-20 19:44:24.074] [INFO    ] [Logout              ] Session effacee
+[2026-02-20 19:44:24.088] [INFO    ] [Logout              ] Panel supprime : 01_Projet & Initialisation.panel
+[2026-02-20 19:44:24.109] [INFO    ] [Logout              ] Panel supprime : 02_Analyse & Diagnostic.panel
+[2026-02-20 19:44:24.118] [INFO    ] [Logout              ] Panel supprime : 03_Charges & Combinaisons.panel
+[2026-02-20 19:44:24.138] [INFO    ] [Logout              ] Panel supprime : 04_Structure Principale.panel
+[2026-02-20 19:44:24.147] [INFO    ] [Logout              ] Panel supprime : 05_Elements Secondaires & Details.panel
+[2026-02-20 19:44:24.161] [INFO    ] [Logout              ] Panel supprime : 06_Verification & Qualite.panel
+[2026-02-20 19:44:24.214] [INFO    ] [Logout              ] Panel supprime : 07_Ferraillage & Coffrage.panel
+[2026-02-20 19:44:24.234] [INFO    ] [Logout              ] Panel supprime : 08_Documentation & Export.panel
+[2026-02-20 19:44:24.246] [INFO    ] [Logout              ] Panel supprime : 09_Outils Avances & Admin.panel
+[2026-02-20 19:44:24.251] [INFO    ] [Logout              ] Panel supprime : 10_Aide & Feedback.panel
+[2026-02-20 19:44:24.256] [INFO    ] [Logout              ] 10 panels dynamiques supprimes
+[2026-02-20 19:44:24.261] [INFO    ] [Logout              ] Cache UI supprime
+[2026-02-20 19:44:31.262] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:44:31.317] [INFO    ] [Startup             ] DEMARRAGE AUTOREVIT EXTENSION v5.0
+[2026-02-20 19:44:31.319] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:44:31.334] [INFO    ] [Startup             ] [1/3] Configuration chargee
+[2026-02-20 19:44:31.335] [INFO    ] [Startup             ]   Revit version : 2024
+[2026-02-20 19:44:31.337] [INFO    ] [Startup             ]   API URL       : https://autorevit-production.up.railway.app/api/v1
+[2026-02-20 19:44:31.337] [INFO    ] [Startup             ]   Cache dir     : C:/Users/ben-y/AppData/Roaming/pyRevit/AutoRevit/cache
+[2026-02-20 19:44:31.340] [INFO    ] [Startup             ] [2/3] Verification session...
+[2026-02-20 19:44:31.345] [INFO    ] [Startup             ]   Session trouvee : Non
+[2026-02-20 19:44:31.350] [INFO    ] [Startup             ]   Aucune session active
+[2026-02-20 19:44:31.352] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:44:31.372] [INFO    ] [Startup             ] AUTOREVIT PRET (non connecte)
+[2026-02-20 19:44:31.385] [INFO    ] [Startup             ]   Cliquez sur 'Se connecter' pour demarrer
+[2026-02-20 19:44:31.387] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:56:31.881] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:56:31.918] [INFO    ] [Startup             ] DEMARRAGE AUTOREVIT EXTENSION v5.0
+[2026-02-20 19:56:31.934] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:56:31.944] [INFO    ] [Startup             ] [1/3] Configuration chargee
+[2026-02-20 19:56:31.944] [INFO    ] [Startup             ]   Revit version : 2024
+[2026-02-20 19:56:31.949] [INFO    ] [Startup             ]   API URL       : https://autorevit-production.up.railway.app/api/v1
+[2026-02-20 19:56:31.949] [INFO    ] [Startup             ]   Cache dir     : C:/Users/ben-y/AppData/Roaming/pyRevit/AutoRevit/cache
+[2026-02-20 19:56:31.949] [INFO    ] [Startup             ] [2/3] Verification session...
+[2026-02-20 19:56:31.949] [INFO    ] [Startup             ]   Session trouvee : Non
+[2026-02-20 19:56:31.965] [INFO    ] [Startup             ]   Aucune session active
+[2026-02-20 19:56:31.965] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 19:56:31.965] [INFO    ] [Startup             ] AUTOREVIT PRET (non connecte)
+[2026-02-20 19:56:31.965] [INFO    ] [Startup             ]   Cliquez sur 'Se connecter' pour demarrer
+[2026-02-20 19:56:31.965] [INFO    ] [Startup             ] ============================================================
+[2026-02-20 20:08:44.170] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-20 20:08:44.216] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-20 20:08:44.268] [INFO    ] [services.logging_service] LoggingService initialise - Session: 7685e843
+[2026-02-20 20:08:44.302] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=187mm pour 400x400
+[2026-02-20 20:08:44.310] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau primer nivel
+[2026-02-20 20:08:44.338] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 20:08:44.346] [INFO    ] [services.logging_service] [INFO] 30 points de placement trouves
+[2026-02-20 20:08:44.354] [INFO    ] [services.logging_service] [INFO] check_existing 'primer nivel' : 0 existants, 0 doublons, 30 nouveaux
+[2026-02-20 20:08:44.797] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=97mm pour 300x400
+[2026-02-20 20:08:44.831] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau PLANT 1
+[2026-02-20 20:08:44.837] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 20:08:44.840] [INFO    ] [services.logging_service] [INFO] 30 points de placement trouves
+[2026-02-20 20:08:44.847] [INFO    ] [services.logging_service] [INFO] check_existing 'PLANT 1' : 0 existants, 0 doublons, 30 nouveaux
+[2026-02-20 20:08:44.983] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=97mm pour 250x350
+[2026-02-20 20:08:45.000] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau PLANT 2
+[2026-02-20 20:08:45.016] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 20:08:45.038] [INFO    ] [services.logging_service] [INFO] 30 points de placement trouves
+[2026-02-20 20:08:45.042] [INFO    ] [services.logging_service] [INFO] check_existing 'PLANT 2' : 0 existants, 0 doublons, 30 nouveaux
+[2026-02-20 20:08:45.175] [INFO    ] [services.logging_service] [INFO] Famille selectionnee diff=113mm pour 250x250
+[2026-02-20 20:08:45.193] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau nivel -17
+[2026-02-20 20:08:45.207] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 20:08:45.210] [INFO    ] [services.logging_service] [INFO] 30 points de placement trouves
+[2026-02-20 20:08:45.219] [INFO    ] [services.logging_service] [INFO] check_existing 'nivel -17' : 0 existants, 0 doublons, 30 nouveaux
+[2026-02-20 20:08:45.313] [INFO    ] [services.logging_service] [INFO] Recherche points placement pour niveau PLANT 3
+[2026-02-20 20:08:45.334] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone batiment exclus
+[2026-02-20 20:08:45.346] [INFO    ] [services.logging_service] [INFO] 30 points de placement trouves
+[2026-02-20 20:08:45.354] [INFO    ] [services.logging_service] [INFO] check_existing 'PLANT 3' : 0 existants, 0 doublons, 30 nouveaux

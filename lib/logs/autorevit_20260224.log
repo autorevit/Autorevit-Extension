@@ -1,0 +1,363 @@
+[2026-02-24 11:53:42.676] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-24 11:53:42.721] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-24 11:53:42.754] [INFO    ] [services.logging_service] LoggingService initialise - Session: 4bbfd012
+[2026-02-24 11:53:42.895] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-24 11:53:58.666] [INFO    ] [services.logging_service] [INFO] === Placement v3.6 - PLANT 2 (h=3000mm) ===
+[2026-02-24 11:53:58.768] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-24 11:53:58.792] [INFO    ] [services.logging_service] [INFO] Pieces detectees : 0
+[2026-02-24 11:53:58.838] [INFO    ] [services.logging_service] [INFO] Murs: 44 segments | 26 coins detectes
+[2026-02-24 11:53:58.865] [INFO    ] [services.logging_service] [INFO]   Coins : (7.8,5.8)  (7.8,-1.5)  (3.1,-0.6)  (3.1,1.4)  (3.1,-1.5)  (3.1,5.8)  (3.1,2.5)  (-5.1,5.0)
+[2026-02-24 11:53:58.875] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m  max=8.0m
+[2026-02-24 11:53:58.877] [INFO    ] [services.logging_service] [INFO]   Filtre mur : tol=0.15m (15cm) | decalage=10.0m | glissement=8.0m
+[2026-02-24 11:53:58.896] [INFO    ] [services.logging_service] [INFO]   Cache intersections : 120 points (V x H, sans filtre)
+[2026-02-24 11:53:58.909] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-24 11:53:58.962] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-10.36m,-3.52m) [dist=1.00m]
+[2026-02-24 11:53:58.988] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-10.36m,2.48m) [dist=3.34m]
+[2026-02-24 11:53:59.005] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-3.03m,-2.33m) [dist=0.84m]
+[2026-02-24 11:53:59.033] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (5.33m,-4.52m) [dist=2.46m]
+[2026-02-24 11:53:59.062] [INFO    ] [services.logging_service] [INFO]   Intersections: 96 rej | 20 mur | 4 decales | 0 glisses | 0 proj | 0 pieces
+[2026-02-24 11:53:59.071] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 23 points
+[2026-02-24 11:53:59.086] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,-0.56m) : trop proche (1.39m < 1.0m), ignore
+[2026-02-24 11:53:59.091] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,1.40m) : trop proche (1.49m < 1.0m), ignore
+[2026-02-24 11:53:59.093] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,-1.49m) : trop proche (1.04m < 1.0m), ignore
+[2026-02-24 11:53:59.095] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,5.83m) : trop proche (1.04m < 1.0m), ignore
+[2026-02-24 11:53:59.098] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,2.49m) : trop proche (1.02m < 1.0m), ignore
+[2026-02-24 11:53:59.105] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,5.04m) : trop proche (1.49m < 1.0m), ignore
+[2026-02-24 11:53:59.110] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,2.49m) : trop proche (1.27m < 1.0m), ignore
+[2026-02-24 11:53:59.123] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,1.40m) : trop proche (1.08m < 1.0m), ignore
+[2026-02-24 11:53:59.132] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,1.40m) : trop proche (1.53m < 1.0m), ignore
+[2026-02-24 11:53:59.139] [INFO    ] [services.logging_service] [INFO]   Coin (-10.36m,-2.33m) : trop proche (0.84m < 1.0m), ignore
+[2026-02-24 11:53:59.148] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,-2.33m) : trop proche (0.84m < 1.0m), ignore
+[2026-02-24 11:53:59.156] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,2.48m) : trop proche (1.09m < 1.0m), ignore
+[2026-02-24 11:53:59.165] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-0.55m) : trop proche (2.08m < 1.0m), ignore
+[2026-02-24 11:53:59.172] [INFO    ] [services.logging_service] [INFO]   Coin (-6.39m,-3.48m) : trop proche (1.04m < 1.0m), ignore
+[2026-02-24 11:53:59.190] [INFO    ] [services.logging_service] [INFO]   Coin (5.33m,-1.49m) : trop proche (1.16m < 1.0m), ignore
+[2026-02-24 11:53:59.200] [INFO    ] [services.logging_service] [INFO]   Coin (-6.37m,0.36m) : trop proche (1.85m < 1.0m), ignore
+[2026-02-24 11:53:59.210] [INFO    ] [services.logging_service] [INFO]   Coin (-2.06m,0.36m) : trop proche (2.32m < 1.0m), ignore
+[2026-02-24 11:53:59.222] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-1.49m) : trop proche (1.37m < 1.0m), ignore
+[2026-02-24 11:53:59.264] [INFO    ] [services.logging_service] [INFO]   Poteaux trop proches supprimes : 3 (espacement min 3.0m)
+[2026-02-24 11:53:59.270] [INFO    ] [services.logging_service] [INFO]   Apres espacement min : 20 points
+[2026-02-24 11:53:59.280] [INFO    ] [services.logging_service] [INFO]   (Premier niveau - pas de contrainte de continuite)
+[2026-02-24 11:53:59.294] [INFO    ] [services.logging_service] [INFO]   Snap conditionnel : 20 points
+[2026-02-24 11:53:59.305] [INFO    ] [services.logging_service] [INFO] ==> TOTAL PLANT 2 : 20 poteaux
+[2026-02-24 11:53:59.317] [INFO    ] [services.logging_service] [INFO] 'PLANT 2': 0 exist | 0 dups | 20 new
+[2026-02-24 11:53:59.344] [INFO    ] [services.logging_service] [INFO] Famille: 305x305x97UC (400x400mm)
+[2026-02-24 12:05:11.370] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-24 12:05:11.391] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-24 12:05:11.402] [INFO    ] [services.logging_service] LoggingService initialise - Session: 03ef203d
+[2026-02-24 12:05:11.477] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-24 12:05:22.716] [INFO    ] [services.logging_service] [INFO] === Placement v3.6b - PLANT 2 (h=3000mm) ===
+[2026-02-24 12:05:22.817] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-24 12:05:22.826] [INFO    ] [services.logging_service] [INFO] === PIECES DETECTEES : 0 ===
+[2026-02-24 12:05:22.846] [INFO    ] [services.logging_service] [INFO] Murs: 44 segments | 26 coins detectes
+[2026-02-24 12:05:22.868] [INFO    ] [services.logging_service] [INFO]   Coins : (7.8,5.8)  (7.8,-1.5)  (3.1,-0.6)  (3.1,1.4)  (3.1,-1.5)  (3.1,5.8)  (3.1,2.5)  (-5.1,5.0)
+[2026-02-24 12:05:22.871] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m  max=8.0m
+[2026-02-24 12:05:22.872] [INFO    ] [services.logging_service] [INFO]   Filtre mur : tol=0.05m (5cm) | decalage=10.0m | glissement=8.0m
+[2026-02-24 12:05:22.885] [INFO    ] [services.logging_service] [INFO]   Cache intersections : 120 points (V x H, sans filtre)
+[2026-02-24 12:05:22.895] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-24 12:05:22.925] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-10.36m,-3.52m) [dist=1.00m]
+[2026-02-24 12:05:22.960] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-10.36m,2.48m) [dist=3.34m]
+[2026-02-24 12:05:22.986] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-3.03m,-2.33m) [dist=0.84m]
+[2026-02-24 12:05:22.997] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (5.33m,-4.52m) [dist=2.46m]
+[2026-02-24 12:05:23.014] [INFO    ] [services.logging_service] [INFO]   Intersections: 96 rej axes | 20 mur | 4 decales | 0 glisses | 0 proj | 0 pieces ignores
+[2026-02-24 12:05:23.022] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 23 points
+[2026-02-24 12:05:23.035] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,-0.56m) : trop proche (1.39m < 1.0m), ignore
+[2026-02-24 12:05:23.039] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,1.40m) : trop proche (1.49m < 1.0m), ignore
+[2026-02-24 12:05:23.044] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,-1.49m) : trop proche (1.04m < 1.0m), ignore
+[2026-02-24 12:05:23.046] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,5.83m) : trop proche (1.04m < 1.0m), ignore
+[2026-02-24 12:05:23.049] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,2.49m) : trop proche (1.02m < 1.0m), ignore
+[2026-02-24 12:05:23.066] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,5.04m) : trop proche (1.49m < 1.0m), ignore
+[2026-02-24 12:05:23.070] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,2.49m) : trop proche (1.27m < 1.0m), ignore
+[2026-02-24 12:05:23.077] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,1.40m) : trop proche (1.08m < 1.0m), ignore
+[2026-02-24 12:05:23.082] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,1.40m) : trop proche (1.53m < 1.0m), ignore
+[2026-02-24 12:05:23.088] [INFO    ] [services.logging_service] [INFO]   Coin (-10.36m,-2.33m) : trop proche (0.84m < 1.0m), ignore
+[2026-02-24 12:05:23.096] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,-2.33m) : trop proche (0.84m < 1.0m), ignore
+[2026-02-24 12:05:23.102] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,2.48m) : trop proche (1.09m < 1.0m), ignore
+[2026-02-24 12:05:23.111] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-0.55m) : trop proche (2.08m < 1.0m), ignore
+[2026-02-24 12:05:23.118] [INFO    ] [services.logging_service] [INFO]   Coin (-6.39m,-3.48m) : trop proche (1.04m < 1.0m), ignore
+[2026-02-24 12:05:23.126] [INFO    ] [services.logging_service] [INFO]   Coin (5.33m,-1.49m) : trop proche (1.16m < 1.0m), ignore
+[2026-02-24 12:05:23.136] [INFO    ] [services.logging_service] [INFO]   Coin (-6.37m,0.36m) : trop proche (1.85m < 1.0m), ignore
+[2026-02-24 12:05:23.144] [INFO    ] [services.logging_service] [INFO]   Coin (-2.06m,0.36m) : trop proche (2.32m < 1.0m), ignore
+[2026-02-24 12:05:23.152] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-1.49m) : trop proche (1.37m < 1.0m), ignore
+[2026-02-24 12:05:23.167] [INFO    ] [services.logging_service] [INFO]   Poteaux trop proches supprimes : 3 (espacement min 3.0m)
+[2026-02-24 12:05:23.172] [INFO    ] [services.logging_service] [INFO]   Apres espacement min : 20 points
+[2026-02-24 12:05:23.180] [INFO    ] [services.logging_service] [INFO]   (Premier niveau - pas de contrainte de continuite)
+[2026-02-24 12:05:23.193] [INFO    ] [services.logging_service] [INFO]   Snap conditionnel : 20 points
+[2026-02-24 12:05:23.204] [INFO    ] [services.logging_service] [INFO]   Apres filtre mur : 20 points
+[2026-02-24 12:05:23.234] [INFO    ] [services.logging_service] [INFO] ==> TOTAL FINAL PLANT 2 : 20 poteaux
+[2026-02-24 12:05:23.240] [INFO    ] [services.logging_service] [INFO] 'PLANT 2': 0 exist | 0 dups | 20 new
+[2026-02-24 12:05:23.251] [INFO    ] [services.logging_service] [INFO] Famille: 305x305x97UC (400x400mm)
+[2026-02-24 12:28:44.259] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-24 12:28:44.308] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-24 12:28:44.325] [INFO    ] [services.logging_service] LoggingService initialise - Session: 2485355b
+[2026-02-24 12:28:44.403] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-24 12:28:52.437] [INFO    ] [services.logging_service] [INFO] === Placement v3.6c - PLANT 2 (h=3000mm) ===
+[2026-02-24 12:28:52.549] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-24 12:28:52.609] [INFO    ] [services.logging_service] [INFO] === PIECES DETECTEES : 0 ===
+[2026-02-24 12:28:52.632] [INFO    ] [services.logging_service] [INFO] Murs structurels: 22 segments | 10 coins detectes
+[2026-02-24 12:28:52.638] [INFO    ] [services.logging_service] [INFO]   (Filtre: hauteur > 2.5m ou parametre structural)
+[2026-02-24 12:28:52.652] [INFO    ] [services.logging_service] [INFO]   Coins : (7.8,5.8)  (3.1,-0.6)  (3.1,5.8)  (3.2,2.5)  (-5.1,5.0)  (-5.1,2.5)  (-10.4,2.5)  (-6.4,1.4)
+[2026-02-24 12:28:52.657] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m  max=8.0m
+[2026-02-24 12:28:52.665] [INFO    ] [services.logging_service] [INFO]   Filtre mur : tol=0.05m (5cm) | hauteur min=2.5m
+[2026-02-24 12:28:52.688] [INFO    ] [services.logging_service] [INFO]   Cache intersections : 120 points (V x H, sans filtre)
+[2026-02-24 12:28:52.713] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-24 12:28:52.750] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-10.36m,-3.52m) [dist=1.00m]
+[2026-02-24 12:28:52.774] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-10.36m,2.48m) [dist=3.34m]
+[2026-02-24 12:28:52.779] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-6.41m,-2.33m) [dist=2.19m]
+[2026-02-24 12:28:52.792] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-5.14m,5.04m) [dist=1.49m]
+[2026-02-24 12:28:52.820] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-1.99m,-3.52m) [dist=1.45m]
+[2026-02-24 12:28:52.827] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-3.03m,-2.33m) [dist=0.84m]
+[2026-02-24 12:28:52.839] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-3.03m,5.04m) [dist=0.78m]
+[2026-02-24 12:28:52.871] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-1.99m,-3.52m) [dist=2.45m]
+[2026-02-24 12:28:52.880] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-1.99m,-1.49m) [dist=2.24m]
+[2026-02-24 12:28:52.890] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (0.25m,5.04m) [dist=0.78m]
+[2026-02-24 12:28:52.913] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (3.14m,-1.49m) [dist=3.20m]
+[2026-02-24 12:28:52.920] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (4.17m,-0.55m) [dist=0.94m]
+[2026-02-24 12:28:52.930] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (7.80m,-1.49m) [dist=3.03m]
+[2026-02-24 12:28:52.963] [INFO    ] [services.logging_service] [INFO]   Intersections: 96 rej axes | 11 mur | 13 decales | 0 glisses | 0 proj | 0 pieces ignores
+[2026-02-24 12:28:52.974] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 21 points
+[2026-02-24 12:28:52.989] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,-0.56m) : trop proche (0.93m < 1.0m), ignore
+[2026-02-24 12:28:52.997] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,5.82m) : trop proche (1.04m < 1.0m), ignore
+[2026-02-24 12:28:53.006] [INFO    ] [services.logging_service] [INFO]   Coin (3.21m,2.49m) : trop proche (0.96m < 1.0m), ignore
+[2026-02-24 12:28:53.014] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,2.49m) : trop proche (1.27m < 1.0m), ignore
+[2026-02-24 12:28:53.025] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,1.40m) : trop proche (1.08m < 1.0m), ignore
+[2026-02-24 12:28:53.035] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,2.49m) : trop proche (1.09m < 1.0m), ignore
+[2026-02-24 12:28:53.059] [INFO    ] [services.logging_service] [INFO]   Poteaux trop proches supprimes : 8 (espacement min 3.0m)
+[2026-02-24 12:28:53.092] [INFO    ] [services.logging_service] [INFO]   Apres espacement min : 13 points
+[2026-02-24 12:28:53.102] [INFO    ] [services.logging_service] [INFO]   (Premier niveau - pas de contrainte de continuite)
+[2026-02-24 12:28:53.112] [INFO    ] [services.logging_service] [INFO]   Snap conditionnel : 13 points
+[2026-02-24 12:28:53.122] [INFO    ] [services.logging_service] [INFO]   Apres filtre mur : 13 points
+[2026-02-24 12:28:53.131] [INFO    ] [services.logging_service] [INFO] ==> TOTAL FINAL PLANT 2 : 13 poteaux
+[2026-02-24 12:28:53.142] [INFO    ] [services.logging_service] [INFO] 'PLANT 2': 0 exist | 0 dups | 13 new
+[2026-02-24 12:28:53.158] [INFO    ] [services.logging_service] [INFO] Famille: 305x305x97UC (400x400mm)
+[2026-02-24 12:32:54.117] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-24 12:32:54.195] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-24 12:32:54.219] [INFO    ] [services.logging_service] LoggingService initialise - Session: dd79c351
+[2026-02-24 12:32:54.363] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-24 12:35:31.218] [INFO    ] [services.logging_service] [INFO] === Placement v3.6c - TECHO 1 NIVEL (h=3000mm) ===
+[2026-02-24 12:35:31.355] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-24 12:35:31.368] [INFO    ] [services.logging_service] [INFO] === PIECES DETECTEES : 0 ===
+[2026-02-24 12:35:31.405] [INFO    ] [services.logging_service] [INFO] Murs structurels: 22 segments | 10 coins detectes
+[2026-02-24 12:35:31.446] [INFO    ] [services.logging_service] [INFO]   (Filtre: hauteur > 2.5m ou parametre structural)
+[2026-02-24 12:35:31.452] [INFO    ] [services.logging_service] [INFO]   Coins : (7.8,5.8)  (3.1,-0.6)  (3.1,5.8)  (3.2,2.5)  (-5.1,5.0)  (-5.1,2.5)  (-10.4,2.5)  (-6.4,1.4)
+[2026-02-24 12:35:31.458] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m  max=8.0m
+[2026-02-24 12:35:31.466] [INFO    ] [services.logging_service] [INFO]   Filtre mur : tol=0.05m (5cm) | hauteur min=2.5m
+[2026-02-24 12:35:31.491] [INFO    ] [services.logging_service] [INFO]   Cache intersections : 120 points (V x H, sans filtre)
+[2026-02-24 12:35:31.512] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-24 12:35:31.571] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-10.36m,-3.52m) [dist=1.00m]
+[2026-02-24 12:35:31.580] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-10.36m,2.48m) [dist=3.34m]
+[2026-02-24 12:35:31.599] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-6.41m,-2.33m) [dist=2.19m]
+[2026-02-24 12:35:31.637] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-5.14m,5.04m) [dist=1.49m]
+[2026-02-24 12:35:31.647] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-1.99m,-3.52m) [dist=1.45m]
+[2026-02-24 12:35:31.690] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-3.03m,-2.33m) [dist=0.84m]
+[2026-02-24 12:35:31.699] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-3.03m,5.04m) [dist=0.78m]
+[2026-02-24 12:35:31.710] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-1.99m,-3.52m) [dist=2.45m]
+[2026-02-24 12:35:31.754] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-1.99m,-1.49m) [dist=2.24m]
+[2026-02-24 12:35:31.765] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (0.25m,5.04m) [dist=0.78m]
+[2026-02-24 12:35:31.779] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (3.14m,-1.49m) [dist=3.20m]
+[2026-02-24 12:35:31.808] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (4.17m,-0.55m) [dist=0.94m]
+[2026-02-24 12:35:31.814] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (7.80m,-1.49m) [dist=3.03m]
+[2026-02-24 12:35:31.825] [INFO    ] [services.logging_service] [INFO]   Intersections: 96 rej axes | 11 mur | 13 decales | 0 glisses | 0 proj | 0 pieces ignores
+[2026-02-24 12:35:31.845] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 21 points
+[2026-02-24 12:35:31.895] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,-0.56m) : trop proche (0.93m < 1.0m), ignore
+[2026-02-24 12:35:31.906] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,5.82m) : trop proche (1.04m < 1.0m), ignore
+[2026-02-24 12:35:31.915] [INFO    ] [services.logging_service] [INFO]   Coin (3.21m,2.49m) : trop proche (0.96m < 1.0m), ignore
+[2026-02-24 12:35:31.924] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,2.49m) : trop proche (1.27m < 1.0m), ignore
+[2026-02-24 12:35:31.936] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,1.40m) : trop proche (1.08m < 1.0m), ignore
+[2026-02-24 12:35:31.946] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,2.49m) : trop proche (1.09m < 1.0m), ignore
+[2026-02-24 12:35:31.972] [INFO    ] [services.logging_service] [INFO]   Poteaux trop proches supprimes : 8 (espacement min 3.0m)
+[2026-02-24 12:35:31.983] [INFO    ] [services.logging_service] [INFO]   Apres espacement min : 13 points
+[2026-02-24 12:35:31.987] [INFO    ] [services.logging_service] [INFO]   (Premier niveau - pas de contrainte de continuite)
+[2026-02-24 12:35:31.999] [INFO    ] [services.logging_service] [INFO]   Snap conditionnel : 13 points
+[2026-02-24 12:35:32.011] [INFO    ] [services.logging_service] [INFO]   Apres filtre mur : 13 points
+[2026-02-24 12:35:32.019] [INFO    ] [services.logging_service] [INFO] ==> TOTAL FINAL TECHO 1 NIVEL : 13 poteaux
+[2026-02-24 12:35:32.033] [INFO    ] [services.logging_service] [INFO] 'TECHO 1 NIVEL': 0 exist | 0 dups | 13 new
+[2026-02-24 12:35:32.053] [INFO    ] [services.logging_service] [INFO] Famille: 305x305x97UC (400x400mm)
+[2026-02-24 12:41:44.711] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-24 12:41:44.758] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-24 12:41:44.772] [INFO    ] [services.logging_service] LoggingService initialise - Session: 7febbc77
+[2026-02-24 12:41:44.831] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-24 12:42:26.867] [INFO    ] [services.logging_service] [INFO] === Placement v3.6d - PLANT 2 (h=3000mm) ===
+[2026-02-24 12:42:26.995] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-24 12:42:27.076] [INFO    ] [services.logging_service] [INFO] === PIECES DETECTEES : 0 ===
+[2026-02-24 12:42:27.082] [WARN    ] [services.logging_service] [WARNING] ATTENTION: Aucune piece detectee! Verifiez que les pieces sont creees dans Revit.
+[2026-02-24 12:42:27.112] [INFO    ] [services.logging_service] [INFO] Murs structurels: 22 segments | 10 coins detectes
+[2026-02-24 12:42:27.117] [INFO    ] [services.logging_service] [INFO]   (Filtre: hauteur > 2.5m ou parametre structural)
+[2026-02-24 12:42:27.123] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m max=8.0m
+[2026-02-24 12:42:27.128] [INFO    ] [services.logging_service] [INFO]   Filtre mur : tol=0.05m | hauteur min=2.5m
+[2026-02-24 12:42:27.162] [INFO    ] [services.logging_service] [INFO]   Cache intersections : 120 points (V x H, sans filtre)
+[2026-02-24 12:42:27.226] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-24 12:42:27.267] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-10.36m,-3.52m) [dist=1.00m]
+[2026-02-24 12:42:27.315] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-10.36m,2.48m) [dist=3.34m]
+[2026-02-24 12:42:27.331] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-6.41m,-2.33m) [dist=2.19m]
+[2026-02-24 12:42:27.346] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-5.14m,5.04m) [dist=1.49m]
+[2026-02-24 12:42:27.396] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-1.99m,-3.52m) [dist=1.45m]
+[2026-02-24 12:42:27.413] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-3.03m,-2.33m) [dist=0.84m]
+[2026-02-24 12:42:27.426] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-3.03m,5.04m) [dist=0.78m]
+[2026-02-24 12:42:27.496] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-1.99m,-3.52m) [dist=2.45m]
+[2026-02-24 12:42:27.511] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-1.99m,-1.49m) [dist=2.24m]
+[2026-02-24 12:42:27.529] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (0.25m,5.04m) [dist=0.78m]
+[2026-02-24 12:42:27.574] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (3.14m,-1.49m) [dist=3.20m]
+[2026-02-24 12:42:27.588] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (4.17m,-0.55m) [dist=0.94m]
+[2026-02-24 12:42:27.601] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (7.80m,-1.49m) [dist=3.03m]
+[2026-02-24 12:42:27.632] [INFO    ] [services.logging_service] [INFO]   Intersections: 96 rej axes | 11 mur | 13 decales | 0 glisses | 0 proj | 0 pieces ignores
+[2026-02-24 12:42:27.639] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 21 points
+[2026-02-24 12:42:27.651] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,-0.56m) : trop proche (0.93m < 1.0m), ignore
+[2026-02-24 12:42:27.657] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,5.82m) : trop proche (1.04m < 1.0m), ignore
+[2026-02-24 12:42:27.666] [INFO    ] [services.logging_service] [INFO]   Coin (3.21m,2.49m) : trop proche (0.96m < 1.0m), ignore
+[2026-02-24 12:42:27.674] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,2.49m) : trop proche (1.27m < 1.0m), ignore
+[2026-02-24 12:42:27.682] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,1.40m) : trop proche (1.08m < 1.0m), ignore
+[2026-02-24 12:42:27.690] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,2.49m) : trop proche (1.09m < 1.0m), ignore
+[2026-02-24 12:42:27.709] [INFO    ] [services.logging_service] [INFO]   Poteaux trop proches supprimes : 8 (espacement min 3.0m)
+[2026-02-24 12:42:27.736] [INFO    ] [services.logging_service] [INFO]   Apres espacement min : 13 points
+[2026-02-24 12:42:27.743] [INFO    ] [services.logging_service] [INFO]   (Premier niveau - pas de contrainte de continuite)
+[2026-02-24 12:42:27.750] [INFO    ] [services.logging_service] [INFO]   Snap conditionnel : 13 points
+[2026-02-24 12:42:27.758] [INFO    ] [services.logging_service] [INFO]   Apres filtre mur : 13 points
+[2026-02-24 12:42:27.763] [INFO    ] [services.logging_service] [INFO] ==> TOTAL FINAL PLANT 2 : 13 poteaux
+[2026-02-24 12:42:27.770] [INFO    ] [services.logging_service] [INFO] 'PLANT 2': 0 exist | 0 dups | 13 new
+[2026-02-24 12:42:27.783] [INFO    ] [services.logging_service] [INFO] Famille: 305x305x97UC (400x400mm)
+[2026-02-24 12:48:55.045] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-24 12:48:55.080] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-24 12:48:55.099] [INFO    ] [services.logging_service] LoggingService initialise - Session: cd11aa06
+[2026-02-24 12:48:55.170] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-24 12:49:10.504] [INFO    ] [services.logging_service] [INFO] === Placement v3.6e - PLANT 2 (h=3000mm) ===
+[2026-02-24 12:49:10.615] [INFO    ] [services.logging_service] [INFO] MODE: Sans detection de pieces (filtrage strict sur murs uniquement)
+[2026-02-24 12:49:10.622] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-24 12:49:10.651] [INFO    ] [services.logging_service] [INFO] Murs structurels: 22 segments | 10 coins detectes
+[2026-02-24 12:49:10.684] [INFO    ] [services.logging_service] [INFO]   (Filtre: hauteur > 2.5m ou parametre structural)
+[2026-02-24 12:49:10.685] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m max=8.0m
+[2026-02-24 12:49:10.686] [INFO    ] [services.logging_service] [INFO]   Filtre STRICT: tol=0.05m | hauteur min=2.5m
+[2026-02-24 12:49:10.697] [INFO    ] [services.logging_service] [INFO]   Cache intersections : 120 points (V x H, sans filtre)
+[2026-02-24 12:49:10.709] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-24 12:49:10.743] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-10.36m,-3.52m) [dist=1.00m]
+[2026-02-24 12:49:10.776] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-10.36m,2.48m) [dist=3.34m]
+[2026-02-24 12:49:10.783] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-6.41m,-2.33m) [dist=2.19m]
+[2026-02-24 12:49:10.792] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-5.14m,5.04m) [dist=1.49m]
+[2026-02-24 12:49:10.821] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-1.99m,-3.52m) [dist=1.45m]
+[2026-02-24 12:49:10.830] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-3.03m,-2.33m) [dist=0.84m]
+[2026-02-24 12:49:10.866] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-3.03m,5.04m) [dist=0.78m]
+[2026-02-24 12:49:10.870] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-1.99m,-3.52m) [dist=2.45m]
+[2026-02-24 12:49:10.878] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-1.99m,-1.49m) [dist=2.24m]
+[2026-02-24 12:49:10.914] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (0.25m,5.04m) [dist=0.78m]
+[2026-02-24 12:49:10.919] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (3.14m,-1.49m) [dist=3.20m]
+[2026-02-24 12:49:10.926] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (4.17m,-0.55m) [dist=0.94m]
+[2026-02-24 12:49:10.964] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (7.80m,-1.49m) [dist=3.03m]
+[2026-02-24 12:49:10.967] [INFO    ] [services.logging_service] [INFO]   Intersections: 96 rej axes | 11 sur mur | 13 decales | 0 glisses | 0 proj | 0 rejetes
+[2026-02-24 12:49:10.974] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 21 points
+[2026-02-24 12:49:10.985] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,-0.56m) : trop proche (0.93m < 1.0m), ignore
+[2026-02-24 12:49:10.991] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,5.82m) : trop proche (1.04m < 1.0m), ignore
+[2026-02-24 12:49:10.996] [INFO    ] [services.logging_service] [INFO]   Coin (3.21m,2.49m) : trop proche (0.96m < 1.0m), ignore
+[2026-02-24 12:49:11.002] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,2.49m) : trop proche (1.27m < 1.0m), ignore
+[2026-02-24 12:49:11.010] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,1.40m) : trop proche (1.08m < 1.0m), ignore
+[2026-02-24 12:49:11.016] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,2.49m) : trop proche (1.09m < 1.0m), ignore
+[2026-02-24 12:49:11.038] [INFO    ] [services.logging_service] [INFO]   Poteaux trop proches supprimes : 8 (espacement min 3.0m)
+[2026-02-24 12:49:11.068] [INFO    ] [services.logging_service] [INFO]   Apres espacement min : 13 points
+[2026-02-24 12:49:11.074] [INFO    ] [services.logging_service] [INFO]   (Premier niveau)
+[2026-02-24 12:49:11.083] [INFO    ] [services.logging_service] [INFO]   Snap sur mur : 13 points
+[2026-02-24 12:49:11.091] [INFO    ] [services.logging_service] [INFO] ==> TOTAL FINAL PLANT 2 : 13 poteaux (tous sur murs)
+[2026-02-24 12:49:11.098] [INFO    ] [services.logging_service] [INFO] 'PLANT 2': 0 exist | 0 dups | 13 new
+[2026-02-24 12:49:11.108] [INFO    ] [services.logging_service] [INFO] Famille: 305x305x97UC (400x400mm)
+[2026-02-24 12:49:53.019] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-24 12:49:53.063] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-24 12:49:53.076] [INFO    ] [services.logging_service] LoggingService initialise - Session: aeefe799
+[2026-02-24 12:49:53.141] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-24 12:51:39.796] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-24 12:51:39.838] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-24 12:51:39.853] [INFO    ] [services.logging_service] LoggingService initialise - Session: b1a31595
+[2026-02-24 12:51:39.936] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-24 12:52:07.574] [INFO    ] [services.logging_service] [INFO] === Placement v3.6e - PLANT 2 (h=3000mm) ===
+[2026-02-24 12:52:07.743] [INFO    ] [services.logging_service] [INFO] MODE: Sans detection de pieces (filtrage strict sur murs uniquement)
+[2026-02-24 12:52:07.751] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-24 12:52:07.806] [INFO    ] [services.logging_service] [INFO] Murs structurels: 22 segments | 10 coins detectes
+[2026-02-24 12:52:07.857] [INFO    ] [services.logging_service] [INFO]   (Filtre: hauteur > 2.5m ou parametre structural)
+[2026-02-24 12:52:07.861] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m max=8.0m
+[2026-02-24 12:52:07.867] [INFO    ] [services.logging_service] [INFO]   Filtre STRICT: tol=0.05m | hauteur min=2.5m
+[2026-02-24 12:52:07.894] [INFO    ] [services.logging_service] [INFO]   Cache intersections : 120 points (V x H, sans filtre)
+[2026-02-24 12:52:07.923] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-24 12:52:07.998] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-10.36m,-3.52m) [dist=1.00m]
+[2026-02-24 12:52:08.029] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-10.36m,2.48m) [dist=3.34m]
+[2026-02-24 12:52:08.079] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-6.41m,-2.33m) [dist=2.19m]
+[2026-02-24 12:52:08.094] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-5.14m,5.04m) [dist=1.49m]
+[2026-02-24 12:52:08.113] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-1.99m,-3.52m) [dist=1.45m]
+[2026-02-24 12:52:08.195] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-3.03m,-2.33m) [dist=0.84m]
+[2026-02-24 12:52:08.215] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-3.03m,5.04m) [dist=0.78m]
+[2026-02-24 12:52:08.299] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-1.99m,-3.52m) [dist=2.45m]
+[2026-02-24 12:52:08.312] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-1.99m,-1.49m) [dist=2.24m]
+[2026-02-24 12:52:08.331] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (0.25m,5.04m) [dist=0.78m]
+[2026-02-24 12:52:08.406] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (3.14m,-1.49m) [dist=3.20m]
+[2026-02-24 12:52:08.424] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (4.17m,-0.55m) [dist=0.94m]
+[2026-02-24 12:52:08.445] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (7.80m,-1.49m) [dist=3.03m]
+[2026-02-24 12:52:08.492] [INFO    ] [services.logging_service] [INFO]   Intersections: 96 rej axes | 11 sur mur | 13 decales | 0 glisses | 0 proj | 0 rejetes
+[2026-02-24 12:52:08.505] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 21 points
+[2026-02-24 12:52:08.521] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,-0.56m) : trop proche (0.93m < 1.0m), ignore
+[2026-02-24 12:52:08.530] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,5.82m) : trop proche (1.04m < 1.0m), ignore
+[2026-02-24 12:52:08.539] [INFO    ] [services.logging_service] [INFO]   Coin (3.21m,2.49m) : trop proche (0.96m < 1.0m), ignore
+[2026-02-24 12:52:08.550] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,2.49m) : trop proche (1.27m < 1.0m), ignore
+[2026-02-24 12:52:08.556] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,1.40m) : trop proche (1.08m < 1.0m), ignore
+[2026-02-24 12:52:08.566] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,2.49m) : trop proche (1.09m < 1.0m), ignore
+[2026-02-24 12:52:08.589] [INFO    ] [services.logging_service] [INFO]   Poteaux trop proches supprimes : 8 (espacement min 3.0m)
+[2026-02-24 12:52:08.599] [INFO    ] [services.logging_service] [INFO]   Apres espacement min : 13 points
+[2026-02-24 12:52:08.643] [INFO    ] [services.logging_service] [INFO]   (Premier niveau)
+[2026-02-24 12:52:08.654] [INFO    ] [services.logging_service] [INFO]   Snap sur mur : 13 points
+[2026-02-24 12:52:08.660] [INFO    ] [services.logging_service] [INFO] ==> TOTAL FINAL PLANT 2 : 13 poteaux (tous sur murs)
+[2026-02-24 12:52:08.669] [INFO    ] [services.logging_service] [INFO] 'PLANT 2': 0 exist | 0 dups | 13 new
+[2026-02-24 12:52:08.686] [INFO    ] [services.logging_service] [INFO] Famille: 305x305x97UC (400x400mm)
+[2026-02-24 13:00:00.628] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-24 13:00:00.685] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-24 13:00:00.696] [INFO    ] [services.logging_service] LoggingService initialise - Session: 5b127b05
+[2026-02-24 13:00:00.764] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-24 13:09:33.448] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-24 13:09:33.528] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-24 13:09:33.541] [INFO    ] [services.logging_service] LoggingService initialise - Session: dc9bc08b
+[2026-02-24 13:09:33.600] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-24 13:36:12.986] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-24 13:36:13.052] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-24 13:36:13.066] [INFO    ] [services.logging_service] LoggingService initialise - Session: 1b5b335e
+[2026-02-24 13:36:13.149] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-24 13:40:18.357] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-24 13:40:18.411] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-24 13:40:18.432] [INFO    ] [services.logging_service] LoggingService initialise - Session: 565c2bb8
+[2026-02-24 13:40:18.503] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-24 13:41:25.394] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-24 13:41:25.467] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-24 13:41:25.483] [INFO    ] [services.logging_service] LoggingService initialise - Session: 1e765758
+[2026-02-24 13:41:25.580] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-24 13:41:30.646] [INFO    ] [services.logging_service] [INFO] === Placement v3.6c - PLANT 2 (h=3000mm) ===
+[2026-02-24 13:41:30.781] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-24 13:41:30.791] [INFO    ] [services.logging_service] [INFO] === PIECES DETECTEES : 0 ===
+[2026-02-24 13:41:30.812] [INFO    ] [services.logging_service] [INFO] Murs structurels: 22 segments | 10 coins detectes
+[2026-02-24 13:41:30.823] [INFO    ] [services.logging_service] [INFO]   (Filtre: hauteur > 2.5m ou parametre structural)
+[2026-02-24 13:41:30.830] [INFO    ] [services.logging_service] [INFO]   Coins : (7.8,5.8)  (3.1,-0.6)  (3.1,5.8)  (3.2,2.5)  (-5.1,5.0)  (-5.1,2.5)  (-10.4,2.5)  (-6.4,1.4)
+[2026-02-24 13:41:30.835] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m  max=8.0m
+[2026-02-24 13:41:30.839] [INFO    ] [services.logging_service] [INFO]   Filtre mur : tol=0.05m (5cm) | hauteur min=2.5m
+[2026-02-24 13:41:30.862] [INFO    ] [services.logging_service] [INFO]   Cache intersections : 120 points (V x H, sans filtre)
+[2026-02-24 13:41:30.913] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-24 13:41:30.948] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-10.36m,-3.52m) [dist=1.00m]
+[2026-02-24 13:41:30.991] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-10.36m,2.48m) [dist=3.34m]
+[2026-02-24 13:41:30.994] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-6.41m,-2.33m) [dist=2.19m]
+[2026-02-24 13:41:31.005] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-5.14m,5.04m) [dist=1.49m]
+[2026-02-24 13:41:31.056] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-1.99m,-3.52m) [dist=1.45m]
+[2026-02-24 13:41:31.062] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-3.03m,-2.33m) [dist=0.84m]
+[2026-02-24 13:41:31.105] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-3.03m,5.04m) [dist=0.78m]
+[2026-02-24 13:41:31.111] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-1.99m,-3.52m) [dist=2.45m]
+[2026-02-24 13:41:31.120] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-1.99m,-1.49m) [dist=2.24m]
+[2026-02-24 13:41:31.163] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (0.25m,5.04m) [dist=0.78m]
+[2026-02-24 13:41:31.167] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (3.14m,-1.49m) [dist=3.20m]
+[2026-02-24 13:41:31.177] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (4.17m,-0.55m) [dist=0.94m]
+[2026-02-24 13:41:31.228] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (7.80m,-1.49m) [dist=3.03m]
+[2026-02-24 13:41:31.236] [INFO    ] [services.logging_service] [INFO]   Intersections: 96 rej axes | 11 mur | 13 decales | 0 glisses | 0 proj | 0 pieces ignores
+[2026-02-24 13:41:31.246] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 21 points
+[2026-02-24 13:41:31.262] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,-0.56m) : trop proche (0.93m < 1.0m), ignore
+[2026-02-24 13:41:31.301] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,5.82m) : trop proche (1.04m < 1.0m), ignore
+[2026-02-24 13:41:31.310] [INFO    ] [services.logging_service] [INFO]   Coin (3.21m,2.49m) : trop proche (0.96m < 1.0m), ignore
+[2026-02-24 13:41:31.316] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,2.49m) : trop proche (1.27m < 1.0m), ignore
+[2026-02-24 13:41:31.324] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,1.40m) : trop proche (1.08m < 1.0m), ignore
+[2026-02-24 13:41:31.332] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,2.49m) : trop proche (1.09m < 1.0m), ignore
+[2026-02-24 13:41:31.345] [INFO    ] [services.logging_service] [INFO]   Poteaux trop proches supprimes : 8 (espacement min 3.0m)
+[2026-02-24 13:41:31.351] [INFO    ] [services.logging_service] [INFO]   Apres espacement min : 13 points
+[2026-02-24 13:41:31.358] [INFO    ] [services.logging_service] [INFO]   (Premier niveau - pas de contrainte de continuite)
+[2026-02-24 13:41:31.368] [INFO    ] [services.logging_service] [INFO]   Snap conditionnel : 13 points
+[2026-02-24 13:41:31.375] [INFO    ] [services.logging_service] [INFO]   Apres filtre mur : 13 points
+[2026-02-24 13:41:31.380] [INFO    ] [services.logging_service] [INFO] ==> TOTAL FINAL PLANT 2 : 13 poteaux
+[2026-02-24 13:41:31.391] [INFO    ] [services.logging_service] [INFO] 'PLANT 2': 0 exist | 0 dups | 13 new
+[2026-02-24 13:41:31.408] [INFO    ] [services.logging_service] [INFO] Famille: 305x305x97UC (400x400mm)

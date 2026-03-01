@@ -1,0 +1,800 @@
+[2026-02-23 12:06:39.970] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 12:06:40.026] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 12:06:40.171] [INFO    ] [services.logging_service] LoggingService initialise - Session: c09909ee
+[2026-02-23 12:06:40.254] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 12:06:40.298] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 12:06:52.430] [INFO    ] [services.logging_service] [INFO] Recherche points pour niveau nivel -15
+[2026-02-23 12:06:52.483] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 12:06:52.487] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 12:06:52.491] [INFO    ] [services.logging_service] [INFO] 24 points de placement trouves
+[2026-02-23 12:06:52.495] [INFO    ] [services.logging_service] [INFO] Niveau 'nivel -15': 0 existants, 0 doublons, 24 nouveaux
+[2026-02-23 12:06:52.530] [INFO    ] [services.logging_service] [INFO] Famille 400x400: diff=187mm
+[2026-02-23 12:06:52.677] [INFO    ] [services.logging_service] [INFO] Recherche points pour niveau PLANT 2
+[2026-02-23 12:06:52.717] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 12:06:52.722] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 12:06:52.726] [INFO    ] [services.logging_service] [INFO] 24 points de placement trouves
+[2026-02-23 12:06:52.736] [INFO    ] [services.logging_service] [INFO] Niveau 'PLANT 2': 0 existants, 0 doublons, 24 nouveaux
+[2026-02-23 12:06:52.747] [INFO    ] [services.logging_service] [INFO] Famille 300x400: diff=97mm
+[2026-02-23 12:06:52.903] [INFO    ] [services.logging_service] [INFO] Recherche points pour niveau nivel -17
+[2026-02-23 12:06:52.989] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 12:06:52.992] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 12:06:52.996] [INFO    ] [services.logging_service] [INFO] 24 points de placement trouves
+[2026-02-23 12:06:53.004] [INFO    ] [services.logging_service] [INFO] Niveau 'nivel -17': 0 existants, 0 doublons, 24 nouveaux
+[2026-02-23 12:06:53.008] [INFO    ] [services.logging_service] [INFO] Famille 250x350: diff=97mm
+[2026-02-23 12:06:53.100] [INFO    ] [services.logging_service] [INFO] Recherche points pour niveau PLANT 3
+[2026-02-23 12:06:53.105] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 12:06:53.108] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 12:06:53.111] [INFO    ] [services.logging_service] [INFO] 24 points de placement trouves
+[2026-02-23 12:06:53.115] [INFO    ] [services.logging_service] [INFO] Niveau 'PLANT 3': 0 existants, 0 doublons, 24 nouveaux
+[2026-02-23 12:06:53.127] [INFO    ] [services.logging_service] [INFO] Famille 250x250: diff=113mm
+[2026-02-23 12:14:34.412] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 12:14:34.492] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 12:14:34.515] [INFO    ] [services.logging_service] LoggingService initialise - Session: 3babd2a4
+[2026-02-23 12:14:34.553] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 12:14:34.625] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 12:28:51.627] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 12:28:51.714] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 12:28:51.731] [INFO    ] [services.logging_service] LoggingService initialise - Session: bac2ff6e
+[2026-02-23 12:28:51.809] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 12:28:51.874] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 12:29:01.586] [INFO    ] [services.logging_service] [INFO] Recherche points pour niveau nivel -15
+[2026-02-23 12:29:01.647] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 12:29:01.651] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 12:30:12.494] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 12:30:12.565] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 12:30:12.583] [INFO    ] [services.logging_service] LoggingService initialise - Session: fb09fb8f
+[2026-02-23 12:30:12.627] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 12:30:12.703] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 12:32:28.685] [INFO    ] [services.logging_service] [INFO] Recherche points pour niveau nivel -15
+[2026-02-23 12:32:28.744] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 12:32:28.748] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 12:40:47.250] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 12:40:47.330] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 12:40:47.342] [INFO    ] [services.logging_service] LoggingService initialise - Session: 1d5fe01d
+[2026-02-23 12:40:47.386] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 12:40:47.453] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 12:52:59.861] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 12:52:59.960] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 12:52:59.974] [INFO    ] [services.logging_service] LoggingService initialise - Session: ad78ce5b
+[2026-02-23 12:53:00.022] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 12:53:00.101] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 13:09:07.972] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 13:09:08.068] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 13:09:08.079] [INFO    ] [services.logging_service] LoggingService initialise - Session: 8d6f0ac3
+[2026-02-23 13:09:08.121] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 13:09:08.195] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 13:23:51.163] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 13:23:51.246] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 13:23:51.260] [INFO    ] [services.logging_service] LoggingService initialise - Session: 97756def
+[2026-02-23 13:23:51.313] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 13:23:51.392] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 13:30:29.760] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 13:30:29.869] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 13:30:29.887] [INFO    ] [services.logging_service] LoggingService initialise - Session: 6b99d4cb
+[2026-02-23 13:30:30.011] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 13:30:30.096] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 13:32:34.603] [INFO    ] [services.logging_service] [INFO] Recherche points pour niveau PLANT 2
+[2026-02-23 13:32:36.005] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 13:32:36.033] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 13:32:54.607] [INFO    ] [services.logging_service] [INFO] Recherche points pour niveau PLANT 2
+[2026-02-23 13:32:54.837] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 13:32:54.846] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 13:51:31.185] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 13:51:31.334] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 13:51:31.343] [INFO    ] [services.logging_service] LoggingService initialise - Session: 9d653273
+[2026-02-23 13:51:31.411] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 13:51:31.498] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 13:51:44.142] [INFO    ] [services.logging_service] [INFO] Recherche points pour niveau PLANT 2
+[2026-02-23 13:51:44.355] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 13:51:44.365] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 13:55:01.760] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 13:55:01.930] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 13:55:01.943] [INFO    ] [services.logging_service] LoggingService initialise - Session: bd908ee9
+[2026-02-23 13:55:02.013] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 13:55:02.112] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 13:55:10.290] [INFO    ] [services.logging_service] [INFO] Recherche points pour niveau PLANT 2
+[2026-02-23 13:55:10.470] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 13:55:10.476] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 14:00:13.542] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 14:00:13.638] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 14:00:13.646] [INFO    ] [services.logging_service] LoggingService initialise - Session: 5c884573
+[2026-02-23 14:00:13.706] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 14:00:13.874] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 14:00:35.118] [INFO    ] [services.logging_service] [INFO] Recherche points pour niveau PLANT 2
+[2026-02-23 14:00:35.308] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 14:00:35.315] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 14:07:45.229] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 14:07:45.406] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 14:07:45.415] [INFO    ] [services.logging_service] LoggingService initialise - Session: 5df6b4cd
+[2026-02-23 14:07:45.476] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 14:07:45.573] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 14:08:07.524] [INFO    ] [services.logging_service] [INFO] Recherche points pour niveau PLANT 2
+[2026-02-23 14:08:07.717] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 14:08:07.721] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 14:08:07.728] [INFO    ] [services.logging_service] [INFO] Gardes: 24 | Hors zone: 0
+[2026-02-23 14:08:07.732] [INFO    ] [services.logging_service] [INFO] 24 points de placement finaux
+[2026-02-23 14:08:07.739] [INFO    ] [services.logging_service] [INFO] Niveau 'PLANT 2': 0 existants, 0 doublons, 24 nouveaux
+[2026-02-23 14:08:07.753] [INFO    ] [services.logging_service] [INFO] Famille trouvee pour section 400x400
+[2026-02-23 14:19:55.240] [INFO    ] [services.logging_service] [INFO] Recherche points pour niveau PLANT 2
+[2026-02-23 14:19:55.488] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 14:19:55.499] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 14:19:55.509] [INFO    ] [services.logging_service] [INFO] Gardes: 24 | Hors zone: 0
+[2026-02-23 14:19:55.516] [INFO    ] [services.logging_service] [INFO] 24 points de placement finaux
+[2026-02-23 14:19:55.529] [INFO    ] [services.logging_service] [INFO] Niveau 'PLANT 2': 0 existants, 0 doublons, 24 nouveaux
+[2026-02-23 14:21:23.420] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 14:21:23.521] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 14:21:23.616] [INFO    ] [services.logging_service] LoggingService initialise - Session: eb2e0b7d
+[2026-02-23 14:21:23.675] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 14:21:23.888] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 14:21:37.462] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 14:21:37.562] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 14:21:37.573] [INFO    ] [services.logging_service] LoggingService initialise - Session: d45426ee
+[2026-02-23 14:21:37.638] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 14:21:37.722] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 14:21:43.693] [INFO    ] [services.logging_service] [INFO] === Placement v2.5 - Niveau PLANT 2 ===
+[2026-02-23 14:21:43.883] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 14:21:43.903] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 14:21:43.994] [INFO    ] [services.logging_service] [INFO]   Axe -1.946 ignore (trop proche: 1.09m < 3.0m)
+[2026-02-23 14:21:44.003] [INFO    ] [services.logging_service] [INFO]   Axe -2.329 ignore (trop proche: 2.19m < 3.0m)
+[2026-02-23 14:21:44.003] [INFO    ] [services.logging_service] [INFO]   Axe -0.557 ignore (trop proche: 0.93m < 3.0m)
+[2026-02-23 14:21:44.007] [INFO    ] [services.logging_service] [INFO]   Axe 1.398 ignore (trop proche: 2.89m < 3.0m)
+[2026-02-23 14:21:44.009] [INFO    ] [services.logging_service] [INFO]   Axe 5.043 ignore (trop proche: 2.55m < 3.0m)
+[2026-02-23 14:21:44.015] [INFO    ] [services.logging_service] [INFO] Axes X: 3->2 gardes | Axes Y: 8->4 gardes
+[2026-02-23 14:21:44.033] [INFO    ] [services.logging_service] [INFO] 8 candidats apres filtrage axes
+[2026-02-23 14:21:44.060] [INFO    ] [services.logging_service] [INFO] 24 coins du batiment ajoutes
+[2026-02-23 14:21:44.144] [INFO    ] [services.logging_service] [INFO] === RESULTAT: 32 poteaux | 32 decales sur mur ===
+[2026-02-23 14:21:44.150] [INFO    ] [services.logging_service] [INFO] Niveau 'PLANT 2': 0 existants, 0 doublons, 32 nouveaux
+[2026-02-23 14:21:44.162] [INFO    ] [services.logging_service] [INFO] Famille 400x400 trouvee
+[2026-02-23 14:50:11.619] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 14:50:11.736] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 14:50:11.748] [INFO    ] [services.logging_service] LoggingService initialise - Session: e1159b1a
+[2026-02-23 14:50:11.827] [INFO    ] [services.logging_service] [INFO] 3 verticales, 8 horizontales, 0 ignorees
+[2026-02-23 14:50:11.923] [INFO    ] [services.logging_service] [INFO] 24 intersections trouvees
+[2026-02-23 14:51:35.262] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 14:51:35.373] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 14:51:35.391] [INFO    ] [services.logging_service] LoggingService initialise - Session: 4cd0a999
+[2026-02-23 14:51:35.539] [INFO    ] [services.logging_service] [INFO] 12 verticales, 10 horizontales, 0 ignorees
+[2026-02-23 14:51:35.648] [INFO    ] [services.logging_service] [INFO] 120 intersections trouvees
+[2026-02-23 14:51:44.479] [INFO    ] [services.logging_service] [INFO] === Placement v2.6 - Niveau PLANT 2 ===
+[2026-02-23 14:51:44.689] [INFO    ] [services.logging_service] [INFO] 12 verticales, 10 horizontales, 0 ignorees
+[2026-02-23 14:51:44.700] [INFO    ] [services.logging_service] [INFO] 120 intersections trouvees
+[2026-02-23 14:51:44.711] [INFO    ] [services.logging_service] [INFO] Intersections de base : 120
+[2026-02-23 15:00:01.982] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 15:00:01.991] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 15:00:01.999] [INFO    ] [services.logging_service] LoggingService initialise - Session: ea879cfe
+[2026-02-23 15:00:02.015] [INFO    ] [services.logging_service] [INFO] 12 verticales, 10 horizontales, 0 ignorees
+[2026-02-23 15:00:02.020] [INFO    ] [services.logging_service] [INFO] 120 intersections trouvees
+[2026-02-23 15:00:02.023] [INFO    ] [services.logging_service] [INFO] === Placement v2.6 - Niveau PLANT 2 ===
+[2026-02-23 15:00:02.024] [INFO    ] [services.logging_service] [INFO] 12 verticales, 10 horizontales, 0 ignorees
+[2026-02-23 15:00:02.041] [INFO    ] [services.logging_service] [INFO] 120 intersections trouvees
+[2026-02-23 15:00:02.044] [INFO    ] [services.logging_service] [INFO] Intersections de base : 120
+[2026-02-23 15:00:02.076] [INFO    ] [services.logging_service] [INFO] Niveaux intermediaires ignores (5): nivel patio autos, TECHO 1 NIVEL, TECHO PIEZAS, maximo pieza barbara, techo pieza mama
+[2026-02-23 15:00:02.090] [INFO    ] [services.logging_service] [INFO] Famille 300x400 trouvee
+[2026-02-23 15:00:02.097] [INFO    ] [services.logging_service] [INFO] === Placement v2.6 - Niveau PLANT 2 ===
+[2026-02-23 15:00:02.100] [INFO    ] [services.logging_service] [INFO] 12 verticales, 10 horizontales, 0 ignorees
+[2026-02-23 15:00:02.103] [INFO    ] [services.logging_service] [INFO] 120 intersections trouvees
+[2026-02-23 15:00:02.106] [INFO    ] [services.logging_service] [INFO] Intersections de base : 120
+[2026-02-23 15:00:02.113] [INFO    ] [services.logging_service] [INFO] === Placement v2.6 - Niveau PLANT 2 ===
+[2026-02-23 15:00:02.115] [INFO    ] [services.logging_service] [INFO] 12 verticales, 10 horizontales, 0 ignorees
+[2026-02-23 15:00:02.119] [INFO    ] [services.logging_service] [INFO] 120 intersections trouvees
+[2026-02-23 15:00:02.122] [INFO    ] [services.logging_service] [INFO] Intersections de base : 120
+[2026-02-23 15:01:26.780] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 15:01:26.780] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 15:01:26.781] [INFO    ] [services.logging_service] LoggingService initialise - Session: 08551434
+[2026-02-23 15:01:26.787] [INFO    ] [services.logging_service] [INFO] === Placement v2.6 - Niveau PLANT 2 ===
+[2026-02-23 15:01:26.792] [INFO    ] [services.logging_service] [INFO] 12 verticales, 10 horizontales, 0 ignorees
+[2026-02-23 15:01:26.794] [INFO    ] [services.logging_service] [INFO] 120 intersections trouvees
+[2026-02-23 15:01:26.798] [INFO    ] [services.logging_service] [INFO] Intersections de base : 120
+[2026-02-23 15:01:26.802] [INFO    ] [services.logging_service] [INFO] Apres intermediaires : 120 points
+[2026-02-23 15:01:26.826] [INFO    ] [services.logging_service] [INFO] Points finaux : 120  (dont 0 intermediaires)
+[2026-02-23 15:01:26.829] [INFO    ] [services.logging_service] [INFO] Niveaux intermediaires ignores (5): nivel patio autos, TECHO 1 NIVEL, TECHO PIEZAS, maximo pieza barbara, techo pieza mama
+[2026-02-23 15:01:26.839] [INFO    ] [services.logging_service] [INFO] Famille 300x400 trouvee
+[2026-02-23 15:02:20.443] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 15:02:20.644] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 15:02:20.658] [INFO    ] [services.logging_service] LoggingService initialise - Session: fbcabe0f
+[2026-02-23 15:02:20.721] [INFO    ] [services.logging_service] [INFO] 12 verticales, 10 horizontales, 0 ignorees
+[2026-02-23 15:02:20.907] [INFO    ] [services.logging_service] [INFO] 120 intersections trouvees
+[2026-02-23 15:02:26.641] [INFO    ] [services.logging_service] [INFO] === Placement v2.6 - Niveau PLANT 2 ===
+[2026-02-23 15:02:26.888] [INFO    ] [services.logging_service] [INFO] 12 verticales, 10 horizontales, 0 ignorees
+[2026-02-23 15:02:27.012] [INFO    ] [services.logging_service] [INFO] 120 intersections trouvees
+[2026-02-23 15:02:27.029] [INFO    ] [services.logging_service] [INFO] Intersections de base : 120
+[2026-02-23 15:15:13.652] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 15:15:13.767] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 15:15:13.778] [INFO    ] [services.logging_service] LoggingService initialise - Session: 9ed70e30
+[2026-02-23 15:15:13.929] [INFO    ] [services.logging_service] [INFO] 12 verticales, 10 horizontales, 0 ignorees
+[2026-02-23 15:15:14.043] [INFO    ] [services.logging_service] [INFO] 120 intersections trouvees
+[2026-02-23 15:15:29.817] [INFO    ] [services.logging_service] [INFO] === Placement v2.6 - Niveau PLANT 2 ===
+[2026-02-23 15:15:30.019] [INFO    ] [services.logging_service] [INFO] 12 verticales, 10 horizontales, 0 ignorees
+[2026-02-23 15:15:30.028] [INFO    ] [services.logging_service] [INFO] 120 intersections trouvees
+[2026-02-23 15:15:30.049] [INFO    ] [services.logging_service] [INFO] Intersections de base : 120
+[2026-02-23 15:15:30.152] [INFO    ] [services.logging_service] [INFO] Apres intermediaires : 120 points
+[2026-02-23 15:15:30.184] [INFO    ] [services.logging_service] [INFO] Points finaux : 120  (dont 0 intermediaires)
+[2026-02-23 15:15:30.277] [INFO    ] [services.logging_service] [INFO] Niveau 'PLANT 2': 0 existants, 0 doublons, 120 nouveaux
+[2026-02-23 15:15:30.285] [INFO    ] [services.logging_service] [INFO] Famille selectionnee : 305x305x97UC  (section demandee 400x400mm)
+[2026-02-23 15:22:51.554] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 15:22:51.689] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 15:22:51.788] [INFO    ] [services.logging_service] LoggingService initialise - Session: b9f3ed49
+[2026-02-23 15:22:51.862] [INFO    ] [services.logging_service] [INFO] 12 verticales, 10 horizontales, 0 ignorees
+[2026-02-23 15:22:51.984] [INFO    ] [services.logging_service] [INFO] 120 intersections trouvees
+[2026-02-23 15:23:38.315] [INFO    ] [services.logging_service] [INFO] === Placement v2.7 - Niveau PLANT 2 ===
+[2026-02-23 15:23:38.532] [INFO    ] [services.logging_service] [INFO] 12 verticales, 10 horizontales, 0 ignorees
+[2026-02-23 15:23:38.538] [INFO    ] [services.logging_service] [INFO] 120 intersections trouvees
+[2026-02-23 15:23:38.549] [INFO    ] [services.logging_service] [INFO] Murs charges : 44 segments  |  Bbox : -10.9/8.3/-5.0/6.3 m
+[2026-02-23 15:23:38.588] [INFO    ] [services.logging_service] [INFO] Intersections : 108 acceptees, 12 rejetees (hors batiment, dist > 1.0m)
+[2026-02-23 15:23:38.692] [INFO    ] [services.logging_service] [INFO] Apres intermediaires : 108 points
+[2026-02-23 15:23:38.812] [INFO    ] [services.logging_service] [INFO] Points finaux : 108  (dont 0 intermediaires)
+[2026-02-23 15:23:38.905] [INFO    ] [services.logging_service] [INFO] Niveau 'PLANT 2': 0 existants, 0 doublons, 108 nouveaux
+[2026-02-23 15:23:38.915] [INFO    ] [services.logging_service] [INFO] Famille : 305x305x97UC  (section 400x400mm)
+[2026-02-23 15:31:13.678] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 15:31:13.805] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 15:31:13.818] [INFO    ] [services.logging_service] LoggingService initialise - Session: a824f106
+[2026-02-23 15:31:13.884] [INFO    ] [services.logging_service] [INFO] 12 grilles V, 10 grilles H, 0 ignorees
+[2026-02-23 15:31:13.989] [INFO    ] [services.logging_service] [INFO] 120 intersections brutes trouvees
+[2026-02-23 15:31:28.062] [INFO    ] [services.logging_service] [INFO] === Placement v2.8 - Niveau PLANT 2 ===
+[2026-02-23 15:31:28.322] [INFO    ] [services.logging_service] [INFO] 12 grilles V, 10 grilles H, 0 ignorees
+[2026-02-23 15:31:28.491] [INFO    ] [services.logging_service] [INFO] 120 intersections brutes trouvees
+[2026-02-23 15:31:28.510] [INFO    ] [services.logging_service] [INFO] Murs : 44 segments charges
+[2026-02-23 15:31:28.518] [INFO    ] [services.logging_service] [INFO]   Bbox batiment : X[-10.7..8.1]m  Y[-4.8..6.1]m
+[2026-02-23 15:31:28.535] [INFO    ] [services.logging_service] [INFO]   Axes VERTICAUX (X) : 12 total -> 6 retenus (6 rejetes < 3.0m)
+[2026-02-23 15:31:28.550] [INFO    ] [services.logging_service] [INFO]     Rejetes : -5.14m, -4.30m, -1.99m, 2.26m, 3.14m, 5.33m
+[2026-02-23 15:31:28.576] [INFO    ] [services.logging_service] [INFO]     Retenus : -10.36m, -6.41m, -3.03m, 0.25m, 4.17m, 7.80m
+[2026-02-23 15:31:28.752] [INFO    ] [services.logging_service] [INFO]   Axes HORIZONTAUX (Y) : 10 total -> 4 retenus (6 rejetes < 3.0m)
+[2026-02-23 15:31:28.777] [INFO    ] [services.logging_service] [INFO]     Rejetes : -3.52m, -2.33m, -0.55m, 0.36m, 1.40m, 5.04m
+[2026-02-23 15:31:28.780] [INFO    ] [services.logging_service] [INFO]     Retenus : -4.52m, -1.49m, 2.48m, 5.82m
+[2026-02-23 15:31:28.833] [INFO    ] [services.logging_service] [INFO] Apres filtres : 20 acceptes  |  96 rejetes axe trop proche  |  4 rejetes hors batiment
+[2026-02-23 15:31:28.853] [INFO    ] [services.logging_service] [INFO] Apres intermediaires : 20 points
+[2026-02-23 15:31:28.897] [INFO    ] [services.logging_service] [INFO] ==> Points FINAUX : 20  (dont 0 intermediaires)
+[2026-02-23 15:31:29.034] [INFO    ] [services.logging_service] [INFO] Niveau 'PLANT 2': 0 existants, 0 doublons, 20 nouveaux
+[2026-02-23 15:31:29.051] [INFO    ] [services.logging_service] [INFO] Famille : 305x305x97UC  (section 400x400mm)
+[2026-02-23 15:49:05.651] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 15:49:05.846] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 15:49:05.865] [INFO    ] [services.logging_service] LoggingService initialise - Session: 744db85b
+[2026-02-23 15:49:05.979] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 15:49:22.573] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 15:49:22.670] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 15:49:32.793] [INFO    ] [services.logging_service] [INFO] === Placement v3.0 - PLANT 2 (h=3000mm) ===
+[2026-02-23 15:49:32.795] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 15:49:32.820] [INFO    ] [services.logging_service] [INFO] Murs: 44 segments | 26 coins detectes
+[2026-02-23 15:49:32.828] [INFO    ] [services.logging_service] [INFO]   Coins : (7.8,5.8)  (7.8,-1.5)  (3.1,-0.6)  (3.1,1.4)  (3.1,-1.5)  (3.1,5.8)  (3.1,2.5)  (-5.1,5.0)
+[2026-02-23 15:49:32.829] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m  max=5.5m
+[2026-02-23 15:49:32.837] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-23 15:49:32.870] [INFO    ] [services.logging_service] [INFO]   Intersections: 20 ok | 96 rej axe | 4 rej batiment
+[2026-02-23 15:49:32.888] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 20 points
+[2026-02-23 15:50:24.505] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 15:50:24.608] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 15:50:24.626] [INFO    ] [services.logging_service] LoggingService initialise - Session: 4b556d56
+[2026-02-23 15:50:24.772] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 15:50:29.461] [INFO    ] [services.logging_service] [INFO] === Placement v3.0 - PLANT 2 (h=3000mm) ===
+[2026-02-23 15:50:29.673] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 15:50:29.706] [INFO    ] [services.logging_service] [INFO] Murs: 44 segments | 26 coins detectes
+[2026-02-23 15:50:29.817] [INFO    ] [services.logging_service] [INFO]   Coins : (7.8,5.8)  (7.8,-1.5)  (3.1,-0.6)  (3.1,1.4)  (3.1,-1.5)  (3.1,5.8)  (3.1,2.5)  (-5.1,5.0)
+[2026-02-23 15:50:29.825] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m  max=5.5m
+[2026-02-23 15:50:29.835] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-23 15:50:29.878] [INFO    ] [services.logging_service] [INFO]   Intersections: 20 ok | 96 rej axe | 4 rej batiment
+[2026-02-23 15:50:29.997] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 20 points
+[2026-02-23 22:13:37.196] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 22:13:37.246] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 22:13:37.277] [INFO    ] [services.logging_service] LoggingService initialise - Session: e64f0249
+[2026-02-23 22:13:37.394] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 22:13:46.473] [INFO    ] [services.logging_service] [INFO] === Placement v3.0 - PLANT 2 (h=3000mm) ===
+[2026-02-23 22:13:46.573] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 22:13:46.611] [INFO    ] [services.logging_service] [INFO] Murs: 44 segments | 26 coins detectes
+[2026-02-23 22:13:46.622] [INFO    ] [services.logging_service] [INFO]   Coins : (7.8,5.8)  (7.8,-1.5)  (3.1,-0.6)  (3.1,1.4)  (3.1,-1.5)  (3.1,5.8)  (3.1,2.5)  (-5.1,5.0)
+[2026-02-23 22:13:46.625] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m  max=5.5m
+[2026-02-23 22:13:46.643] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-23 22:13:46.683] [INFO    ] [services.logging_service] [INFO]   Intersections: 20 ok | 96 rej axe | 4 rej batiment
+[2026-02-23 22:13:46.700] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 20 points
+[2026-02-23 22:15:56.221] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 22:15:56.226] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 22:15:56.233] [INFO    ] [services.logging_service] LoggingService initialise - Session: 8504d601
+[2026-02-23 22:15:56.248] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 22:15:56.267] [INFO    ] [services.logging_service] [INFO] === Placement v3.0 - PLANT 2 (h=3200mm) ===
+[2026-02-23 22:15:56.269] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 22:15:56.299] [INFO    ] [services.logging_service] [INFO] Murs: 44 segments | 26 coins detectes
+[2026-02-23 22:15:56.306] [INFO    ] [services.logging_service] [INFO]   Coins : (7.8,5.8)  (7.8,-1.5)  (3.1,-0.6)  (3.1,1.4)  (3.1,-1.5)  (3.1,5.8)  (3.1,2.5)  (-5.1,5.0)
+[2026-02-23 22:15:56.308] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m  max=5.5m
+[2026-02-23 22:15:56.312] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-23 22:15:56.329] [INFO    ] [services.logging_service] [INFO]   Intersections: 20 ok | 96 rej axe | 4 rej batiment
+[2026-02-23 22:15:56.349] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 20 points
+[2026-02-23 22:15:56.364] [INFO    ] [services.logging_service] [INFO] === Placement v3.0 - PLANT 2 (h=3000mm) ===
+[2026-02-23 22:15:56.367] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 22:15:56.369] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m  max=5.5m
+[2026-02-23 22:15:56.380] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-23 22:15:56.386] [INFO    ] [services.logging_service] [INFO]   Intersections: 20 ok | 96 rej axe | 4 rej batiment
+[2026-02-23 22:15:56.388] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 20 points
+[2026-02-23 22:15:56.423] [INFO    ] [services.logging_service] [INFO] Famille: 305x305x97UC (300x300mm)
+[2026-02-23 22:20:23.865] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 22:20:23.910] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 22:20:23.923] [INFO    ] [services.logging_service] LoggingService initialise - Session: 11cc1918
+[2026-02-23 22:20:24.034] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 22:20:29.446] [INFO    ] [services.logging_service] [INFO] === Placement v3.0 - PLANT 2 (h=3000mm) ===
+[2026-02-23 22:20:29.557] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 22:20:29.583] [INFO    ] [services.logging_service] [INFO] Murs: 44 segments | 26 coins detectes
+[2026-02-23 22:20:29.590] [INFO    ] [services.logging_service] [INFO]   Coins : (7.8,5.8)  (7.8,-1.5)  (3.1,-0.6)  (3.1,1.4)  (3.1,-1.5)  (3.1,5.8)  (3.1,2.5)  (-5.1,5.0)
+[2026-02-23 22:20:29.594] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m  max=5.5m
+[2026-02-23 22:20:29.607] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-23 22:20:29.639] [INFO    ] [services.logging_service] [INFO]   Intersections: 20 ok | 96 rej axe | 4 rej batiment
+[2026-02-23 22:20:29.663] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 20 points
+[2026-02-23 22:20:29.672] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,-0.56m) : trop proche (1.39m < 3.0m), ignore
+[2026-02-23 22:20:29.678] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,1.40m) : trop proche (1.49m < 3.0m), ignore
+[2026-02-23 22:20:29.682] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,-1.49m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 22:20:29.684] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,5.83m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 22:20:29.687] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,2.49m) : trop proche (1.02m < 3.0m), ignore
+[2026-02-23 22:20:29.691] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,5.04m) : trop proche (1.49m < 3.0m), ignore
+[2026-02-23 22:20:29.694] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,2.49m) : trop proche (1.27m < 3.0m), ignore
+[2026-02-23 22:20:29.700] [INFO    ] [services.logging_service] [INFO]   Coin (-10.36m,-3.52m) : trop proche (2.03m < 3.0m), ignore
+[2026-02-23 22:20:29.703] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,1.40m) : trop proche (1.08m < 3.0m), ignore
+[2026-02-23 22:20:29.726] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,1.40m) : trop proche (1.53m < 3.0m), ignore
+[2026-02-23 22:20:29.730] [INFO    ] [services.logging_service] [INFO]   Coin (-10.36m,-2.33m) : trop proche (0.84m < 3.0m), ignore
+[2026-02-23 22:20:29.733] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,-2.33m) : trop proche (0.84m < 3.0m), ignore
+[2026-02-23 22:20:29.735] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,2.48m) : trop proche (1.09m < 3.0m), ignore
+[2026-02-23 22:20:29.740] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-0.55m) : trop proche (2.39m < 3.0m), ignore
+[2026-02-23 22:20:29.743] [INFO    ] [services.logging_service] [INFO]   Coin (-6.39m,-3.48m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 22:20:29.753] [INFO    ] [services.logging_service] [INFO]   Coin (5.33m,-4.52m) : trop proche (1.16m < 3.0m), ignore
+[2026-02-23 22:20:29.760] [INFO    ] [services.logging_service] [INFO]   Coin (5.33m,-1.49m) : trop proche (1.16m < 3.0m), ignore
+[2026-02-23 22:20:29.769] [INFO    ] [services.logging_service] [INFO]   Coin (-6.37m,0.36m) : trop proche (1.85m < 3.0m), ignore
+[2026-02-23 22:20:29.777] [INFO    ] [services.logging_service] [INFO]   Coin (-2.06m,0.36m) : trop proche (2.32m < 3.0m), ignore
+[2026-02-23 22:20:29.784] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-1.49m) : trop proche (2.20m < 3.0m), ignore
+[2026-02-23 22:20:29.804] [INFO    ] [services.logging_service] [INFO]   Apres espacement min : 20 points
+[2026-02-23 22:20:29.819] [INFO    ] [services.logging_service] [INFO]   (Premier niveau - pas de contrainte de continuite)
+[2026-02-23 22:20:29.829] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-10.36,2.48)->(-10.36,2.48)
+[2026-02-23 22:20:29.839] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-6.41,-4.52)->(-6.41,-4.52)
+[2026-02-23 22:20:29.847] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-6.41,5.82)->(-6.41,5.84)
+[2026-02-23 22:20:29.857] [INFO    ] [services.logging_service] [INFO]   Snap mur: (4.17,2.48)->(4.17,2.49)
+[2026-02-23 22:20:29.863] [INFO    ] [services.logging_service] [INFO]   Snap mur: (7.80,-1.49)->(7.80,-1.49)
+[2026-02-23 22:20:29.867] [INFO    ] [services.logging_service] [INFO]   Snap mur: (7.80,5.82)->(7.80,5.80)
+[2026-02-23 22:20:29.874] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-10.36,-1.49)->(-10.36,-1.49)
+[2026-02-23 22:20:29.881] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-6.41,-1.49)->(-6.42,-1.49)
+[2026-02-23 22:20:29.889] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-6.41,2.48)->(-6.41,2.49)
+[2026-02-23 22:20:29.895] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-3.03,-4.52)->(-3.03,-4.52)
+[2026-02-23 22:20:29.901] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-3.03,2.48)->(-3.03,2.49)
+[2026-02-23 22:20:29.908] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-3.03,5.82)->(-3.03,5.84)
+[2026-02-23 22:20:29.917] [INFO    ] [services.logging_service] [INFO]   Snap mur: (0.25,-4.52)->(0.25,-4.52)
+[2026-02-23 22:20:29.924] [INFO    ] [services.logging_service] [INFO]   Snap mur: (0.25,-1.49)->(0.25,-1.49)
+[2026-02-23 22:20:29.932] [INFO    ] [services.logging_service] [INFO]   Snap mur: (0.25,2.48)->(0.25,2.49)
+[2026-02-23 22:20:29.937] [INFO    ] [services.logging_service] [INFO]   Snap mur: (0.25,5.82)->(0.25,5.84)
+[2026-02-23 22:20:29.944] [INFO    ] [services.logging_service] [INFO]   Snap mur: (4.17,-4.52)->(4.17,-4.52)
+[2026-02-23 22:20:29.950] [INFO    ] [services.logging_service] [INFO]   Snap mur: (4.17,-1.49)->(4.17,-1.49)
+[2026-02-23 22:20:29.957] [INFO    ] [services.logging_service] [INFO]   Snap mur: (4.17,5.82)->(4.17,5.80)
+[2026-02-23 22:20:29.965] [INFO    ] [services.logging_service] [INFO]   Snap mur: (7.80,2.48)->(7.80,2.48)
+[2026-02-23 22:20:29.973] [INFO    ] [services.logging_service] [INFO]   Points snapes sur mur: 20
+[2026-02-23 22:20:29.978] [INFO    ] [services.logging_service] [INFO] ==> TOTAL PLANT 2 : 20 poteaux
+[2026-02-23 22:20:29.988] [INFO    ] [services.logging_service] [INFO] 'PLANT 2': 0 exist | 0 dups | 20 new
+[2026-02-23 22:20:30.010] [INFO    ] [services.logging_service] [INFO] Famille: 305x305x97UC (400x400mm)
+[2026-02-23 22:40:37.573] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 22:40:37.600] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 22:40:37.613] [INFO    ] [services.logging_service] LoggingService initialise - Session: b45b98d9
+[2026-02-23 22:40:37.686] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 22:40:50.021] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 22:40:50.055] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 22:40:50.073] [INFO    ] [services.logging_service] LoggingService initialise - Session: ea6faf90
+[2026-02-23 22:40:50.160] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 22:41:05.681] [INFO    ] [services.logging_service] [INFO] === Placement v3.2 - PLANT 2 (h=3000mm) ===
+[2026-02-23 22:41:05.684] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 22:41:05.718] [INFO    ] [services.logging_service] [INFO] Murs: 44 segments | 26 coins detectes
+[2026-02-23 22:41:05.722] [INFO    ] [services.logging_service] [INFO]   Coins : (7.8,5.8)  (7.8,-1.5)  (3.1,-0.6)  (3.1,1.4)  (3.1,-1.5)  (3.1,5.8)  (3.1,2.5)  (-5.1,5.0)
+[2026-02-23 22:41:05.724] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m  max=5.5m
+[2026-02-23 22:41:05.725] [INFO    ] [services.logging_service] [INFO]   Filtre mur : tolerance=0.40m (coins: 0.50m)
+[2026-02-23 22:41:05.732] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-23 22:41:05.754] [INFO    ] [services.logging_service] [INFO]   Intersections: 20 ok | 96 rej axe | 4 rej hors-mur
+[2026-02-23 22:41:05.774] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 20 points
+[2026-02-23 22:41:05.786] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,-0.56m) : trop proche (1.39m < 3.0m), ignore
+[2026-02-23 22:41:05.787] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,1.40m) : trop proche (1.49m < 3.0m), ignore
+[2026-02-23 22:41:05.788] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,-1.49m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 22:41:05.789] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,5.83m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 22:41:05.790] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,2.49m) : trop proche (1.02m < 3.0m), ignore
+[2026-02-23 22:41:05.791] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,5.04m) : trop proche (1.49m < 3.0m), ignore
+[2026-02-23 22:41:05.791] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,2.49m) : trop proche (1.27m < 3.0m), ignore
+[2026-02-23 22:41:05.792] [INFO    ] [services.logging_service] [INFO]   Coin (-10.36m,-3.52m) : trop proche (2.03m < 3.0m), ignore
+[2026-02-23 22:41:05.792] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,1.40m) : trop proche (1.08m < 3.0m), ignore
+[2026-02-23 22:41:05.793] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,1.40m) : trop proche (1.53m < 3.0m), ignore
+[2026-02-23 22:41:05.793] [INFO    ] [services.logging_service] [INFO]   Coin (-10.36m,-2.33m) : trop proche (0.84m < 3.0m), ignore
+[2026-02-23 22:41:05.794] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,-2.33m) : trop proche (0.84m < 3.0m), ignore
+[2026-02-23 22:41:05.794] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,2.48m) : trop proche (1.09m < 3.0m), ignore
+[2026-02-23 22:41:05.794] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-0.55m) : trop proche (2.39m < 3.0m), ignore
+[2026-02-23 22:41:05.795] [INFO    ] [services.logging_service] [INFO]   Coin (-6.39m,-3.48m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 22:41:05.795] [INFO    ] [services.logging_service] [INFO]   Coin (5.33m,-4.52m) : trop proche (1.16m < 3.0m), ignore
+[2026-02-23 22:41:05.795] [INFO    ] [services.logging_service] [INFO]   Coin (5.33m,-1.49m) : trop proche (1.16m < 3.0m), ignore
+[2026-02-23 22:41:05.796] [INFO    ] [services.logging_service] [INFO]   Coin (-6.37m,0.36m) : trop proche (1.85m < 3.0m), ignore
+[2026-02-23 22:41:05.796] [INFO    ] [services.logging_service] [INFO]   Coin (-2.06m,0.36m) : trop proche (2.32m < 3.0m), ignore
+[2026-02-23 22:41:05.797] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-1.49m) : trop proche (2.20m < 3.0m), ignore
+[2026-02-23 22:41:05.813] [INFO    ] [services.logging_service] [INFO]   Apres espacement min : 20 points
+[2026-02-23 22:41:05.814] [INFO    ] [services.logging_service] [INFO]   (Premier niveau - pas de contrainte de continuite)
+[2026-02-23 22:41:05.815] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-10.36,2.48)->(-10.36,2.48)
+[2026-02-23 22:41:05.816] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-6.41,-4.52)->(-6.41,-4.52)
+[2026-02-23 22:41:05.816] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-6.41,5.82)->(-6.41,5.84)
+[2026-02-23 22:41:05.817] [INFO    ] [services.logging_service] [INFO]   Snap mur: (4.17,2.48)->(4.17,2.49)
+[2026-02-23 22:41:05.817] [INFO    ] [services.logging_service] [INFO]   Snap mur: (7.80,-1.49)->(7.80,-1.49)
+[2026-02-23 22:41:05.818] [INFO    ] [services.logging_service] [INFO]   Snap mur: (7.80,5.82)->(7.80,5.80)
+[2026-02-23 22:41:05.818] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-10.36,-1.49)->(-10.36,-1.49)
+[2026-02-23 22:41:05.819] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-6.41,-1.49)->(-6.42,-1.49)
+[2026-02-23 22:41:05.819] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-6.41,2.48)->(-6.41,2.49)
+[2026-02-23 22:41:05.820] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-3.03,-4.52)->(-3.03,-4.52)
+[2026-02-23 22:41:05.821] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-3.03,2.48)->(-3.03,2.49)
+[2026-02-23 22:41:05.821] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-3.03,5.82)->(-3.03,5.84)
+[2026-02-23 22:41:05.821] [INFO    ] [services.logging_service] [INFO]   Snap mur: (0.25,-4.52)->(0.25,-4.52)
+[2026-02-23 22:41:05.821] [INFO    ] [services.logging_service] [INFO]   Snap mur: (0.25,-1.49)->(0.25,-1.49)
+[2026-02-23 22:41:05.821] [INFO    ] [services.logging_service] [INFO]   Snap mur: (0.25,2.48)->(0.25,2.49)
+[2026-02-23 22:41:05.822] [INFO    ] [services.logging_service] [INFO]   Snap mur: (0.25,5.82)->(0.25,5.84)
+[2026-02-23 22:41:05.823] [INFO    ] [services.logging_service] [INFO]   Snap mur: (4.17,-4.52)->(4.17,-4.52)
+[2026-02-23 22:41:05.823] [INFO    ] [services.logging_service] [INFO]   Snap mur: (4.17,-1.49)->(4.17,-1.49)
+[2026-02-23 22:41:05.823] [INFO    ] [services.logging_service] [INFO]   Snap mur: (4.17,5.82)->(4.17,5.80)
+[2026-02-23 22:41:05.823] [INFO    ] [services.logging_service] [INFO]   Snap mur: (7.80,2.48)->(7.80,2.48)
+[2026-02-23 22:41:05.823] [INFO    ] [services.logging_service] [INFO]   Points snapes sur mur: 20
+[2026-02-23 22:41:05.824] [INFO    ] [services.logging_service] [INFO] ==> TOTAL PLANT 2 : 20 poteaux
+[2026-02-23 22:41:05.825] [INFO    ] [services.logging_service] [INFO] 'PLANT 2': 0 exist | 0 dups | 20 new
+[2026-02-23 22:41:05.831] [INFO    ] [services.logging_service] [INFO] Famille: 305x305x97UC (400x400mm)
+[2026-02-23 22:42:03.935] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 22:42:03.986] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 22:42:03.998] [INFO    ] [services.logging_service] LoggingService initialise - Session: ce46a2c6
+[2026-02-23 22:42:04.095] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 22:42:19.637] [INFO    ] [services.logging_service] [INFO] === Placement v3.2 - PLANT 2 (h=3000mm) ===
+[2026-02-23 22:42:19.774] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 22:42:19.803] [INFO    ] [services.logging_service] [INFO] Murs: 44 segments | 26 coins detectes
+[2026-02-23 22:42:19.816] [INFO    ] [services.logging_service] [INFO]   Coins : (7.8,5.8)  (7.8,-1.5)  (3.1,-0.6)  (3.1,1.4)  (3.1,-1.5)  (3.1,5.8)  (3.1,2.5)  (-5.1,5.0)
+[2026-02-23 22:42:19.825] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m  max=5.5m
+[2026-02-23 22:42:19.828] [INFO    ] [services.logging_service] [INFO]   Filtre mur : tolerance=0.40m (coins: 0.50m)
+[2026-02-23 22:42:19.837] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-23 22:42:19.878] [INFO    ] [services.logging_service] [INFO]   Intersections: 20 ok | 96 rej axe | 4 rej hors-mur
+[2026-02-23 22:42:19.942] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 20 points
+[2026-02-23 22:42:19.954] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,-0.56m) : trop proche (1.39m < 3.0m), ignore
+[2026-02-23 22:42:19.958] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,1.40m) : trop proche (1.49m < 3.0m), ignore
+[2026-02-23 22:42:19.964] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,-1.49m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 22:42:19.968] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,5.83m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 22:42:19.973] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,2.49m) : trop proche (1.02m < 3.0m), ignore
+[2026-02-23 22:42:19.982] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,5.04m) : trop proche (1.49m < 3.0m), ignore
+[2026-02-23 22:42:19.987] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,2.49m) : trop proche (1.27m < 3.0m), ignore
+[2026-02-23 22:42:19.989] [INFO    ] [services.logging_service] [INFO]   Coin (-10.36m,-3.52m) : trop proche (2.03m < 3.0m), ignore
+[2026-02-23 22:42:19.992] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,1.40m) : trop proche (1.08m < 3.0m), ignore
+[2026-02-23 22:42:19.997] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,1.40m) : trop proche (1.53m < 3.0m), ignore
+[2026-02-23 22:42:20.001] [INFO    ] [services.logging_service] [INFO]   Coin (-10.36m,-2.33m) : trop proche (0.84m < 3.0m), ignore
+[2026-02-23 22:42:20.005] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,-2.33m) : trop proche (0.84m < 3.0m), ignore
+[2026-02-23 22:42:20.009] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,2.48m) : trop proche (1.09m < 3.0m), ignore
+[2026-02-23 22:42:20.013] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-0.55m) : trop proche (2.39m < 3.0m), ignore
+[2026-02-23 22:42:20.023] [INFO    ] [services.logging_service] [INFO]   Coin (-6.39m,-3.48m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 22:42:20.031] [INFO    ] [services.logging_service] [INFO]   Coin (5.33m,-4.52m) : trop proche (1.16m < 3.0m), ignore
+[2026-02-23 22:42:20.041] [INFO    ] [services.logging_service] [INFO]   Coin (5.33m,-1.49m) : trop proche (1.16m < 3.0m), ignore
+[2026-02-23 22:42:20.050] [INFO    ] [services.logging_service] [INFO]   Coin (-6.37m,0.36m) : trop proche (1.85m < 3.0m), ignore
+[2026-02-23 22:42:20.068] [INFO    ] [services.logging_service] [INFO]   Coin (-2.06m,0.36m) : trop proche (2.32m < 3.0m), ignore
+[2026-02-23 22:42:20.135] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-1.49m) : trop proche (2.20m < 3.0m), ignore
+[2026-02-23 22:42:20.160] [INFO    ] [services.logging_service] [INFO]   Apres espacement min : 20 points
+[2026-02-23 22:42:20.171] [INFO    ] [services.logging_service] [INFO]   (Premier niveau - pas de contrainte de continuite)
+[2026-02-23 22:42:20.177] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-10.36,2.48)->(-10.36,2.48)
+[2026-02-23 22:42:20.188] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-6.41,-4.52)->(-6.41,-4.52)
+[2026-02-23 22:42:20.200] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-6.41,5.82)->(-6.41,5.84)
+[2026-02-23 22:42:20.206] [INFO    ] [services.logging_service] [INFO]   Snap mur: (4.17,2.48)->(4.17,2.49)
+[2026-02-23 22:42:20.214] [INFO    ] [services.logging_service] [INFO]   Snap mur: (7.80,-1.49)->(7.80,-1.49)
+[2026-02-23 22:42:20.222] [INFO    ] [services.logging_service] [INFO]   Snap mur: (7.80,5.82)->(7.80,5.80)
+[2026-02-23 22:42:20.231] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-10.36,-1.49)->(-10.36,-1.49)
+[2026-02-23 22:42:20.237] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-6.41,-1.49)->(-6.42,-1.49)
+[2026-02-23 22:42:20.243] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-6.41,2.48)->(-6.41,2.49)
+[2026-02-23 22:42:20.254] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-3.03,-4.52)->(-3.03,-4.52)
+[2026-02-23 22:42:20.261] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-3.03,2.48)->(-3.03,2.49)
+[2026-02-23 22:42:20.266] [INFO    ] [services.logging_service] [INFO]   Snap mur: (-3.03,5.82)->(-3.03,5.84)
+[2026-02-23 22:42:20.273] [INFO    ] [services.logging_service] [INFO]   Snap mur: (0.25,-4.52)->(0.25,-4.52)
+[2026-02-23 22:42:20.278] [INFO    ] [services.logging_service] [INFO]   Snap mur: (0.25,-1.49)->(0.25,-1.49)
+[2026-02-23 22:42:20.282] [INFO    ] [services.logging_service] [INFO]   Snap mur: (0.25,2.48)->(0.25,2.49)
+[2026-02-23 22:42:20.288] [INFO    ] [services.logging_service] [INFO]   Snap mur: (0.25,5.82)->(0.25,5.84)
+[2026-02-23 22:42:20.296] [INFO    ] [services.logging_service] [INFO]   Snap mur: (4.17,-4.52)->(4.17,-4.52)
+[2026-02-23 22:42:20.305] [INFO    ] [services.logging_service] [INFO]   Snap mur: (4.17,-1.49)->(4.17,-1.49)
+[2026-02-23 22:42:20.312] [INFO    ] [services.logging_service] [INFO]   Snap mur: (4.17,5.82)->(4.17,5.80)
+[2026-02-23 22:42:20.319] [INFO    ] [services.logging_service] [INFO]   Snap mur: (7.80,2.48)->(7.80,2.48)
+[2026-02-23 22:42:20.325] [INFO    ] [services.logging_service] [INFO]   Points snapes sur mur: 20
+[2026-02-23 22:42:20.332] [INFO    ] [services.logging_service] [INFO] ==> TOTAL PLANT 2 : 20 poteaux
+[2026-02-23 22:42:20.341] [INFO    ] [services.logging_service] [INFO] 'PLANT 2': 0 exist | 0 dups | 20 new
+[2026-02-23 22:42:20.354] [INFO    ] [services.logging_service] [INFO] Famille: 305x305x97UC (400x400mm)
+[2026-02-23 22:50:55.577] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 22:50:55.613] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 22:50:55.623] [INFO    ] [services.logging_service] LoggingService initialise - Session: 4bf6a7c2
+[2026-02-23 22:50:55.701] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 22:51:07.410] [INFO    ] [services.logging_service] [INFO] === Placement v3.3 - PLANT 2 (h=3000mm) ===
+[2026-02-23 22:51:07.514] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 22:51:07.555] [INFO    ] [services.logging_service] [INFO] Murs: 44 segments | 26 coins detectes
+[2026-02-23 22:51:07.589] [INFO    ] [services.logging_service] [INFO]   Coins : (7.8,5.8)  (7.8,-1.5)  (3.1,-0.6)  (3.1,1.4)  (3.1,-1.5)  (3.1,5.8)  (3.1,2.5)  (-5.1,5.0)
+[2026-02-23 22:51:07.594] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m  max=5.5m
+[2026-02-23 22:51:07.597] [INFO    ] [services.logging_service] [INFO]   Filtre mur : tol=0.35m | decalage max=6.0m
+[2026-02-23 22:51:07.616] [INFO    ] [services.logging_service] [INFO]   Cache intersections : 120 points (V x H, sans filtre)
+[2026-02-23 22:51:07.624] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-23 22:51:07.656] [INFO    ] [services.logging_service] [INFO]     Decalage (-10.36m,-4.52m) -> intersection mur (-10.36m,-3.52m) [dist=1.00m]
+[2026-02-23 22:51:07.691] [INFO    ] [services.logging_service] [INFO]     Decalage (-10.36m,5.82m) -> intersection mur (-10.36m,2.48m) [dist=3.34m]
+[2026-02-23 22:51:07.734] [INFO    ] [services.logging_service] [INFO]     Decalage (-3.03m,-1.49m) -> intersection mur (-3.03m,-2.33m) [dist=0.84m]
+[2026-02-23 22:51:07.767] [INFO    ] [services.logging_service] [INFO]     Decalage (7.80m,-4.52m) -> intersection mur (5.33m,-4.52m) [dist=2.46m]
+[2026-02-23 22:51:07.805] [INFO    ] [services.logging_service] [INFO]   Intersections: 96 rej axe | 20 sur mur | 4 decales (inter) | 0 decales (proj)
+[2026-02-23 22:51:07.816] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 23 points
+[2026-02-23 22:51:07.826] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,-0.56m) : trop proche (1.39m < 3.0m), ignore
+[2026-02-23 22:51:07.829] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,1.40m) : trop proche (1.49m < 3.0m), ignore
+[2026-02-23 22:51:07.835] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,-1.49m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 22:51:07.836] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,5.83m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 22:51:07.839] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,2.49m) : trop proche (1.02m < 3.0m), ignore
+[2026-02-23 22:51:07.846] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,5.04m) : trop proche (1.49m < 3.0m), ignore
+[2026-02-23 22:51:07.853] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,2.49m) : trop proche (1.27m < 3.0m), ignore
+[2026-02-23 22:51:07.860] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,1.40m) : trop proche (1.08m < 3.0m), ignore
+[2026-02-23 22:51:07.864] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,1.40m) : trop proche (1.53m < 3.0m), ignore
+[2026-02-23 22:51:07.870] [INFO    ] [services.logging_service] [INFO]   Coin (-10.36m,-2.33m) : trop proche (0.84m < 3.0m), ignore
+[2026-02-23 22:51:07.876] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,-2.33m) : trop proche (0.84m < 3.0m), ignore
+[2026-02-23 22:51:07.882] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,2.48m) : trop proche (1.09m < 3.0m), ignore
+[2026-02-23 22:51:07.887] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-0.55m) : trop proche (2.08m < 3.0m), ignore
+[2026-02-23 22:51:07.896] [INFO    ] [services.logging_service] [INFO]   Coin (-6.39m,-3.48m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 22:51:07.902] [INFO    ] [services.logging_service] [INFO]   Coin (5.33m,-1.49m) : trop proche (1.16m < 3.0m), ignore
+[2026-02-23 22:51:07.910] [INFO    ] [services.logging_service] [INFO]   Coin (-6.37m,0.36m) : trop proche (1.85m < 3.0m), ignore
+[2026-02-23 22:51:07.922] [INFO    ] [services.logging_service] [INFO]   Coin (-2.06m,0.36m) : trop proche (2.32m < 3.0m), ignore
+[2026-02-23 22:51:07.951] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-1.49m) : trop proche (1.37m < 3.0m), ignore
+[2026-02-23 22:51:07.966] [INFO    ] [services.logging_service] [INFO]   Poteaux trop proches supprimes : 3 (espacement min 3.0m)
+[2026-02-23 22:51:07.971] [INFO    ] [services.logging_service] [INFO]   Apres espacement min : 20 points
+[2026-02-23 22:51:07.979] [INFO    ] [services.logging_service] [INFO]   (Premier niveau - pas de contrainte de continuite)
+[2026-02-23 22:51:07.986] [INFO    ] [services.logging_service] [INFO]   Snap final sur mur: 20 points
+[2026-02-23 22:51:07.990] [INFO    ] [services.logging_service] [INFO] ==> TOTAL PLANT 2 : 20 poteaux
+[2026-02-23 22:51:08.000] [INFO    ] [services.logging_service] [INFO] 'PLANT 2': 0 exist | 0 dups | 20 new
+[2026-02-23 22:51:08.013] [INFO    ] [services.logging_service] [INFO] Famille: 305x305x97UC (400x400mm)
+[2026-02-23 22:52:47.157] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 22:52:47.198] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 22:52:47.210] [INFO    ] [services.logging_service] LoggingService initialise - Session: 81788a3d
+[2026-02-23 22:52:47.285] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 22:52:59.787] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 22:52:59.832] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 22:52:59.846] [INFO    ] [services.logging_service] LoggingService initialise - Session: 095db3dd
+[2026-02-23 22:52:59.912] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 22:53:04.133] [INFO    ] [services.logging_service] [INFO] === Placement v3.3 - PLANT 2 (h=3000mm) ===
+[2026-02-23 22:53:04.249] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 22:53:04.281] [INFO    ] [services.logging_service] [INFO] Murs: 44 segments | 26 coins detectes
+[2026-02-23 22:53:04.311] [INFO    ] [services.logging_service] [INFO]   Coins : (7.8,5.8)  (7.8,-1.5)  (3.1,-0.6)  (3.1,1.4)  (3.1,-1.5)  (3.1,5.8)  (3.1,2.5)  (-5.1,5.0)
+[2026-02-23 22:53:04.313] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m  max=5.5m
+[2026-02-23 22:53:04.319] [INFO    ] [services.logging_service] [INFO]   Filtre mur : tol=0.35m | decalage max=6.0m
+[2026-02-23 22:53:04.332] [INFO    ] [services.logging_service] [INFO]   Cache intersections : 120 points (V x H, sans filtre)
+[2026-02-23 22:53:04.342] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-23 22:53:04.393] [INFO    ] [services.logging_service] [INFO]     Decalage (-10.36m,-4.52m) -> intersection mur (-10.36m,-3.52m) [dist=1.00m]
+[2026-02-23 22:53:04.411] [INFO    ] [services.logging_service] [INFO]     Decalage (-10.36m,5.82m) -> intersection mur (-10.36m,2.48m) [dist=3.34m]
+[2026-02-23 22:53:04.456] [INFO    ] [services.logging_service] [INFO]     Decalage (-3.03m,-1.49m) -> intersection mur (-3.03m,-2.33m) [dist=0.84m]
+[2026-02-23 22:53:04.502] [INFO    ] [services.logging_service] [INFO]     Decalage (7.80m,-4.52m) -> intersection mur (5.33m,-4.52m) [dist=2.46m]
+[2026-02-23 22:53:04.544] [INFO    ] [services.logging_service] [INFO]   Intersections: 96 rej axe | 20 sur mur | 4 decales (inter) | 0 decales (proj)
+[2026-02-23 22:53:04.557] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 23 points
+[2026-02-23 22:53:04.568] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,-0.56m) : trop proche (1.39m < 3.0m), ignore
+[2026-02-23 22:53:04.573] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,1.40m) : trop proche (1.49m < 3.0m), ignore
+[2026-02-23 22:53:04.578] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,-1.49m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 22:53:04.581] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,5.83m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 22:53:04.588] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,2.49m) : trop proche (1.02m < 3.0m), ignore
+[2026-02-23 22:53:04.596] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,5.04m) : trop proche (1.49m < 3.0m), ignore
+[2026-02-23 22:53:04.604] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,2.49m) : trop proche (1.27m < 3.0m), ignore
+[2026-02-23 22:53:04.610] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,1.40m) : trop proche (1.08m < 3.0m), ignore
+[2026-02-23 22:53:04.615] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,1.40m) : trop proche (1.53m < 3.0m), ignore
+[2026-02-23 22:53:04.621] [INFO    ] [services.logging_service] [INFO]   Coin (-10.36m,-2.33m) : trop proche (0.84m < 3.0m), ignore
+[2026-02-23 22:53:04.629] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,-2.33m) : trop proche (0.84m < 3.0m), ignore
+[2026-02-23 22:53:04.637] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,2.48m) : trop proche (1.09m < 3.0m), ignore
+[2026-02-23 22:53:04.643] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-0.55m) : trop proche (2.08m < 3.0m), ignore
+[2026-02-23 22:53:04.649] [INFO    ] [services.logging_service] [INFO]   Coin (-6.39m,-3.48m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 22:53:04.665] [INFO    ] [services.logging_service] [INFO]   Coin (5.33m,-1.49m) : trop proche (1.16m < 3.0m), ignore
+[2026-02-23 22:53:04.671] [INFO    ] [services.logging_service] [INFO]   Coin (-6.37m,0.36m) : trop proche (1.85m < 3.0m), ignore
+[2026-02-23 22:53:04.679] [INFO    ] [services.logging_service] [INFO]   Coin (-2.06m,0.36m) : trop proche (2.32m < 3.0m), ignore
+[2026-02-23 22:53:04.687] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-1.49m) : trop proche (1.37m < 3.0m), ignore
+[2026-02-23 22:53:04.705] [INFO    ] [services.logging_service] [INFO]   Poteaux trop proches supprimes : 3 (espacement min 3.0m)
+[2026-02-23 22:53:04.712] [INFO    ] [services.logging_service] [INFO]   Apres espacement min : 20 points
+[2026-02-23 22:53:04.717] [INFO    ] [services.logging_service] [INFO]   (Premier niveau - pas de contrainte de continuite)
+[2026-02-23 22:53:04.727] [INFO    ] [services.logging_service] [INFO]   Snap final sur mur: 20 points
+[2026-02-23 22:53:04.735] [INFO    ] [services.logging_service] [INFO] ==> TOTAL PLANT 2 : 20 poteaux
+[2026-02-23 22:53:04.741] [INFO    ] [services.logging_service] [INFO] 'PLANT 2': 0 exist | 0 dups | 20 new
+[2026-02-23 22:53:04.755] [INFO    ] [services.logging_service] [INFO] Famille: 305x305x97UC (400x400mm)
+[2026-02-23 23:06:41.960] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 23:06:42.015] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 23:06:42.026] [INFO    ] [services.logging_service] LoggingService initialise - Session: d160baaa
+[2026-02-23 23:06:42.125] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 23:06:52.924] [INFO    ] [services.logging_service] [INFO] === Placement v3.4 - PLANT 2 (h=3000mm) ===
+[2026-02-23 23:06:53.049] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 23:06:53.072] [INFO    ] [services.logging_service] [INFO] Murs: 44 segments | 26 coins detectes
+[2026-02-23 23:06:53.083] [INFO    ] [services.logging_service] [INFO]   Coins : (7.8,5.8)  (7.8,-1.5)  (3.1,-0.6)  (3.1,1.4)  (3.1,-1.5)  (3.1,5.8)  (3.1,2.5)  (-5.1,5.0)
+[2026-02-23 23:06:53.087] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m  max=5.5m
+[2026-02-23 23:06:53.088] [INFO    ] [services.logging_service] [INFO]   Filtre mur : tol=0.50m | decalage max=10.0m
+[2026-02-23 23:06:53.109] [INFO    ] [services.logging_service] [INFO]   Cache intersections : 120 points (V x H, sans filtre)
+[2026-02-23 23:06:53.147] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-23 23:06:53.186] [INFO    ] [services.logging_service] [INFO]     Decalage (-10.36m,-4.52m) -> intersection mur (-10.36m,-3.52m) [dist=1.00m]
+[2026-02-23 23:06:53.224] [INFO    ] [services.logging_service] [INFO]     Decalage (-10.36m,5.82m) -> intersection mur (-10.36m,2.48m) [dist=3.34m]
+[2026-02-23 23:06:53.273] [INFO    ] [services.logging_service] [INFO]     Decalage (-3.03m,-1.49m) -> intersection mur (-3.03m,-2.33m) [dist=0.84m]
+[2026-02-23 23:06:53.285] [INFO    ] [services.logging_service] [INFO]     Decalage (7.80m,-4.52m) -> intersection mur (5.33m,-4.52m) [dist=2.46m]
+[2026-02-23 23:06:53.328] [INFO    ] [services.logging_service] [INFO]   Intersections: 96 rej axe | 20 sur mur | 4 decales (inter) | 0 decales (proj)
+[2026-02-23 23:06:53.341] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 23 points
+[2026-02-23 23:06:53.380] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,-0.56m) : trop proche (1.39m < 3.0m), ignore
+[2026-02-23 23:06:53.386] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,1.40m) : trop proche (1.49m < 3.0m), ignore
+[2026-02-23 23:06:53.390] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,-1.49m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 23:06:53.396] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,5.83m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 23:06:53.399] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,2.49m) : trop proche (1.02m < 3.0m), ignore
+[2026-02-23 23:06:53.406] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,5.04m) : trop proche (1.49m < 3.0m), ignore
+[2026-02-23 23:06:53.412] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,2.49m) : trop proche (1.27m < 3.0m), ignore
+[2026-02-23 23:06:53.419] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,1.40m) : trop proche (1.08m < 3.0m), ignore
+[2026-02-23 23:06:53.427] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,1.40m) : trop proche (1.53m < 3.0m), ignore
+[2026-02-23 23:06:53.435] [INFO    ] [services.logging_service] [INFO]   Coin (-10.36m,-2.33m) : trop proche (0.84m < 3.0m), ignore
+[2026-02-23 23:06:53.440] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,-2.33m) : trop proche (0.84m < 3.0m), ignore
+[2026-02-23 23:06:53.448] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,2.48m) : trop proche (1.09m < 3.0m), ignore
+[2026-02-23 23:06:53.454] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-0.55m) : trop proche (2.08m < 3.0m), ignore
+[2026-02-23 23:06:53.460] [INFO    ] [services.logging_service] [INFO]   Coin (-6.39m,-3.48m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 23:06:53.465] [INFO    ] [services.logging_service] [INFO]   Coin (5.33m,-1.49m) : trop proche (1.16m < 3.0m), ignore
+[2026-02-23 23:06:53.471] [INFO    ] [services.logging_service] [INFO]   Coin (-6.37m,0.36m) : trop proche (1.85m < 3.0m), ignore
+[2026-02-23 23:06:53.481] [INFO    ] [services.logging_service] [INFO]   Coin (-2.06m,0.36m) : trop proche (2.32m < 3.0m), ignore
+[2026-02-23 23:06:53.489] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-1.49m) : trop proche (1.37m < 3.0m), ignore
+[2026-02-23 23:06:53.510] [INFO    ] [services.logging_service] [INFO]   Poteaux trop proches supprimes : 3 (espacement min 3.0m)
+[2026-02-23 23:06:53.516] [INFO    ] [services.logging_service] [INFO]   Apres espacement min : 20 points
+[2026-02-23 23:06:53.522] [INFO    ] [services.logging_service] [INFO]   (Premier niveau - pas de contrainte de continuite)
+[2026-02-23 23:06:53.535] [INFO    ] [services.logging_service] [INFO]   Snap conditionnel sur mur : 20 points
+[2026-02-23 23:06:53.578] [INFO    ] [services.logging_service] [INFO] ==> TOTAL PLANT 2 : 20 poteaux
+[2026-02-23 23:06:53.587] [INFO    ] [services.logging_service] [INFO] 'PLANT 2': 0 exist | 0 dups | 20 new
+[2026-02-23 23:06:53.601] [INFO    ] [services.logging_service] [INFO] Famille: 305x305x97UC (400x400mm)
+[2026-02-23 23:13:01.884] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 23:13:01.937] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 23:13:01.953] [INFO    ] [services.logging_service] LoggingService initialise - Session: c5ff6afb
+[2026-02-23 23:13:02.021] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 23:13:15.456] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 23:13:15.510] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 23:13:15.523] [INFO    ] [services.logging_service] LoggingService initialise - Session: 9e275098
+[2026-02-23 23:13:15.599] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 23:13:20.182] [INFO    ] [services.logging_service] [INFO] === Placement v3.4 - PLANT 2 (h=3000mm) ===
+[2026-02-23 23:13:20.307] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 23:13:20.347] [INFO    ] [services.logging_service] [INFO] Murs: 44 segments | 26 coins detectes
+[2026-02-23 23:13:20.407] [INFO    ] [services.logging_service] [INFO]   Coins : (7.8,5.8)  (7.8,-1.5)  (3.1,-0.6)  (3.1,1.4)  (3.1,-1.5)  (3.1,5.8)  (3.1,2.5)  (-5.1,5.0)
+[2026-02-23 23:13:20.414] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m  max=5.5m
+[2026-02-23 23:13:20.417] [INFO    ] [services.logging_service] [INFO]   Filtre mur : tol=0.50m | decalage max=10.0m
+[2026-02-23 23:13:20.440] [INFO    ] [services.logging_service] [INFO]   Cache intersections : 120 points (V x H, sans filtre)
+[2026-02-23 23:13:20.456] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-23 23:13:20.544] [INFO    ] [services.logging_service] [INFO]     Decalage (-10.36m,-4.52m) -> intersection mur (-10.36m,-3.52m) [dist=1.00m]
+[2026-02-23 23:13:20.591] [INFO    ] [services.logging_service] [INFO]     Decalage (-10.36m,5.82m) -> intersection mur (-10.36m,2.48m) [dist=3.34m]
+[2026-02-23 23:13:20.604] [INFO    ] [services.logging_service] [INFO]     Decalage (-3.03m,-1.49m) -> intersection mur (-3.03m,-2.33m) [dist=0.84m]
+[2026-02-23 23:13:20.661] [INFO    ] [services.logging_service] [INFO]     Decalage (7.80m,-4.52m) -> intersection mur (5.33m,-4.52m) [dist=2.46m]
+[2026-02-23 23:13:20.714] [INFO    ] [services.logging_service] [INFO]   Intersections: 96 rej axe | 20 sur mur | 4 decales (inter) | 0 decales (proj)
+[2026-02-23 23:13:20.731] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 23 points
+[2026-02-23 23:13:20.749] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,-0.56m) : trop proche (1.39m < 3.0m), ignore
+[2026-02-23 23:13:20.756] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,1.40m) : trop proche (1.49m < 3.0m), ignore
+[2026-02-23 23:13:20.803] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,-1.49m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 23:13:20.806] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,5.83m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 23:13:20.809] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,2.49m) : trop proche (1.02m < 3.0m), ignore
+[2026-02-23 23:13:20.816] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,5.04m) : trop proche (1.49m < 3.0m), ignore
+[2026-02-23 23:13:20.822] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,2.49m) : trop proche (1.27m < 3.0m), ignore
+[2026-02-23 23:13:20.830] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,1.40m) : trop proche (1.08m < 3.0m), ignore
+[2026-02-23 23:13:20.837] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,1.40m) : trop proche (1.53m < 3.0m), ignore
+[2026-02-23 23:13:20.842] [INFO    ] [services.logging_service] [INFO]   Coin (-10.36m,-2.33m) : trop proche (0.84m < 3.0m), ignore
+[2026-02-23 23:13:20.852] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,-2.33m) : trop proche (0.84m < 3.0m), ignore
+[2026-02-23 23:13:20.861] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,2.48m) : trop proche (1.09m < 3.0m), ignore
+[2026-02-23 23:13:20.867] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-0.55m) : trop proche (2.08m < 3.0m), ignore
+[2026-02-23 23:13:20.875] [INFO    ] [services.logging_service] [INFO]   Coin (-6.39m,-3.48m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 23:13:20.887] [INFO    ] [services.logging_service] [INFO]   Coin (5.33m,-1.49m) : trop proche (1.16m < 3.0m), ignore
+[2026-02-23 23:13:20.893] [INFO    ] [services.logging_service] [INFO]   Coin (-6.37m,0.36m) : trop proche (1.85m < 3.0m), ignore
+[2026-02-23 23:13:20.903] [INFO    ] [services.logging_service] [INFO]   Coin (-2.06m,0.36m) : trop proche (2.32m < 3.0m), ignore
+[2026-02-23 23:13:20.909] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-1.49m) : trop proche (1.37m < 3.0m), ignore
+[2026-02-23 23:13:20.931] [INFO    ] [services.logging_service] [INFO]   Poteaux trop proches supprimes : 3 (espacement min 3.0m)
+[2026-02-23 23:13:20.942] [INFO    ] [services.logging_service] [INFO]   Apres espacement min : 20 points
+[2026-02-23 23:13:20.951] [INFO    ] [services.logging_service] [INFO]   (Premier niveau - pas de contrainte de continuite)
+[2026-02-23 23:13:20.970] [INFO    ] [services.logging_service] [INFO]   Snap conditionnel sur mur : 20 points
+[2026-02-23 23:13:21.017] [INFO    ] [services.logging_service] [INFO] ==> TOTAL PLANT 2 : 20 poteaux
+[2026-02-23 23:13:21.026] [INFO    ] [services.logging_service] [INFO] 'PLANT 2': 0 exist | 0 dups | 20 new
+[2026-02-23 23:13:21.040] [INFO    ] [services.logging_service] [INFO] Famille: 305x305x97UC (400x400mm)
+[2026-02-23 23:13:59.762] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 23:13:59.809] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 23:13:59.827] [INFO    ] [services.logging_service] LoggingService initialise - Session: d97569d3
+[2026-02-23 23:13:59.956] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 23:14:12.657] [INFO    ] [services.logging_service] [INFO] === Placement v3.4 - PLANT 2 (h=3000mm) ===
+[2026-02-23 23:14:12.837] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 23:14:12.874] [INFO    ] [services.logging_service] [INFO] Murs: 44 segments | 26 coins detectes
+[2026-02-23 23:14:12.888] [INFO    ] [services.logging_service] [INFO]   Coins : (7.8,5.8)  (7.8,-1.5)  (3.1,-0.6)  (3.1,1.4)  (3.1,-1.5)  (3.1,5.8)  (3.1,2.5)  (-5.1,5.0)
+[2026-02-23 23:14:12.893] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m  max=5.5m
+[2026-02-23 23:14:12.901] [INFO    ] [services.logging_service] [INFO]   Filtre mur : tol=0.50m | decalage max=10.0m
+[2026-02-23 23:14:12.936] [INFO    ] [services.logging_service] [INFO]   Cache intersections : 120 points (V x H, sans filtre)
+[2026-02-23 23:14:12.996] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-23 23:14:13.046] [INFO    ] [services.logging_service] [INFO]     Decalage (-10.36m,-4.52m) -> intersection mur (-10.36m,-3.52m) [dist=1.00m]
+[2026-02-23 23:14:13.114] [INFO    ] [services.logging_service] [INFO]     Decalage (-10.36m,5.82m) -> intersection mur (-10.36m,2.48m) [dist=3.34m]
+[2026-02-23 23:14:13.175] [INFO    ] [services.logging_service] [INFO]     Decalage (-3.03m,-1.49m) -> intersection mur (-3.03m,-2.33m) [dist=0.84m]
+[2026-02-23 23:14:13.197] [INFO    ] [services.logging_service] [INFO]     Decalage (7.80m,-4.52m) -> intersection mur (5.33m,-4.52m) [dist=2.46m]
+[2026-02-23 23:14:13.295] [INFO    ] [services.logging_service] [INFO]   Intersections: 96 rej axe | 20 sur mur | 4 decales (inter) | 0 decales (proj)
+[2026-02-23 23:14:13.386] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 23 points
+[2026-02-23 23:14:13.503] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,-0.56m) : trop proche (1.39m < 3.0m), ignore
+[2026-02-23 23:14:13.510] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,1.40m) : trop proche (1.49m < 3.0m), ignore
+[2026-02-23 23:14:13.517] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,-1.49m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 23:14:13.526] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,5.83m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 23:14:13.532] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,2.49m) : trop proche (1.02m < 3.0m), ignore
+[2026-02-23 23:14:13.544] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,5.04m) : trop proche (1.49m < 3.0m), ignore
+[2026-02-23 23:14:13.554] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,2.49m) : trop proche (1.27m < 3.0m), ignore
+[2026-02-23 23:14:13.567] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,1.40m) : trop proche (1.08m < 3.0m), ignore
+[2026-02-23 23:14:13.577] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,1.40m) : trop proche (1.53m < 3.0m), ignore
+[2026-02-23 23:14:13.590] [INFO    ] [services.logging_service] [INFO]   Coin (-10.36m,-2.33m) : trop proche (0.84m < 3.0m), ignore
+[2026-02-23 23:14:13.598] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,-2.33m) : trop proche (0.84m < 3.0m), ignore
+[2026-02-23 23:14:13.613] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,2.48m) : trop proche (1.09m < 3.0m), ignore
+[2026-02-23 23:14:13.630] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-0.55m) : trop proche (2.08m < 3.0m), ignore
+[2026-02-23 23:14:13.652] [INFO    ] [services.logging_service] [INFO]   Coin (-6.39m,-3.48m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 23:14:13.661] [INFO    ] [services.logging_service] [INFO]   Coin (5.33m,-1.49m) : trop proche (1.16m < 3.0m), ignore
+[2026-02-23 23:14:13.670] [INFO    ] [services.logging_service] [INFO]   Coin (-6.37m,0.36m) : trop proche (1.85m < 3.0m), ignore
+[2026-02-23 23:14:13.684] [INFO    ] [services.logging_service] [INFO]   Coin (-2.06m,0.36m) : trop proche (2.32m < 3.0m), ignore
+[2026-02-23 23:14:13.695] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-1.49m) : trop proche (1.37m < 3.0m), ignore
+[2026-02-23 23:14:13.743] [INFO    ] [services.logging_service] [INFO]   Poteaux trop proches supprimes : 3 (espacement min 3.0m)
+[2026-02-23 23:14:13.799] [INFO    ] [services.logging_service] [INFO]   Apres espacement min : 20 points
+[2026-02-23 23:14:13.806] [INFO    ] [services.logging_service] [INFO]   (Premier niveau - pas de contrainte de continuite)
+[2026-02-23 23:14:13.818] [INFO    ] [services.logging_service] [INFO]   Snap conditionnel sur mur : 20 points
+[2026-02-23 23:14:13.828] [INFO    ] [services.logging_service] [INFO] ==> TOTAL PLANT 2 : 20 poteaux
+[2026-02-23 23:14:13.841] [INFO    ] [services.logging_service] [INFO] 'PLANT 2': 0 exist | 0 dups | 20 new
+[2026-02-23 23:14:13.857] [INFO    ] [services.logging_service] [INFO] Famille: 305x305x97UC (400x400mm)
+[2026-02-23 23:20:06.302] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 23:20:06.488] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 23:20:06.507] [INFO    ] [services.logging_service] LoggingService initialise - Session: 575c0a22
+[2026-02-23 23:20:06.617] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 23:20:29.370] [INFO    ] [services.logging_service] [INFO] === Placement v3.4 - PLANT 2 (h=3000mm) ===
+[2026-02-23 23:20:29.507] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 23:20:29.535] [INFO    ] [services.logging_service] [INFO] Murs: 44 segments | 26 coins detectes
+[2026-02-23 23:20:29.544] [INFO    ] [services.logging_service] [INFO]   Coins : (7.8,5.8)  (7.8,-1.5)  (3.1,-0.6)  (3.1,1.4)  (3.1,-1.5)  (3.1,5.8)  (3.1,2.5)  (-5.1,5.0)
+[2026-02-23 23:20:29.548] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m  max=5.5m
+[2026-02-23 23:20:29.553] [INFO    ] [services.logging_service] [INFO]   Filtre mur : tol=0.50m | decalage max=10.0m
+[2026-02-23 23:20:29.579] [INFO    ] [services.logging_service] [INFO]   Cache intersections : 120 points (V x H, sans filtre)
+[2026-02-23 23:20:29.623] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-23 23:20:29.669] [INFO    ] [services.logging_service] [INFO]   Intersections: 96 rej axe | 20 sur mur | 4 decales (inter) | 0 decales (proj)
+[2026-02-23 23:20:29.719] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 23 points
+[2026-02-23 23:20:29.729] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,-0.56m) : trop proche (1.39m < 3.0m), ignore
+[2026-02-23 23:20:29.733] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,1.40m) : trop proche (1.49m < 3.0m), ignore
+[2026-02-23 23:20:29.778] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,-1.49m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 23:20:29.780] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,5.83m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 23:20:29.781] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,2.49m) : trop proche (1.02m < 3.0m), ignore
+[2026-02-23 23:20:29.784] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,5.04m) : trop proche (1.49m < 3.0m), ignore
+[2026-02-23 23:20:29.787] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,2.49m) : trop proche (1.27m < 3.0m), ignore
+[2026-02-23 23:20:29.789] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,1.40m) : trop proche (1.08m < 3.0m), ignore
+[2026-02-23 23:20:29.797] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,1.40m) : trop proche (1.53m < 3.0m), ignore
+[2026-02-23 23:20:29.800] [INFO    ] [services.logging_service] [INFO]   Coin (-10.36m,-2.33m) : trop proche (0.84m < 3.0m), ignore
+[2026-02-23 23:20:29.804] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,-2.33m) : trop proche (0.84m < 3.0m), ignore
+[2026-02-23 23:20:29.805] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,2.48m) : trop proche (1.09m < 3.0m), ignore
+[2026-02-23 23:20:29.812] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-0.55m) : trop proche (2.08m < 3.0m), ignore
+[2026-02-23 23:20:29.818] [INFO    ] [services.logging_service] [INFO]   Coin (-6.39m,-3.48m) : trop proche (1.04m < 3.0m), ignore
+[2026-02-23 23:20:29.824] [INFO    ] [services.logging_service] [INFO]   Coin (5.33m,-1.49m) : trop proche (1.16m < 3.0m), ignore
+[2026-02-23 23:20:29.831] [INFO    ] [services.logging_service] [INFO]   Coin (-6.37m,0.36m) : trop proche (1.85m < 3.0m), ignore
+[2026-02-23 23:20:29.839] [INFO    ] [services.logging_service] [INFO]   Coin (-2.06m,0.36m) : trop proche (2.32m < 3.0m), ignore
+[2026-02-23 23:20:29.846] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-1.49m) : trop proche (1.37m < 3.0m), ignore
+[2026-02-23 23:20:29.861] [INFO    ] [services.logging_service] [INFO]   Poteaux trop proches supprimes : 3 (espacement min 3.0m)
+[2026-02-23 23:20:29.868] [INFO    ] [services.logging_service] [INFO]   Apres espacement min : 20 points
+[2026-02-23 23:20:29.874] [INFO    ] [services.logging_service] [INFO]   (Premier niveau - pas de contrainte de continuite)
+[2026-02-23 23:20:29.889] [INFO    ] [services.logging_service] [INFO]   Snap conditionnel sur mur : 20 points
+[2026-02-23 23:20:29.933] [INFO    ] [services.logging_service] [INFO] ==> TOTAL PLANT 2 : 20 poteaux
+[2026-02-23 23:20:29.942] [INFO    ] [services.logging_service] [INFO] 'PLANT 2': 0 exist | 0 dups | 20 new
+[2026-02-23 23:20:29.957] [INFO    ] [services.logging_service] [INFO] Famille: 305x305x97UC (400x400mm)
+[2026-02-23 23:29:11.973] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 23:29:12.037] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 23:29:12.093] [INFO    ] [services.logging_service] LoggingService initialise - Session: 22d7c241
+[2026-02-23 23:29:12.160] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 23:29:28.775] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 23:29:28.884] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 23:29:28.911] [INFO    ] [services.logging_service] LoggingService initialise - Session: 67b8df60
+[2026-02-23 23:29:28.997] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 23:29:39.553] [INFO    ] [services.logging_service] [INFO] === Placement v3.5 - PLANT 2 (h=3000mm) ===
+[2026-02-23 23:29:39.557] [INFO    ] [services.logging_service] [INFO] 12V 10H 0ignores
+[2026-02-23 23:29:39.597] [INFO    ] [services.logging_service] [INFO] Murs: 44 segments | 26 coins detectes
+[2026-02-23 23:29:39.602] [INFO    ] [services.logging_service] [INFO]   Coins : (7.8,5.8)  (7.8,-1.5)  (3.1,-0.6)  (3.1,1.4)  (3.1,-1.5)  (3.1,5.8)  (3.1,2.5)  (-5.1,5.0)
+[2026-02-23 23:29:39.602] [INFO    ] [services.logging_service] [INFO]   Espacement : standard=4.0m  max=5.5m
+[2026-02-23 23:29:39.603] [INFO    ] [services.logging_service] [INFO]   Filtre mur : tol=0.50m | decalage=10.0m | glissement=8.0m
+[2026-02-23 23:29:39.616] [INFO    ] [services.logging_service] [INFO]   Cache intersections : 120 points (V x H, sans filtre)
+[2026-02-23 23:29:39.634] [INFO    ] [services.logging_service] [INFO]   Axes V: 6/12 retenus  |  Axes H: 4/10 retenus
+[2026-02-23 23:29:39.681] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-10.36m,-3.52m) [dist=1.00m]
+[2026-02-23 23:29:39.685] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-10.36m,2.48m) [dist=3.34m]
+[2026-02-23 23:29:39.691] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (-3.03m,-2.33m) [dist=0.84m]
+[2026-02-23 23:29:39.701] [INFO    ] [services.logging_service] [INFO]     Decalage -> intersection mur (5.33m,-4.52m) [dist=2.46m]
+[2026-02-23 23:29:39.703] [INFO    ] [services.logging_service] [INFO]   Intersections: 96 rej | 20 mur | 4 decales | 0 glisses | 0 proj
+[2026-02-23 23:29:39.716] [INFO    ] [services.logging_service] [INFO]   Apres intermediaires : 23 points
+[2026-02-23 23:29:39.724] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,-0.56m) : trop proche (1.39m < 1.0m), ignore
+[2026-02-23 23:29:39.724] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,1.40m) : trop proche (1.49m < 1.0m), ignore
+[2026-02-23 23:29:39.725] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,-1.49m) : trop proche (1.04m < 1.0m), ignore
+[2026-02-23 23:29:39.726] [INFO    ] [services.logging_service] [INFO]   Coin (3.13m,5.83m) : trop proche (1.04m < 1.0m), ignore
+[2026-02-23 23:29:39.726] [INFO    ] [services.logging_service] [INFO]   Coin (3.14m,2.49m) : trop proche (1.02m < 1.0m), ignore
+[2026-02-23 23:29:39.727] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,5.04m) : trop proche (1.49m < 1.0m), ignore
+[2026-02-23 23:29:39.728] [INFO    ] [services.logging_service] [INFO]   Coin (-5.14m,2.49m) : trop proche (1.27m < 1.0m), ignore
+[2026-02-23 23:29:39.729] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,1.40m) : trop proche (1.08m < 1.0m), ignore
+[2026-02-23 23:29:39.730] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,1.40m) : trop proche (1.53m < 1.0m), ignore
+[2026-02-23 23:29:39.730] [INFO    ] [services.logging_service] [INFO]   Coin (-10.36m,-2.33m) : trop proche (0.84m < 1.0m), ignore
+[2026-02-23 23:29:39.731] [INFO    ] [services.logging_service] [INFO]   Coin (-6.42m,-2.33m) : trop proche (0.84m < 1.0m), ignore
+[2026-02-23 23:29:39.731] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,2.48m) : trop proche (1.09m < 1.0m), ignore
+[2026-02-23 23:29:39.731] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-0.55m) : trop proche (2.08m < 1.0m), ignore
+[2026-02-23 23:29:39.731] [INFO    ] [services.logging_service] [INFO]   Coin (-6.39m,-3.48m) : trop proche (1.04m < 1.0m), ignore
+[2026-02-23 23:29:39.732] [INFO    ] [services.logging_service] [INFO]   Coin (5.33m,-1.49m) : trop proche (1.16m < 1.0m), ignore
+[2026-02-23 23:29:39.732] [INFO    ] [services.logging_service] [INFO]   Coin (-6.37m,0.36m) : trop proche (1.85m < 1.0m), ignore
+[2026-02-23 23:29:39.732] [INFO    ] [services.logging_service] [INFO]   Coin (-2.06m,0.36m) : trop proche (2.32m < 1.0m), ignore
+[2026-02-23 23:29:39.733] [INFO    ] [services.logging_service] [INFO]   Coin (-1.95m,-1.49m) : trop proche (1.37m < 1.0m), ignore
+[2026-02-23 23:29:39.749] [INFO    ] [services.logging_service] [INFO]   Poteaux trop proches supprimes : 3 (espacement min 3.0m)
+[2026-02-23 23:29:39.751] [INFO    ] [services.logging_service] [INFO]   Apres espacement min : 20 points
+[2026-02-23 23:29:39.751] [INFO    ] [services.logging_service] [INFO]   (Premier niveau - pas de contrainte de continuite)
+[2026-02-23 23:29:39.764] [INFO    ] [services.logging_service] [INFO]   Snap conditionnel : 20 points
+[2026-02-23 23:29:39.766] [INFO    ] [services.logging_service] [INFO] ==> TOTAL PLANT 2 : 20 poteaux
+[2026-02-23 23:29:39.767] [INFO    ] [services.logging_service] [INFO] 'PLANT 2': 0 exist | 0 dups | 20 new
+[2026-02-23 23:29:39.776] [INFO    ] [services.logging_service] [INFO] Famille: 305x305x97UC (400x400mm)
+[2026-02-23 23:32:31.025] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 23:32:31.144] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 23:32:31.160] [INFO    ] [services.logging_service] LoggingService initialise - Session: c569b17a
+[2026-02-23 23:32:31.166] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-23 23:32:31.168] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-23 23:32:31.172] [INFO    ] [services.logging_service] LoggingService initialise - Session: c8d45ab1

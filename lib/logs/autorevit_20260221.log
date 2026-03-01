@@ -1,0 +1,105 @@
+[2026-02-21 01:09:39.468] [INFO    ] [services.revit_service] RevitService initialise - Doc: rstadvancedsampleproject
+[2026-02-21 01:09:39.581] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-21 01:09:39.657] [INFO    ] [services.logging_service] LoggingService initialise - Session: 76db712d
+[2026-02-21 01:09:39.868] [INFO    ] [services.logging_service] [INFO] 0 intersections trouvees
+[2026-02-21 01:14:30.992] [INFO    ] [services.revit_service] RevitService initialise - Doc: rstadvancedsampleproject
+[2026-02-21 01:14:31.058] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-21 01:14:31.068] [INFO    ] [services.logging_service] LoggingService initialise - Session: 6eaf3836
+[2026-02-21 01:14:31.177] [INFO    ] [services.logging_service] [INFO] 16 grilles verticales, 15 horizontales, 0 ignorees
+[2026-02-21 01:14:31.293] [INFO    ] [services.logging_service] [INFO] 9 point(s) hors zone exclus
+[2026-02-21 01:14:31.295] [INFO    ] [services.logging_service] [INFO] 133 intersections trouvees
+[2026-02-21 01:17:17.467] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-21 01:17:17.557] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-21 01:17:17.571] [INFO    ] [services.logging_service] LoggingService initialise - Session: 30828bf5
+[2026-02-21 01:17:17.662] [INFO    ] [services.logging_service] [INFO] 7 grilles verticales, 7 horizontales, 0 ignorees
+[2026-02-21 01:17:17.716] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone exclus
+[2026-02-21 01:17:17.720] [INFO    ] [services.logging_service] [INFO] 30 intersections trouvees
+[2026-02-21 01:19:31.925] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-21 01:19:31.975] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-21 01:19:31.986] [INFO    ] [services.logging_service] LoggingService initialise - Session: f70f52d5
+[2026-02-21 01:19:32.033] [INFO    ] [services.logging_service] [INFO] 7 grilles verticales, 7 horizontales, 0 ignorees
+[2026-02-21 01:19:32.097] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone exclus
+[2026-02-21 01:19:32.151] [INFO    ] [services.logging_service] [INFO] 30 intersections trouvees
+[2026-02-21 01:19:44.933] [INFO    ] [services.logging_service] [INFO] Recherche points pour niveau primer nivel
+[2026-02-21 01:19:44.978] [INFO    ] [services.logging_service] [INFO] 7 grilles verticales, 7 horizontales, 0 ignorees
+[2026-02-21 01:19:44.990] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone exclus
+[2026-02-21 01:19:44.993] [INFO    ] [services.logging_service] [INFO] 30 intersections trouvees
+[2026-02-21 01:19:44.996] [INFO    ] [services.logging_service] [INFO] 30 points de placement trouves
+[2026-02-21 01:19:45.002] [INFO    ] [services.logging_service] [INFO] Niveau 'primer nivel': 0 existants, 0 doublons, 30 nouveaux
+[2026-02-21 01:19:45.019] [INFO    ] [services.logging_service] [INFO] Famille 400x400: diff=187mm
+[2026-02-21 01:19:45.272] [INFO    ] [services.logging_service] [INFO] Recherche points pour niveau PLANT 1
+[2026-02-21 01:19:45.295] [INFO    ] [services.logging_service] [INFO] 7 grilles verticales, 7 horizontales, 0 ignorees
+[2026-02-21 01:19:45.303] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone exclus
+[2026-02-21 01:19:45.306] [INFO    ] [services.logging_service] [INFO] 30 intersections trouvees
+[2026-02-21 01:19:45.308] [INFO    ] [services.logging_service] [INFO] 30 points de placement trouves
+[2026-02-21 01:19:45.316] [INFO    ] [services.logging_service] [INFO] Niveau 'PLANT 1': 0 existants, 0 doublons, 30 nouveaux
+[2026-02-21 01:19:45.332] [INFO    ] [services.logging_service] [INFO] Famille 300x400: diff=97mm
+[2026-02-21 01:19:45.596] [INFO    ] [services.logging_service] [INFO] Recherche points pour niveau PLANT 2
+[2026-02-21 01:19:45.691] [INFO    ] [services.logging_service] [INFO] 7 grilles verticales, 7 horizontales, 0 ignorees
+[2026-02-21 01:19:45.695] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone exclus
+[2026-02-21 01:19:45.702] [INFO    ] [services.logging_service] [INFO] 30 intersections trouvees
+[2026-02-21 01:19:45.704] [INFO    ] [services.logging_service] [INFO] 30 points de placement trouves
+[2026-02-21 01:19:45.710] [INFO    ] [services.logging_service] [INFO] Niveau 'PLANT 2': 0 existants, 0 doublons, 30 nouveaux
+[2026-02-21 01:19:45.716] [INFO    ] [services.logging_service] [INFO] Famille 250x350: diff=97mm
+[2026-02-21 01:19:45.893] [INFO    ] [services.logging_service] [INFO] Recherche points pour niveau nivel -17
+[2026-02-21 01:19:45.919] [INFO    ] [services.logging_service] [INFO] 7 grilles verticales, 7 horizontales, 0 ignorees
+[2026-02-21 01:19:45.931] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone exclus
+[2026-02-21 01:19:45.938] [INFO    ] [services.logging_service] [INFO] 30 intersections trouvees
+[2026-02-21 01:19:45.943] [INFO    ] [services.logging_service] [INFO] 30 points de placement trouves
+[2026-02-21 01:19:45.955] [INFO    ] [services.logging_service] [INFO] Niveau 'nivel -17': 0 existants, 0 doublons, 30 nouveaux
+[2026-02-21 01:19:45.981] [INFO    ] [services.logging_service] [INFO] Famille 250x250: diff=113mm
+[2026-02-21 01:19:46.117] [INFO    ] [services.logging_service] [INFO] Recherche points pour niveau PLANT 3
+[2026-02-21 01:19:46.148] [INFO    ] [services.logging_service] [INFO] 7 grilles verticales, 7 horizontales, 0 ignorees
+[2026-02-21 01:19:46.164] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone exclus
+[2026-02-21 01:19:46.208] [INFO    ] [services.logging_service] [INFO] 30 intersections trouvees
+[2026-02-21 01:19:46.211] [INFO    ] [services.logging_service] [INFO] 30 points de placement trouves
+[2026-02-21 01:19:46.220] [INFO    ] [services.logging_service] [INFO] Niveau 'PLANT 3': 0 existants, 0 doublons, 30 nouveaux
+[2026-02-21 01:29:59.539] [INFO    ] [services.logging_service] [INFO] 7 grilles verticales, 7 horizontales, 0 ignorees
+[2026-02-21 01:29:59.741] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone exclus
+[2026-02-21 01:29:59.794] [INFO    ] [services.logging_service] [INFO] 30 intersections trouvees
+[2026-02-21 01:52:16.686] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-21 01:52:16.766] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-21 01:52:16.781] [INFO    ] [services.logging_service] LoggingService initialise - Session: 8b711742
+[2026-02-21 01:52:16.913] [INFO    ] [services.logging_service] [INFO] 7 verticales, 7 horizontales, 0 ignorees
+[2026-02-21 01:52:16.981] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone exclus
+[2026-02-21 01:52:17.035] [INFO    ] [services.logging_service] [INFO] 30 intersections trouvees
+[2026-02-21 02:20:11.867] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-21 02:20:11.955] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-21 02:20:11.966] [INFO    ] [services.logging_service] LoggingService initialise - Session: 695d11bf
+[2026-02-21 02:20:12.010] [INFO    ] [services.logging_service] [INFO] 7 verticales, 7 horizontales, 0 ignorees
+[2026-02-21 02:20:12.092] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone exclus
+[2026-02-21 02:20:12.147] [INFO    ] [services.logging_service] [INFO] 30 intersections trouvees
+[2026-02-21 02:20:31.617] [INFO    ] [services.logging_service] [INFO] Recherche points pour niveau nivel -15
+[2026-02-21 02:20:31.669] [INFO    ] [services.logging_service] [INFO] 7 verticales, 7 horizontales, 0 ignorees
+[2026-02-21 02:20:31.674] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone exclus
+[2026-02-21 02:20:31.676] [INFO    ] [services.logging_service] [INFO] 30 intersections trouvees
+[2026-02-21 02:20:31.681] [INFO    ] [services.logging_service] [INFO] 30 points de placement trouves
+[2026-02-21 02:20:31.685] [INFO    ] [services.logging_service] [INFO] Niveau 'nivel -15': 0 existants, 0 doublons, 30 nouveaux
+[2026-02-21 02:20:31.703] [INFO    ] [services.logging_service] [INFO] Famille 400x400: diff=187mm
+[2026-02-21 02:20:32.017] [INFO    ] [services.logging_service] [INFO] Recherche points pour niveau PLANT 2
+[2026-02-21 02:20:32.049] [INFO    ] [services.logging_service] [INFO] 7 verticales, 7 horizontales, 0 ignorees
+[2026-02-21 02:20:32.052] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone exclus
+[2026-02-21 02:20:32.054] [INFO    ] [services.logging_service] [INFO] 30 intersections trouvees
+[2026-02-21 02:20:32.057] [INFO    ] [services.logging_service] [INFO] 30 points de placement trouves
+[2026-02-21 02:20:32.064] [INFO    ] [services.logging_service] [INFO] Niveau 'PLANT 2': 0 existants, 0 doublons, 30 nouveaux
+[2026-02-21 02:20:32.070] [INFO    ] [services.logging_service] [INFO] Famille 300x400: diff=97mm
+[2026-02-21 02:20:32.198] [INFO    ] [services.logging_service] [INFO] Recherche points pour niveau nivel -17
+[2026-02-21 02:20:32.220] [INFO    ] [services.logging_service] [INFO] 7 verticales, 7 horizontales, 0 ignorees
+[2026-02-21 02:20:32.230] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone exclus
+[2026-02-21 02:20:32.289] [INFO    ] [services.logging_service] [INFO] 30 intersections trouvees
+[2026-02-21 02:20:32.291] [INFO    ] [services.logging_service] [INFO] 30 points de placement trouves
+[2026-02-21 02:20:32.296] [INFO    ] [services.logging_service] [INFO] Niveau 'nivel -17': 0 existants, 0 doublons, 30 nouveaux
+[2026-02-21 02:20:32.301] [INFO    ] [services.logging_service] [INFO] Famille 250x350: diff=97mm
+[2026-02-21 02:20:32.404] [INFO    ] [services.logging_service] [INFO] Recherche points pour niveau PLANT 3
+[2026-02-21 02:20:32.426] [INFO    ] [services.logging_service] [INFO] 7 verticales, 7 horizontales, 0 ignorees
+[2026-02-21 02:20:32.444] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone exclus
+[2026-02-21 02:20:32.450] [INFO    ] [services.logging_service] [INFO] 30 intersections trouvees
+[2026-02-21 02:20:32.457] [INFO    ] [services.logging_service] [INFO] 30 points de placement trouves
+[2026-02-21 02:20:32.466] [INFO    ] [services.logging_service] [INFO] Niveau 'PLANT 3': 0 existants, 0 doublons, 30 nouveaux
+[2026-02-21 02:20:32.531] [INFO    ] [services.logging_service] [INFO] Famille 250x250: diff=113mm
+[2026-02-21 02:40:16.598] [INFO    ] [services.revit_service] RevitService initialise - Doc: VIVIENDA
+[2026-02-21 02:40:16.739] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-21 02:40:16.750] [INFO    ] [services.logging_service] LoggingService initialise - Session: 5fe9902b
+[2026-02-21 02:40:16.808] [INFO    ] [services.logging_service] [INFO] 7 verticales, 7 horizontales, 0 ignorees
+[2026-02-21 02:40:16.911] [INFO    ] [services.logging_service] [INFO] 1 point(s) hors zone exclus
+[2026-02-21 02:40:16.963] [INFO    ] [services.logging_service] [INFO] 36 intersections trouvees

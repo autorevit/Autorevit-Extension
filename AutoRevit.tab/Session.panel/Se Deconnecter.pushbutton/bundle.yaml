@@ -1,0 +1,8 @@
+# bundle.yaml - Bouton fixe Se Deconnecter - AUTO-GENERE
+title: "Se Deconnecter"
+tooltip: "Se Deconnecter"
+icon: "icon.png"
+script: "script.py"
+
+author: "AutoRevit"
+version: "1.0"

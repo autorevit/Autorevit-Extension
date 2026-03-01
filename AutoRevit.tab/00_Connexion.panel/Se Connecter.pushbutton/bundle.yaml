@@ -1,0 +1,8 @@
+# bundle.yaml - Bouton fixe Se Connecter - AUTO-GENERE
+title: "Se Connecter"
+tooltip: "Se Connecter"
+icon: "icon.png"
+script: "script.py"
+
+author: "AutoRevit"
+version: "1.0"

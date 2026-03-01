@@ -1,0 +1,87 @@
+[2026-02-27 11:15:42.703] [INFO    ] [services.revit_service] RevitService initialise - Doc: PIC_FINAL
+[2026-02-27 11:15:42.744] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-27 11:15:42.770] [INFO    ] [services.logging_service] LoggingService initialise - Session: ba4ce126
+[2026-02-27 12:52:35.123] [INFO    ] [services.revit_service] RevitService initialise - Doc: PIC_FINAL
+[2026-02-27 12:52:35.240] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-27 12:52:35.251] [INFO    ] [services.logging_service] LoggingService initialise - Session: 8f3c5e20
+[2026-02-27 12:52:35.275] [ERROR   ] [utils.decorators    ] Transaction 'Création de tous les voiles' rollback : Starting a new transaction is not permitted. It could be because another transaction already started and has not been completed yet, or the document is in a state in which it cannot start a new transaction (e.g. during failure handling or a read-only mode, which could be either permanent or temporary).
+[2026-02-27 12:52:35.286] [ERROR   ] [utils.decorators    ] ERREUR create_all_walls echouee apres 0.021s : Echec transaction 'Création de tous les voiles' : Starting a new transaction is not permitted. It could be because another transaction already started and has not been completed yet, or the document is in a state in which it cannot start a new transaction (e.g. during failure handling or a read-only mode, which could be either permanent or temporary).
+[2026-02-27 13:24:35.423] [INFO    ] [services.revit_service] RevitService initialise - Doc: PIC_FINAL
+[2026-02-27 13:24:35.553] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-27 13:24:35.565] [INFO    ] [services.logging_service] LoggingService initialise - Session: cc5a7a1d
+[2026-02-27 13:24:35.575] [ERROR   ] [utils.decorators    ] Transaction 'Création de tous les voiles' rollback : Starting a new transaction is not permitted. It could be because another transaction already started and has not been completed yet, or the document is in a state in which it cannot start a new transaction (e.g. during failure handling or a read-only mode, which could be either permanent or temporary).
+[2026-02-27 13:24:35.583] [ERROR   ] [utils.decorators    ] ERREUR create_all_walls echouee apres 0.010s : Echec transaction 'Création de tous les voiles' : Starting a new transaction is not permitted. It could be because another transaction already started and has not been completed yet, or the document is in a state in which it cannot start a new transaction (e.g. during failure handling or a read-only mode, which could be either permanent or temporary).
+[2026-02-27 13:42:02.840] [INFO    ] [services.revit_service] RevitService initialise - Doc: PIC_FINAL
+[2026-02-27 13:42:02.957] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-27 13:42:02.980] [INFO    ] [services.logging_service] LoggingService initialise - Session: c7bc9b94
+[2026-02-27 13:42:03.022] [INFO    ] [services.logging_service] [INFO] 0 voiles crees au niveau Level 1
+[2026-02-27 13:42:03.030] [INFO    ] [services.logging_service] [INFO] 0 voiles crees au niveau Level 2
+[2026-02-27 13:42:03.033] [INFO    ] [services.logging_service] [INFO] 0 voiles crees au niveau Level 3
+[2026-02-27 13:42:03.038] [INFO    ] [services.logging_service] [INFO] 0 voiles crees au niveau Level 4
+[2026-02-27 13:42:03.043] [INFO    ] [services.logging_service] [INFO] 0 voiles crees au niveau Level 5
+[2026-02-27 13:42:03.049] [INFO    ] [services.logging_service] [INFO] Creation terminee : 0 voiles au total
+[2026-02-27 13:45:43.629] [INFO    ] [services.revit_service] RevitService initialise - Doc: PIC_FINAL
+[2026-02-27 13:45:43.766] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-27 13:45:43.775] [INFO    ] [services.logging_service] LoggingService initialise - Session: f67ed9a2
+[2026-02-27 13:45:43.787] [INFO    ] [services.logging_service] [INFO] 0 voiles crees au niveau Level 1
+[2026-02-27 13:45:43.796] [INFO    ] [services.logging_service] [INFO] 0 voiles crees au niveau Level 2
+[2026-02-27 13:45:43.799] [INFO    ] [services.logging_service] [INFO] 0 voiles crees au niveau Level 3
+[2026-02-27 13:45:43.801] [INFO    ] [services.logging_service] [INFO] 0 voiles crees au niveau Level 4
+[2026-02-27 13:45:43.805] [INFO    ] [services.logging_service] [INFO] 0 voiles crees au niveau Level 5
+[2026-02-27 13:45:43.819] [INFO    ] [services.logging_service] [INFO] Creation terminee : 0 voiles au total
+[2026-02-27 19:44:10.918] [INFO    ] [services.revit_service] RevitService initialise - Doc: PIC_FINAL
+[2026-02-27 22:01:32.909] [INFO    ] [services.revit_service] RevitService initialise - Doc: PIC_FINAL
+[2026-02-27 22:01:33.150] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-27 22:01:33.191] [INFO    ] [services.logging_service] LoggingService initialise - Session: 8a23f400
+[2026-02-27 22:04:30.455] [INFO    ] [services.revit_service] RevitService initialise - Doc: PIC_FINAL
+[2026-02-27 22:04:30.606] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-27 22:04:30.627] [INFO    ] [services.logging_service] LoggingService initialise - Session: f9a33916
+[2026-02-27 22:20:19.147] [INFO    ] [services.revit_service] RevitService initialise - Doc: PIC_FINAL
+[2026-02-27 22:20:19.153] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-27 22:20:19.163] [INFO    ] [services.logging_service] LoggingService initialise - Session: aff49bd9
+[2026-02-27 22:20:19.222] [ERROR   ] [services.logging_service] [ERROR] Name
+[2026-02-27 22:20:19.223] [INFO    ] [utils.decorators    ] Transaction 'Création escalier droit' commitee avec succes
+[2026-02-27 22:20:19.228] [INFO    ] [utils.decorators    ] OK create_straight_stair terminee en 0.052s | retour=NoneType
+[2026-02-27 22:20:53.398] [INFO    ] [services.revit_service] RevitService initialise - Doc: PIC_FINAL
+[2026-02-27 22:20:53.502] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-27 22:20:53.519] [INFO    ] [services.logging_service] LoggingService initialise - Session: 08bd8501
+[2026-02-27 22:20:53.571] [ERROR   ] [services.logging_service] [ERROR] Name
+[2026-02-27 22:20:53.627] [INFO    ] [utils.decorators    ] Transaction 'Création escalier droit' commitee avec succes
+[2026-02-27 22:20:53.631] [INFO    ] [utils.decorators    ] OK create_straight_stair terminee en 0.100s | retour=NoneType
+[2026-02-27 22:21:16.842] [INFO    ] [services.revit_service] RevitService initialise - Doc: PIC_FINAL
+[2026-02-27 22:21:16.926] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-27 22:21:16.929] [INFO    ] [services.logging_service] LoggingService initialise - Session: 2cbbd31c
+[2026-02-27 22:21:16.936] [ERROR   ] [services.logging_service] [ERROR] Name
+[2026-02-27 22:21:16.947] [INFO    ] [utils.decorators    ] Transaction 'Création escalier droit' commitee avec succes
+[2026-02-27 22:21:16.956] [INFO    ] [utils.decorators    ] OK create_straight_stair terminee en 0.024s | retour=NoneType
+[2026-02-27 22:51:59.297] [INFO    ] [services.revit_service] RevitService initialise - Doc: PIC_FINAL
+[2026-02-27 22:51:59.480] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-27 22:51:59.493] [INFO    ] [services.logging_service] LoggingService initialise - Session: 08944276
+[2026-02-27 22:51:59.570] [ERROR   ] [services.logging_service] [ERROR] Name
+[2026-02-27 22:51:59.652] [ERROR   ] [services.logging_service] [ERROR] Name
+[2026-02-27 22:51:59.684] [ERROR   ] [services.logging_service] [ERROR] Name
+[2026-02-27 22:53:50.082] [INFO    ] [services.revit_service] RevitService initialise - Doc: PIC_FINAL
+[2026-02-27 22:53:50.242] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-27 22:53:50.245] [INFO    ] [services.logging_service] LoggingService initialise - Session: 28b28d4e
+[2026-02-27 22:53:50.258] [ERROR   ] [services.logging_service] [ERROR] Name
+[2026-02-27 23:07:51.843] [INFO    ] [services.revit_service] RevitService initialise - Doc: PIC_FINAL
+[2026-02-27 23:07:51.989] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-27 23:07:52.020] [INFO    ] [services.logging_service] LoggingService initialise - Session: 9f33fb20
+[2026-02-27 23:07:52.108] [ERROR   ] [services.logging_service] [ERROR] Name
+[2026-02-27 23:07:52.151] [ERROR   ] [services.logging_service] [ERROR] Name
+[2026-02-27 23:07:52.200] [ERROR   ] [services.logging_service] [ERROR] Name
+[2026-02-27 23:07:52.238] [ERROR   ] [services.logging_service] [ERROR] Name
+[2026-02-27 23:21:48.473] [INFO    ] [services.revit_service] RevitService initialise - Doc: PIC_FINAL
+[2026-02-27 23:21:48.607] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-27 23:21:48.628] [INFO    ] [services.logging_service] LoggingService initialise - Session: 1927510a
+[2026-02-27 23:21:48.676] [ERROR   ] [services.logging_service] [ERROR] Name
+[2026-02-27 23:21:48.694] [ERROR   ] [services.logging_service] [ERROR] Name
+[2026-02-27 23:21:48.698] [ERROR   ] [services.logging_service] [ERROR] Name
+[2026-02-27 23:21:48.700] [ERROR   ] [services.logging_service] [ERROR] Name
+[2026-02-27 23:29:28.873] [INFO    ] [services.revit_service] RevitService initialise - Doc: PIC_FINAL
+[2026-02-27 23:29:28.991] [INFO    ] [services.geometry_service] GeometryService initialise
+[2026-02-27 23:29:29.001] [INFO    ] [services.logging_service] LoggingService initialise - Session: 36e8d888
+[2026-02-27 23:29:29.037] [ERROR   ] [services.logging_service] [ERROR] Name
+[2026-02-27 23:29:29.054] [ERROR   ] [services.logging_service] [ERROR] Name
+[2026-02-27 23:29:29.058] [ERROR   ] [services.logging_service] [ERROR] Name
+[2026-02-27 23:29:29.066] [ERROR   ] [services.logging_service] [ERROR] Name
